@@ -1,0 +1,1769 @@
+{
+  "mod_elements": [
+    {
+      "name": "WhiteWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wood",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_log",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhitePlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_planks",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_leaves",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stairs",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slab",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence_gate",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhitePressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_pressure_plate",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_button",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteItemsTag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_items_tag",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wood_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhitePlanksRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_planks_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteStairsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stairs_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteSlabRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slab_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteFenceRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence_gate_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhitePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_pressure_plate_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_button_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "WhiteStickRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stick_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackWood",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_wood",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackLog",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_log",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackPlanks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_planks",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackLeaves",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_leaves",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stairs",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_slab",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackFence",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fence",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackFenceGate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fence_gate",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackPressurePlate",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_pressure_plate",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackButton",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_button",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackItemsTag",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_items_tag",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackWoodRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_wood_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackPlanksRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_planks_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackStairsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stairs_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackSlabRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_slab_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackFenceRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fence_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fence_gate_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_pressure_plate_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackButtonRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_button_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "BlackStickRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stick_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "TaniumIngot",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumBlock",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumOreSmelting",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumPickaxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_pickaxe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumAxe",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_axe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumSword",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_sword",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumShovel",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_shovel",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumHoe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_hoe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_pickaxe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_axe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_sword_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_shovel_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_hoe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumArmor",
+      "type": "armor",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_armor_helmet_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_armor_body_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_armor_leggings_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TaniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanium_armor_boots_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumIngot",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumOre",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumBlock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumOreSmelting",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumPickaxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_pickaxe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumAxe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_axe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumSword",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_sword",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumShovel",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_shovel",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumHoe",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_hoe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_pickaxe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_axe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_sword_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_shovel_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_hoe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumArmor",
+      "type": "armor",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_armor_helmet_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_armor_body_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_armor_leggings_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TataniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatanium_armor_boots_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumIngot",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumOre",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumBlock",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumOreSmelting",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumPickaxe",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_pickaxe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumAxe",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_axe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumSword",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_sword",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumShovel",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_shovel",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumHoe",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_hoe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_pickaxe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_axe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_sword_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_shovel_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_hoe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumArmor",
+      "type": "armor",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_armor_helmet_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_armor_body_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_armor_leggings_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatataniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatanium_armor_boots_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumIngot",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumOre",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumBlock",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumOreSmelting",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumPickaxe",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_pickaxe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumAxe",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_axe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumSword",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_sword",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumShovel",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_shovel",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumHoe",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_hoe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_pickaxe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_axe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_sword_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_shovel_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_hoe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumArmor",
+      "type": "armor",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_armor_helmet_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_armor_body_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_armor_leggings_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatataniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatanium_armor_boots_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumIngot",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumOre",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumBlock",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumOreSmelting",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumPickaxe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_pickaxe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumAxe",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_axe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumSword",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_sword",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumShovel",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_shovel",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumHoe",
+      "type": "tool",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_hoe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_pickaxe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_axe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_sword_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_shovel_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_hoe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumArmor",
+      "type": "armor",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_armor_helmet_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_armor_body_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_armor_leggings_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "TatatatataniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatatatatanium_armor_boots_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CatalystBase",
+      "type": "item",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyst_base",
+      "path": "~/Catalysts"
+    },
+    {
+      "name": "Bottle1",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_1",
+      "path": "~/Food"
+    },
+    {
+      "name": "Vodka1",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_1",
+      "path": "~/Food"
+    },
+    {
+      "name": "Vodka1PlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_1_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "DiamondTreeWood",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_wood",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeLog",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_log",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreePlanks",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_planks",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeLeaves",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_leaves",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeStairs",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_stairs",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeSlab",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_slab",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeFence",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_fence",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeFenceGate",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_fence_gate",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreePressurePlate",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_pressure_plate",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeButton",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_button",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeItemsTag",
+      "type": "tag",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_items_tag",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeWoodRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_wood_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreePlanksRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_planks_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeStairsRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_stairs_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeSlabRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_slab_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeFenceRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_fence_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_fence_gate_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_pressure_plate_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeButtonRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_button_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "DiamondTreeStickRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tree_stick_recipe",
+      "path": "~/TreeTypes"
+    },
+    {
+      "name": "Tier1Coal",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_coal",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "Tier1Coalext",
+      "type": "itemextension",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_coalext",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "Tier2Coal",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_coal",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "Tier2Coalext",
+      "type": "itemextension",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_coalext",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "Tier3Coal",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_3_coal",
+      "path": "~/Fuel"
+    },
+    {
+      "name": "Tier4Coalext",
+      "type": "itemextension",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_4_coalext",
+      "path": "~/Fuel"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.grimmscraft.tanium_sword": "Tanium Sword",
+      "block.grimmscraft.tatanium_block": "Block of Tatanium",
+      "block.grimmscraft.white_fence_gate": "White Fence Gate",
+      "item.grimmscraft.tanium_axe": "Tanium Axe",
+      "block.grimmscraft.diamond_tree_log": "DiamondTree Log",
+      "item.grimmscraft.tatanium_armor_chestplate": "Tatanium Chestplate",
+      "item.grimmscraft.tatatatatanium_armor_leggings": "Tatatatatanium Leggings",
+      "block.grimmscraft.white_wood": "White Wood",
+      "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
+      "block.grimmscraft.black_planks": "Black Planks",
+      "item.grimmscraft.tatatatanium_pickaxe": "Tatatatanium Pickaxe",
+      "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
+      "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
+      "item.grimmscraft.tatatanium_ingot": "Tatatanium",
+      "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
+      "item.grimmscraft.tanium_ingot": "Tanium",
+      "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",
+      "block.grimmscraft.tatatanium_ore": "Tatatanium Ore",
+      "item.grimmscraft.tatatatanium_armor_leggings": "Tatatatanium Leggings",
+      "block.grimmscraft.white_planks": "White Planks",
+      "item.grimmscraft.tanium_hoe": "Tanium Hoe",
+      "item.grimmscraft.tanium_shovel": "Tanium Shovel",
+      "item.grimmscraft.tatanium_armor_boots": "Tatanium Boots",
+      "item.grimmscraft.vodka_1": "Vodka",
+      "item.grimmscraft.tier_3_coal": "Tier 3 Coal",
+      "item.grimmscraft.tatatatanium_axe": "Tatatatanium Axe",
+      "block.grimmscraft.tatatatanium_ore": "Tatatatanium Ore",
+      "item.grimmscraft.tatatatanium_sword": "Tatatatanium Sword",
+      "block.grimmscraft.white_button": "White Button",
+      "item.grimmscraft.tatanium_hoe": "Tatanium Hoe",
+      "block.grimmscraft.diamond_tree_fence": "DiamondTree Fence",
+      "item.grimmscraft.tatanium_pickaxe": "Tatanium Pickaxe",
+      "item.grimmscraft.tatatatanium_shovel": "Tatatatanium Shovel",
+      "item.grimmscraft.tatatatatanium_ingot": "Tatatatatanium",
+      "block.grimmscraft.black_pressure_plate": "Black Pressure Plate",
+      "item.grimmscraft.tatatatanium_armor_chestplate": "Tatatatanium Chestplate",
+      "item.grimmscraft.tatatanium_armor_chestplate": "Tatatanium Chestplate",
+      "block.grimmscraft.diamond_tree_slab": "DiamondTree Slab",
+      "item.grimmscraft.tatanium_armor_helmet": "Tatanium Helmet",
+      "block.grimmscraft.diamond_tree_leaves": "DiamondTree Leaves",
+      "item.grimmscraft.tatatanium_shovel": "Tatatanium Shovel",
+      "item.grimmscraft.bottle_1": "Bottle",
+      "item.grimmscraft.catalyst_base": "Catalyst Base",
+      "block.grimmscraft.diamond_tree_planks": "DiamondTree Planks",
+      "item.grimmscraft.tanium_armor_leggings": "Tanium Leggings",
+      "block.grimmscraft.black_wood": "Black Wood",
+      "item.grimmscraft.tatatanium_axe": "Tatatanium Axe",
+      "item.grimmscraft.tatanium_axe": "Tatanium Axe",
+      "block.grimmscraft.white_slab": "White Slab",
+      "item.grimmscraft.tatatatatanium_sword": "Tatatatatanium Sword",
+      "block.grimmscraft.black_log": "Black Log",
+      "item.grimmscraft.tatatanium_hoe": "Tatatanium Hoe",
+      "block.grimmscraft.white_stairs": "White Stairs",
+      "block.grimmscraft.tatanium_ore": "Tatanium Ore",
+      "block.grimmscraft.black_stairs": "Black Stairs",
+      "item.grimmscraft.tatatatatanium_armor_helmet": "Tatatatatanium Helmet",
+      "item.grimmscraft.tatatatatanium_shovel": "Tatatatatanium Shovel",
+      "item.grimmscraft.tier_1_coal": "Tier 1 Coal",
+      "block.grimmscraft.diamond_tree_wood": "DiamondTree Wood",
+      "block.grimmscraft.white_leaves": "White Leaves",
+      "item.grimmscraft.tatatanium_armor_helmet": "Tatatanium Helmet",
+      "item.grimmscraft.tanium_armor_helmet": "Tanium Helmet",
+      "item.grimmscraft.tanium_armor_boots": "Tanium Boots",
+      "item.grimmscraft.tatatanium_armor_boots": "Tatatanium Boots",
+      "block.grimmscraft.white_log": "White Log",
+      "block.grimmscraft.tatatatatanium_block": "Block of Tatatatatanium",
+      "block.grimmscraft.black_fence_gate": "Black Fence Gate",
+      "item.grimmscraft.tier_2_coal": "Tier 2 Coal",
+      "item.grimmscraft.tatatatanium_armor_boots": "Tatatatanium Boots",
+      "item.grimmscraft.tatatatatanium_pickaxe": "Tatatatatanium Pickaxe",
+      "item.grimmscraft.tanium_armor_chestplate": "Tanium Chestplate",
+      "block.grimmscraft.diamond_tree_fence_gate": "DiamondTree Fence Gate",
+      "block.grimmscraft.black_leaves": "Black Leaves",
+      "block.grimmscraft.tatatatanium_block": "Block of Tatatatanium",
+      "item.grimmscraft.tanium_pickaxe": "Tanium Pickaxe",
+      "item.grimmscraft.tatanium_ingot": "Tatanium",
+      "item.grimmscraft.tatatanium_sword": "Tatatanium Sword",
+      "block.grimmscraft.black_button": "Black Button",
+      "item.grimmscraft.tatatatatanium_axe": "Tatatatatanium Axe",
+      "block.grimmscraft.tanium_ore": "Tanium Ore",
+      "block.grimmscraft.tatatatatanium_ore": "Tatatatatanium Ore",
+      "block.grimmscraft.white_fence": "White Fence",
+      "item.grimmscraft.tatatanium_armor_leggings": "Tatatanium Leggings",
+      "item.grimmscraft.tatanium_shovel": "Tatanium Shovel",
+      "item.grimmscraft.tatatatanium_armor_helmet": "Tatatatanium Helmet",
+      "block.grimmscraft.black_fence": "Black Fence",
+      "item.grimmscraft.tatatatatanium_armor_chestplate": "Tatatatatanium Chestplate",
+      "block.grimmscraft.diamond_tree_button": "DiamondTree Button",
+      "block.grimmscraft.tanium_block": "Block of Tanium",
+      "item.grimmscraft.tatanium_sword": "Tatanium Sword",
+      "block.grimmscraft.black_slab": "Black Slab",
+      "item.grimmscraft.tatatatatanium_hoe": "Tatatatatanium Hoe",
+      "item.grimmscraft.tatatatanium_ingot": "Tatatatanium",
+      "block.grimmscraft.white_pressure_plate": "White Pressure Plate",
+      "item.grimmscraft.tatatanium_pickaxe": "Tatatanium Pickaxe",
+      "block.grimmscraft.diamond_tree_stairs": "DiamondTree Stairs"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "TreeTypes",
+        "children": []
+      },
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Catalysts",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Fuel",
+        "children": []
+      },
+      {
+        "name": "Dimension",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "grimmscraft",
+    "modName": "Grimms Craft",
+    "version": "1.0.0",
+    "description": "Live Long C.O.D.",
+    "author": "tyuXX",
+    "websiteURL": "https://gamemodecreative.grog",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "sovietflag",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "tyuXX",
+    "modElementsPackage": "tyuxx.grimmscraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

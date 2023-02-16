@@ -1,0 +1,15 @@
+{
+  "_fv": 34,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:Tier3Coal"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 12800.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

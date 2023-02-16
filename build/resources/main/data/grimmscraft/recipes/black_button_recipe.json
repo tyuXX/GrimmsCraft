@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "grimmscraft:black_planks"
+    }
+  ],
+  "result": {
+    "item": "grimmscraft:black_button",
+    "count": 1
+  }
+}

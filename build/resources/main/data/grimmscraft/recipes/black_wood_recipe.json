@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:black_log"
+    },
+    "1": {
+      "item": "grimmscraft:black_log"
+    },
+    "2": {
+      "item": "grimmscraft:black_log"
+    },
+    "3": {
+      "item": "grimmscraft:black_log"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:black_wood",
+    "count": 3
+  }
+}

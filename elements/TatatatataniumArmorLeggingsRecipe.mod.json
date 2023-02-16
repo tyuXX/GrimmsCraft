@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      },
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      },
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      },
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      },
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TatatatataniumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TatatatataniumArmor.legs"
+    },
+    "name": "tatatatatanium_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "grimmscraft:blocks/black_planks"
+  },
+  "render_type": "solid"
+}

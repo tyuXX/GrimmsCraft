@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "grimmscraft:tanium_ore"
+  },
+  "result": "grimmscraft:tanium_ingot"
+}

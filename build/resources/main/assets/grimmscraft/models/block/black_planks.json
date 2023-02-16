@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "grimmscraft:blocks/black_planks",
+    "particle": "grimmscraft:blocks/black_planks"
+  },
+  "render_type": "solid"
+}

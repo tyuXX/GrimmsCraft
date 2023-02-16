@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "grimmscraft:blocks/tatatanium_ore_block",
+    "particle": "grimmscraft:blocks/tatatanium_ore_block"
+  },
+  "render_type": "solid"
+}

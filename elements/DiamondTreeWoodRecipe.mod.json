@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DiamondTreeLog"
+      },
+      {
+        "value": "CUSTOM:DiamondTreeLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondTreeLog"
+      },
+      {
+        "value": "CUSTOM:DiamondTreeLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamondTreeWood"
+    },
+    "name": "diamond_tree_wood_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="grimmscraft"
+version="1.0.0"
+displayName="Grimms Craft"
+credits="tyuXX"
+displayURL="https://gamemodecreative.grog"
+logoFile="logo.png"
+authors="tyuXX"
+description='''
+Live Long C.O.D.
+'''
+
+[[dependencies.grimmscraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

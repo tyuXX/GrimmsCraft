@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:tatatatatanium_ingot"
+    },
+    "2": {
+      "item": "grimmscraft:tatatatatanium_ingot"
+    },
+    "3": {
+      "item": "grimmscraft:tatatatatanium_ingot"
+    },
+    "5": {
+      "item": "grimmscraft:tatatatatanium_ingot"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:tatatatatanium_armor_boots",
+    "count": 1
+  }
+}

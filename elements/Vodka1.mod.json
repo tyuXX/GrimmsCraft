@@ -1,0 +1,47 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "vodka",
+    "customModelName": "Normal",
+    "name": "Vodka",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Hmm Nice"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "Vodka1PlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": "CUSTOM:Bottle1"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "1": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "2": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "3": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "4": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "5": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "6": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "7": {
+      "item": "grimmscraft:tatatanium_ingot"
+    },
+    "8": {
+      "item": "grimmscraft:tatatanium_ingot"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:tatatanium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DiamondTreeWood"
+      },
+      {
+        "value": "CUSTOM:DiamondTreeLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "diamondtree_log",
+    "namespace": "forge"
+  }
+}

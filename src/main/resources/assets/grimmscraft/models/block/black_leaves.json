@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "grimmscraft:blocks/black_leaves",
+    "particle": "grimmscraft:blocks/black_leaves"
+  }
+}

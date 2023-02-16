@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "grimmscraft:blocks/white_planks",
+    "top": "grimmscraft:blocks/white_planks",
+    "side": "grimmscraft:blocks/white_planks"
+  },
+  "render_type": "solid"
+}

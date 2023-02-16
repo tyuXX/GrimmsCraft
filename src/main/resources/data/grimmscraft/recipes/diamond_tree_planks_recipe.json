@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:diamondtree_log"
+    }
+  ],
+  "result": {
+    "item": "grimmscraft:diamond_tree_planks",
+    "count": 4
+  }
+}

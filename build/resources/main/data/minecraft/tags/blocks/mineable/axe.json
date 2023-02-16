@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "grimmscraft:white_wood",
+    "grimmscraft:white_log",
+    "grimmscraft:white_planks",
+    "grimmscraft:black_wood",
+    "grimmscraft:black_log",
+    "grimmscraft:black_planks",
+    "grimmscraft:diamond_tree_wood",
+    "grimmscraft:diamond_tree_log",
+    "grimmscraft:diamond_tree_planks"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grimmscraft:blocks/black_log_top",
+    "up": "grimmscraft:blocks/black_log_top",
+    "north": "grimmscraft:blocks/black_log_side",
+    "east": "grimmscraft:blocks/black_log_side",
+    "south": "grimmscraft:blocks/black_log_side",
+    "west": "grimmscraft:blocks/black_log_side",
+    "particle": "grimmscraft:blocks/black_log_top"
+  },
+  "render_type": "solid"
+}

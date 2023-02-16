@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "grimmscraft:tatanium_block"
+    }
+  ],
+  "result": {
+    "item": "grimmscraft:tatanium_ingot",
+    "count": 9
+  }
+}
