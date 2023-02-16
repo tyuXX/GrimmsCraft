@@ -4,6 +4,7 @@
  */
 package tyuxx.grimmscraft.init;
 
+import tyuxx.grimmscraft.world.features.ores.UraniumOreFeature;
 import tyuxx.grimmscraft.world.features.ores.TatatatataniumOreFeature;
 import tyuxx.grimmscraft.world.features.ores.TatatataniumOreFeature;
 import tyuxx.grimmscraft.world.features.ores.TatataniumOreFeature;
@@ -26,4 +27,5 @@ public class GrimmscraftModFeatures {
 	public static final RegistryObject<Feature<?>> TATATANIUM_ORE = REGISTRY.register("tatatanium_ore", TatataniumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> TATATATANIUM_ORE = REGISTRY.register("tatatatanium_ore", TatatataniumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> TATATATATANIUM_ORE = REGISTRY.register("tatatatatanium_ore", TatatatataniumOreFeature::feature);
+	public static final RegistryObject<Feature<?>> URANIUM_ORE = REGISTRY.register("uranium_ore", UraniumOreFeature::feature);
 }

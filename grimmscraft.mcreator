@@ -1806,12 +1806,742 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT1ItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_1_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT2",
+      "type": "tool",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_2",
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT2LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_2_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT2ItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_2_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "HotSteel",
+      "type": "item",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_steel",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT1",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_1",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT1",
+      "type": "item",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_1",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT2",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_2",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT2",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_2",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT3",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_3",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT3",
+      "type": "item",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_3",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT4",
+      "type": "item",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_4",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT4",
+      "type": "item",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_4",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT5",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_5",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT5",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_5",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT6",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_6",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT6",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_6",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT7",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_7",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT7",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_7",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedSteelT8",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_8",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ForgedHotSteelT8",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_8",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "HotSteelRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_steel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT1Recipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_1_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT1Recipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_1_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT2Recipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_2_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT2Recipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_2_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT3Recipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_3_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT3Recipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_3_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT4Recipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_4_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT4Recipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_4_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT5Recipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_5_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT5Recipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_5_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT6Recipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_6_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT6Recipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_6_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT7Recipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_7_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT7Recipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_7_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedSteelT8Recipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_steel_t_8_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForgedHotSteelT8Recipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_hot_steel_t_8_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "KatanaT1Recipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_1_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "KatanaT2Recipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_2_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronHammer",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "DiamondHammer",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "Hammers",
+      "type": "tag",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammers",
+      "path": "~/Tags"
+    },
+    {
+      "name": "KatanaT3",
+      "type": "tool",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_3",
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT3LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_3_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT3ItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_3_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT3Recipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_3_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Startup",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startup",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "OnJoin",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_join",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "GeigerCounterDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geiger_counter_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GeigerCounterHud",
+      "type": "overlay",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geiger_counter_hud",
+      "path": "~/Hud"
+    },
+    {
+      "name": "GeigerCounterRightclicked",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geiger_counter_rightclicked",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GeigerCounter",
+      "type": "item",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geiger_counter",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "IronWire",
+      "type": "item",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wire",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "GoldWire",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_wire",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "IronWireRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wire_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GoldWireRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_wire_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RedstoneWire",
+      "type": "item",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_wire",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "RedstoneWireRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_wire_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronHammerRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "UraniumIngotItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "itemstack",
             "type": "itemstack"
           }
         ]
       },
-      "path": "~/Special"
+      "path": "~/Materials"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Events"
     }
   ],
   "variable_elements": [
@@ -1819,13 +2549,31 @@
       "name": "katanapow",
       "type": "number",
       "scope": "map",
-      "value": "0.5"
+      "value": "0.3"
     },
     {
       "name": "katanalevelupdif",
       "type": "number",
       "scope": "map",
-      "value": "0.3"
+      "value": "1.1"
+    },
+    {
+      "name": "katanadefxpn",
+      "type": "number",
+      "scope": "map",
+      "value": "10.0"
+    },
+    {
+      "name": "radiation",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "maxradiation",
+      "type": "number",
+      "scope": "map",
+      "value": "1000.0"
     }
   ],
   "sound_elements": [],
@@ -1843,24 +2591,34 @@
       "item.grimmscraft.dusty_iron": "Dusty Iron",
       "block.grimmscraft.black_planks": "Black Planks",
       "item.grimmscraft.tatatatanium_pickaxe": "Tatatatanium Pickaxe",
+      "item.grimmscraft.hot_steel": "Hot Steel",
       "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
       "item.grimmscraft.katana_t_1": "Katana",
+      "item.grimmscraft.katana_t_2": "Katana",
       "item.grimmscraft.tanium_ingot": "Tanium",
       "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",
+      "item.grimmscraft.katana_t_3": "Katana",
       "block.grimmscraft.tatatanium_ore": "Tatatanium Ore",
       "item.grimmscraft.steel": "Steel",
-      "item.grimmscraft.tatatatanium_armor_leggings": "Tatatatanium Leggings",
       "item.grimmscraft.printed_paper": "Printed Paper",
+      "item.grimmscraft.tatatatanium_armor_leggings": "Tatatatanium Leggings",
       "block.grimmscraft.white_planks": "White Planks",
       "item.grimmscraft.tanium_hoe": "Tanium Hoe",
       "item.grimmscraft.tanium_shovel": "Tanium Shovel",
+      "death.attack.radiation": "%s Died of Radiation Poisoning",
       "item.grimmscraft.tatanium_armor_boots": "Tatanium Boots",
+      "item.grimmscraft.forged_steel_t_4": "Steel",
       "item.grimmscraft.vodka_1": "Vodka",
+      "item.grimmscraft.forged_steel_t_3": "Steel",
+      "item.grimmscraft.forged_steel_t_6": "Steel",
       "item.grimmscraft.tier_3_coal": "Tier 3 Coal",
       "item.grimmscraft.printer_cartridge": "Printer Cartridge",
+      "item.grimmscraft.forged_steel_t_5": "Steel",
+      "item.grimmscraft.forged_steel_t_8": "Steel",
+      "item.grimmscraft.forged_steel_t_7": "Steel",
       "item.grimmscraft.tatatatanium_axe": "Tatatatanium Axe",
       "block.grimmscraft.tatatatanium_ore": "Tatatatanium Ore",
       "item.grimmscraft.tatatatanium_sword": "Tatatatanium Sword",
@@ -1869,7 +2627,9 @@
       "block.grimmscraft.diamond_tree_fence": "DiamondTree Fence",
       "item.grimmscraft.tatanium_pickaxe": "Tatanium Pickaxe",
       "item.grimmscraft.tatatatanium_shovel": "Tatatatanium Shovel",
+      "item.grimmscraft.forged_steel_t_2": "Steel",
       "item.grimmscraft.tatatatatanium_ingot": "Tatatatatanium",
+      "item.grimmscraft.forged_steel_t_1": "Steel",
       "block.grimmscraft.black_pressure_plate": "Black Pressure Plate",
       "item.grimmscraft.tatatatanium_armor_chestplate": "Tatatatanium Chestplate",
       "item.grimmscraft.tatatanium_armor_chestplate": "Tatatanium Chestplate",
@@ -1879,6 +2639,7 @@
       "item.grimmscraft.tatatanium_shovel": "Tatatanium Shovel",
       "item.grimmscraft.bottle_1": "Bottle",
       "block.grimmscraft.printer": "Printer",
+      "item.grimmscraft.uranium_ingot": "Uranium",
       "item.grimmscraft.catalyst_base": "Catalyst Base",
       "block.grimmscraft.diamond_tree_planks": "DiamondTree Planks",
       "item.grimmscraft.tanium_armor_leggings": "Tanium Leggings",
@@ -1892,11 +2653,14 @@
       "block.grimmscraft.white_stairs": "White Stairs",
       "block.grimmscraft.tatanium_ore": "Tatanium Ore",
       "block.grimmscraft.black_stairs": "Black Stairs",
+      "block.grimmscraft.uranium_ore": "Uranium Ore",
       "item.grimmscraft.tatatatatanium_armor_helmet": "Tatatatatanium Helmet",
       "item.grimmscraft.tatatatatanium_shovel": "Tatatatatanium Shovel",
       "item.grimmscraft.tier_1_coal": "Tier 1 Coal",
       "block.grimmscraft.diamond_tree_wood": "DiamondTree Wood",
+      "death.attack.katana": "%s Was Chopped  To 957 Pieces",
       "block.grimmscraft.white_leaves": "White Leaves",
+      "block.grimmscraft.uranium_block": "Block of Uranium",
       "item.grimmscraft.tatatanium_armor_helmet": "Tatatanium Helmet",
       "item.grimmscraft.tanium_armor_helmet": "Tanium Helmet",
       "item.grimmscraft.tanium_armor_boots": "Tanium Boots",
@@ -1904,6 +2668,7 @@
       "block.grimmscraft.white_log": "White Log",
       "block.grimmscraft.tatatatatanium_block": "Block of Tatatatatanium",
       "block.grimmscraft.black_fence_gate": "Black Fence Gate",
+      "item.grimmscraft.iron_wire": "Iron Wire",
       "item.grimmscraft.tier_2_coal": "Tier 2 Coal",
       "item.grimmscraft.tatatatanium_armor_boots": "Tatatatanium Boots",
       "item.grimmscraft.tatatatatanium_pickaxe": "Tatatatatanium Pickaxe",
@@ -1911,11 +2676,14 @@
       "block.grimmscraft.diamond_tree_fence_gate": "DiamondTree Fence Gate",
       "block.grimmscraft.black_leaves": "Black Leaves",
       "block.grimmscraft.tatatatanium_block": "Block of Tatatatanium",
+      "item.grimmscraft.redstone_wire": "Redstone Wire",
       "item.grimmscraft.tanium_pickaxe": "Tanium Pickaxe",
       "item.grimmscraft.tatanium_ingot": "Tatanium",
       "item.grimmscraft.tatatanium_sword": "Tatatanium Sword",
       "block.grimmscraft.black_button": "Black Button",
+      "item.grimmscraft.iron_hammer": "Iron Hammer",
       "item.grimmscraft.tatatatatanium_axe": "Tatatatatanium Axe",
+      "item.grimmscraft.gold_wire": "Gold Wire",
       "block.grimmscraft.tanium_ore": "Tanium Ore",
       "item.grimmscraft.carton": "Carton",
       "block.grimmscraft.tatatatatanium_ore": "Tatatatatanium Ore",
@@ -1924,8 +2692,18 @@
       "item.grimmscraft.tatanium_shovel": "Tatanium Shovel",
       "item.grimmscraft.tatatatanium_armor_helmet": "Tatatatanium Helmet",
       "item.grimmscraft.l_bag_t_1": "LBag",
+      "item.grimmscraft.forged_hot_steel_t_4": "Steel",
+      "item.grimmscraft.forged_hot_steel_t_3": "Steel",
+      "item.grimmscraft.forged_hot_steel_t_2": "Steel",
+      "item.grimmscraft.forged_hot_steel_t_1": "Steel",
+      "item.grimmscraft.diamond_hammer": "Diamond Hammer",
       "block.grimmscraft.black_fence": "Black Fence",
+      "item.grimmscraft.geiger_counter": "Geiger Counter",
+      "item.grimmscraft.forged_hot_steel_t_8": "Steel",
+      "item.grimmscraft.forged_hot_steel_t_7": "Steel",
+      "item.grimmscraft.forged_hot_steel_t_6": "Steel",
       "item.grimmscraft.tatatatatanium_armor_chestplate": "Tatatatatanium Chestplate",
+      "item.grimmscraft.forged_hot_steel_t_5": "Steel",
       "block.grimmscraft.diamond_tree_button": "DiamondTree Button",
       "block.grimmscraft.tanium_block": "Block of Tanium",
       "item.grimmscraft.tatanium_sword": "Tatanium Sword",
@@ -1997,6 +2775,22 @@
       {
         "name": "Special",
         "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Events",
+        "children": []
+      },
+      {
+        "name": "Hud",
+        "children": []
       }
     ]
   },
@@ -2006,11 +2800,11 @@
     "version": "1.0.0",
     "description": "Live Long C.O.D.",
     "author": "tyuXX",
-    "websiteURL": "https://gamemodecreative.grog",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/grimms-craft",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "sovietflag",
+    "modPicture": "grimmscraft",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

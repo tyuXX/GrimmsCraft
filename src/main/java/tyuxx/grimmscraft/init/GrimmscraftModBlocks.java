@@ -14,6 +14,8 @@ import tyuxx.grimmscraft.block.WhiteLeavesBlock;
 import tyuxx.grimmscraft.block.WhiteFenceGateBlock;
 import tyuxx.grimmscraft.block.WhiteFenceBlock;
 import tyuxx.grimmscraft.block.WhiteButtonBlock;
+import tyuxx.grimmscraft.block.UraniumOreBlock;
+import tyuxx.grimmscraft.block.UraniumBlockBlock;
 import tyuxx.grimmscraft.block.TatatatataniumOreBlock;
 import tyuxx.grimmscraft.block.TatatatataniumBlockBlock;
 import tyuxx.grimmscraft.block.TatatataniumOreBlock;
@@ -98,4 +100,6 @@ public class GrimmscraftModBlocks {
 			() -> new DiamondTreePressurePlateBlock());
 	public static final RegistryObject<Block> DIAMOND_TREE_BUTTON = REGISTRY.register("diamond_tree_button", () -> new DiamondTreeButtonBlock());
 	public static final RegistryObject<Block> PRINTER = REGISTRY.register("printer", () -> new PrinterBlock());
+	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
+	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
 }
