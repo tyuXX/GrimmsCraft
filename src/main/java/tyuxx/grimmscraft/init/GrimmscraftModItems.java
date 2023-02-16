@@ -43,7 +43,15 @@ import tyuxx.grimmscraft.item.TaniumIngotItem;
 import tyuxx.grimmscraft.item.TaniumHoeItem;
 import tyuxx.grimmscraft.item.TaniumAxeItem;
 import tyuxx.grimmscraft.item.TaniumArmorItem;
+import tyuxx.grimmscraft.item.SteelItem;
+import tyuxx.grimmscraft.item.PrinterCartridgeItem;
+import tyuxx.grimmscraft.item.PrintedPaperItem;
+import tyuxx.grimmscraft.item.LBagT1Item;
+import tyuxx.grimmscraft.item.KatanaT1Item;
+import tyuxx.grimmscraft.item.DyeStackItem;
+import tyuxx.grimmscraft.item.DustyIronItem;
 import tyuxx.grimmscraft.item.CatalystBaseItem;
+import tyuxx.grimmscraft.item.CartonItem;
 import tyuxx.grimmscraft.item.Bottle1Item;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
@@ -176,6 +184,15 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> TIER_1_COAL = REGISTRY.register("tier_1_coal", () -> new Tier1CoalItem());
 	public static final RegistryObject<Item> TIER_2_COAL = REGISTRY.register("tier_2_coal", () -> new Tier2CoalItem());
 	public static final RegistryObject<Item> TIER_3_COAL = REGISTRY.register("tier_3_coal", () -> new Tier3CoalItem());
+	public static final RegistryObject<Item> DYE_STACK = REGISTRY.register("dye_stack", () -> new DyeStackItem());
+	public static final RegistryObject<Item> PRINTER_CARTRIDGE = REGISTRY.register("printer_cartridge", () -> new PrinterCartridgeItem());
+	public static final RegistryObject<Item> PRINTER = block(GrimmscraftModBlocks.PRINTER, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> PRINTED_PAPER = REGISTRY.register("printed_paper", () -> new PrintedPaperItem());
+	public static final RegistryObject<Item> CARTON = REGISTRY.register("carton", () -> new CartonItem());
+	public static final RegistryObject<Item> L_BAG_T_1 = REGISTRY.register("l_bag_t_1", () -> new LBagT1Item());
+	public static final RegistryObject<Item> DUSTY_IRON = REGISTRY.register("dusty_iron", () -> new DustyIronItem());
+	public static final RegistryObject<Item> STEEL = REGISTRY.register("steel", () -> new SteelItem());
+	public static final RegistryObject<Item> KATANA_T_1 = REGISTRY.register("katana_t_1", () -> new KatanaT1Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

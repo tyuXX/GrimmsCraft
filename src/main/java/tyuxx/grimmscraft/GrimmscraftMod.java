@@ -13,9 +13,11 @@
  */
 package tyuxx.grimmscraft;
 
+import tyuxx.grimmscraft.init.GrimmscraftModMenus;
 import tyuxx.grimmscraft.init.GrimmscraftModItems;
 import tyuxx.grimmscraft.init.GrimmscraftModFeatures;
 import tyuxx.grimmscraft.init.GrimmscraftModBlocks;
+import tyuxx.grimmscraft.init.GrimmscraftModBlockEntities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -53,7 +55,10 @@ public class GrimmscraftMod {
 		GrimmscraftModBlocks.REGISTRY.register(bus);
 		GrimmscraftModItems.REGISTRY.register(bus);
 
+		GrimmscraftModBlockEntities.REGISTRY.register(bus);
 		GrimmscraftModFeatures.REGISTRY.register(bus);
+
+		GrimmscraftModMenus.REGISTRY.register(bus);
 
 	}
 

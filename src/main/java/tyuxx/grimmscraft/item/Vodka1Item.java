@@ -5,6 +5,7 @@ import tyuxx.grimmscraft.procedures.Vodka1PlayerFinishesUsingItemProcedure;
 import tyuxx.grimmscraft.init.GrimmscraftModItems;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -23,6 +24,11 @@ public class Vodka1Item extends Item {
 				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f).alwaysEat()
 
 						.build()));
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.DRINK;
 	}
 
 	@Override

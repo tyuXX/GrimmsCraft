@@ -24,6 +24,7 @@ import tyuxx.grimmscraft.block.TataniumOreBlock;
 import tyuxx.grimmscraft.block.TataniumBlockBlock;
 import tyuxx.grimmscraft.block.TaniumOreBlock;
 import tyuxx.grimmscraft.block.TaniumBlockBlock;
+import tyuxx.grimmscraft.block.PrinterBlock;
 import tyuxx.grimmscraft.block.DiamondTreeWoodBlock;
 import tyuxx.grimmscraft.block.DiamondTreeStairsBlock;
 import tyuxx.grimmscraft.block.DiamondTreeSlabBlock;
@@ -96,4 +97,5 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> DIAMOND_TREE_PRESSURE_PLATE = REGISTRY.register("diamond_tree_pressure_plate",
 			() -> new DiamondTreePressurePlateBlock());
 	public static final RegistryObject<Block> DIAMOND_TREE_BUTTON = REGISTRY.register("diamond_tree_button", () -> new DiamondTreeButtonBlock());
+	public static final RegistryObject<Block> PRINTER = REGISTRY.register("printer", () -> new PrinterBlock());
 }

@@ -1612,9 +1612,222 @@
       "locked_code": false,
       "registry_name": "tier_4_coalext",
       "path": "~/Fuel"
+    },
+    {
+      "name": "DyeStack",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dye_stack",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "PrinterCartridge",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printer_cartridge",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "Printer",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printer",
+      "path": "~/Technical/Blocks"
+    },
+    {
+      "name": "PrinterGui",
+      "type": "gui",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printer_gui",
+      "path": "~/Gui"
+    },
+    {
+      "name": "PrintedPaper",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printed_paper",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "PrinterPrint",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printer_print",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "Carton",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carton",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "DyeStackRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dye_stack_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PrinterCartridgeRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printer_cartridge_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LBagGui",
+      "type": "gui",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_bag_gui",
+      "path": "~/Gui"
+    },
+    {
+      "name": "LBagT1",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_bag_t_1",
+      "path": "~/Bags"
+    },
+    {
+      "name": "CartonRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carton_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LBagT1Recipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_bag_t_1_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DustyIron",
+      "type": "item",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusty_iron",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "DustyIronRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusty_iron_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PrinterRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printer_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "KatanaT1",
+      "type": "tool",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_1",
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT1LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_1_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Special"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "katanapow",
+      "type": "number",
+      "scope": "map",
+      "value": "0.5"
+    },
+    {
+      "name": "katanalevelupdif",
+      "type": "number",
+      "scope": "map",
+      "value": "0.3"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -1627,22 +1840,27 @@
       "item.grimmscraft.tatatatatanium_armor_leggings": "Tatatatatanium Leggings",
       "block.grimmscraft.white_wood": "White Wood",
       "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
+      "item.grimmscraft.dusty_iron": "Dusty Iron",
       "block.grimmscraft.black_planks": "Black Planks",
       "item.grimmscraft.tatatatanium_pickaxe": "Tatatatanium Pickaxe",
       "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
+      "item.grimmscraft.katana_t_1": "Katana",
       "item.grimmscraft.tanium_ingot": "Tanium",
       "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",
       "block.grimmscraft.tatatanium_ore": "Tatatanium Ore",
+      "item.grimmscraft.steel": "Steel",
       "item.grimmscraft.tatatatanium_armor_leggings": "Tatatatanium Leggings",
+      "item.grimmscraft.printed_paper": "Printed Paper",
       "block.grimmscraft.white_planks": "White Planks",
       "item.grimmscraft.tanium_hoe": "Tanium Hoe",
       "item.grimmscraft.tanium_shovel": "Tanium Shovel",
       "item.grimmscraft.tatanium_armor_boots": "Tatanium Boots",
       "item.grimmscraft.vodka_1": "Vodka",
       "item.grimmscraft.tier_3_coal": "Tier 3 Coal",
+      "item.grimmscraft.printer_cartridge": "Printer Cartridge",
       "item.grimmscraft.tatatatanium_axe": "Tatatatanium Axe",
       "block.grimmscraft.tatatatanium_ore": "Tatatatanium Ore",
       "item.grimmscraft.tatatatanium_sword": "Tatatatanium Sword",
@@ -1660,6 +1878,7 @@
       "block.grimmscraft.diamond_tree_leaves": "DiamondTree Leaves",
       "item.grimmscraft.tatatanium_shovel": "Tatatanium Shovel",
       "item.grimmscraft.bottle_1": "Bottle",
+      "block.grimmscraft.printer": "Printer",
       "item.grimmscraft.catalyst_base": "Catalyst Base",
       "block.grimmscraft.diamond_tree_planks": "DiamondTree Planks",
       "item.grimmscraft.tanium_armor_leggings": "Tanium Leggings",
@@ -1698,17 +1917,20 @@
       "block.grimmscraft.black_button": "Black Button",
       "item.grimmscraft.tatatatatanium_axe": "Tatatatatanium Axe",
       "block.grimmscraft.tanium_ore": "Tanium Ore",
+      "item.grimmscraft.carton": "Carton",
       "block.grimmscraft.tatatatatanium_ore": "Tatatatatanium Ore",
       "block.grimmscraft.white_fence": "White Fence",
       "item.grimmscraft.tatatanium_armor_leggings": "Tatatanium Leggings",
       "item.grimmscraft.tatanium_shovel": "Tatanium Shovel",
       "item.grimmscraft.tatatatanium_armor_helmet": "Tatatatanium Helmet",
+      "item.grimmscraft.l_bag_t_1": "LBag",
       "block.grimmscraft.black_fence": "Black Fence",
       "item.grimmscraft.tatatatatanium_armor_chestplate": "Tatatatatanium Chestplate",
       "block.grimmscraft.diamond_tree_button": "DiamondTree Button",
       "block.grimmscraft.tanium_block": "Block of Tanium",
       "item.grimmscraft.tatanium_sword": "Tatanium Sword",
       "block.grimmscraft.black_slab": "Black Slab",
+      "item.grimmscraft.dye_stack": "Dye Stack",
       "item.grimmscraft.tatatatatanium_hoe": "Tatatatatanium Hoe",
       "item.grimmscraft.tatatatanium_ingot": "Tatatatanium",
       "block.grimmscraft.white_pressure_plate": "White Pressure Plate",
@@ -1742,12 +1964,45 @@
       {
         "name": "Dimension",
         "children": []
+      },
+      {
+        "name": "Bags",
+        "children": []
+      },
+      {
+        "name": "Technical",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Gui",
+        "children": []
+      },
+      {
+        "name": "Procs",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Special",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "grimmscraft",
-    "modName": "Grimms Craft",
+    "modName": "G.M.C.",
     "version": "1.0.0",
     "description": "Live Long C.O.D.",
     "author": "tyuXX",
