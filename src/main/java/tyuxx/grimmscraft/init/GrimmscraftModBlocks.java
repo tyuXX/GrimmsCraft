@@ -28,7 +28,9 @@ import tyuxx.grimmscraft.block.TataniumOreBlock;
 import tyuxx.grimmscraft.block.TataniumBlockBlock;
 import tyuxx.grimmscraft.block.TaniumOreBlock;
 import tyuxx.grimmscraft.block.TaniumBlockBlock;
+import tyuxx.grimmscraft.block.SolarPanelT1Block;
 import tyuxx.grimmscraft.block.PrinterBlock;
+import tyuxx.grimmscraft.block.ElectricFurnaceT1Block;
 import tyuxx.grimmscraft.block.DiamondTreeWoodBlock;
 import tyuxx.grimmscraft.block.DiamondTreeStairsBlock;
 import tyuxx.grimmscraft.block.DiamondTreeSlabBlock;
@@ -106,4 +108,6 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
 	public static final RegistryObject<Block> THORIUM_ORE = REGISTRY.register("thorium_ore", () -> new ThoriumOreBlock());
 	public static final RegistryObject<Block> THORIUM_BLOCK = REGISTRY.register("thorium_block", () -> new ThoriumBlockBlock());
+	public static final RegistryObject<Block> SOLAR_PANEL_T_1 = REGISTRY.register("solar_panel_t_1", () -> new SolarPanelT1Block());
+	public static final RegistryObject<Block> ELECTRIC_FURNACE_T_1 = REGISTRY.register("electric_furnace_t_1", () -> new ElectricFurnaceT1Block());
 }

@@ -2332,7 +2332,12 @@
       "locked_code": false,
       "registry_name": "on_join",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/Events"
     },
@@ -2617,6 +2622,473 @@
         ]
       },
       "path": "~/Materials"
+    },
+    {
+      "name": "TestDummyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dummy_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "TestDummyEntityDies",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dummy_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "TestDummyEntityIsHurt",
+      "type": "procedure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dummy_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "TestDummy",
+      "type": "livingentity",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dummy",
+      "path": "~/Special"
+    },
+    {
+      "name": "GmcRadClear",
+      "type": "command",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_clear",
+      "path": "~/Commands"
+    },
+    {
+      "name": "ClearRad",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_rad",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetRad",
+      "type": "procedure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_rad",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetRadRes",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_rad_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetPermRadRes",
+      "type": "procedure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_perm_rad_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "SetRad",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_rad",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "SetRadRes",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_rad_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "SetPermRadRes",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_perm_rad_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GmcRadSet",
+      "type": "command",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_set",
+      "path": "~/Commands"
+    },
+    {
+      "name": "GmcRadGet",
+      "type": "command",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_get",
+      "path": "~/Commands"
+    },
+    {
+      "name": "GmcRadResGet",
+      "type": "command",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_res_get",
+      "path": "~/Commands"
+    },
+    {
+      "name": "GmcRadResSet",
+      "type": "command",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_res_set",
+      "path": "~/Commands"
+    },
+    {
+      "name": "GmcRadPermRadResGet",
+      "type": "command",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_perm_rad_res_get",
+      "path": "~/Commands"
+    },
+    {
+      "name": "GmcRadPermRadresSet",
+      "type": "command",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_rad_perm_radres_set",
+      "path": "~/Commands"
+    },
+    {
+      "name": "GetFEOfBlock",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_fe_of_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "FEMeter",
+      "type": "item",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_meter",
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "SolarPanelT1UpdateTick",
+      "type": "procedure",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_t_1_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Technical/Blocks"
+    },
+    {
+      "name": "SolarPanelT1",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_t_1",
+      "path": "~/Technical/Blocks"
+    },
+    {
+      "name": "ElectricFurnaceT1UpdateTick",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_furnace_t_1_update_tick",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "ElectricFurnaceT1",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_furnace_t_1",
+      "path": "~/Gui"
+    },
+    {
+      "name": "EFurnaceT1Gui",
+      "type": "gui",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_furnace_t_1_gui",
+      "path": "~/Gui"
+    },
+    {
+      "name": "Bottle1Recipe",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_1_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Vodka1Recipe",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_1_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteGlich",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_glich",
+      "path": "~/Materials"
+    },
+    {
+      "name": "WhiteGlichArmor",
+      "type": "armor",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_glich_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WhiteGlichRecipe",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_glich_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Esryrdy5y5ry54y4yertArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esryrdy_5y_5ry_54y_4yert_armor_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Esryrdy5y5ry54y4yertArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esryrdy_5y_5ry_54y_4yert_armor_body_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Esryrdy5y5ry54y4yertArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esryrdy_5y_5ry_54y_4yert_armor_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Esryrdy5y5ry54y4yertArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esryrdy_5y_5ry_54y_4yert_armor_boots_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -2661,6 +3133,24 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "defaulted",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "money",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "bank",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -2675,14 +3165,15 @@
       "item.grimmscraft.tatanium_armor_chestplate": "Tatanium Chestplate",
       "item.grimmscraft.tatatatatanium_armor_leggings": "Tatatatatanium Leggings",
       "block.grimmscraft.white_wood": "White Wood",
-      "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
       "item.grimmscraft.dusty_iron": "Dusty Iron",
+      "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
       "block.grimmscraft.black_planks": "Black Planks",
       "item.grimmscraft.tatatatanium_pickaxe": "Tatatatanium Pickaxe",
       "item.grimmscraft.hot_steel": "Hot Steel",
       "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
+      "item.grimmscraft.white_glich_armor_chestplate": "Glich Chestplate",
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
       "item.grimmscraft.katana_t_1": "Katana",
       "item.grimmscraft.katana_t_2": "Katana",
@@ -2713,12 +3204,15 @@
       "block.grimmscraft.white_button": "White Button",
       "item.grimmscraft.tatanium_hoe": "Tatanium Hoe",
       "block.grimmscraft.diamond_tree_fence": "DiamondTree Fence",
+      "item.grimmscraft.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
       "item.grimmscraft.tatanium_pickaxe": "Tatanium Pickaxe",
       "item.grimmscraft.tatatatanium_shovel": "Tatatatanium Shovel",
       "item.grimmscraft.forged_steel_t_2": "Steel",
       "item.grimmscraft.tatatatatanium_ingot": "Tatatatatanium",
       "item.grimmscraft.forged_steel_t_1": "Steel",
+      "item.grimmscraft.white_glich_armor_helmet": "Glich Helmet",
       "block.grimmscraft.black_pressure_plate": "Black Pressure Plate",
+      "entity.grimmscraft.test_dummy": "Test Dummy",
       "item.grimmscraft.tatatatanium_armor_chestplate": "Tatatatanium Chestplate",
       "item.grimmscraft.tatatanium_armor_chestplate": "Tatatanium Chestplate",
       "block.grimmscraft.diamond_tree_slab": "DiamondTree Slab",
@@ -2731,8 +3225,10 @@
       "item.grimmscraft.catalyst_base": "Catalyst Base",
       "block.grimmscraft.diamond_tree_planks": "DiamondTree Planks",
       "item.grimmscraft.tanium_armor_leggings": "Tanium Leggings",
+      "block.grimmscraft.solar_panel_t_1": "Solar Panel T 1",
       "block.grimmscraft.black_wood": "Black Wood",
       "item.grimmscraft.tatatanium_axe": "Tatatanium Axe",
+      "item.grimmscraft.white_glich": "Glich",
       "item.grimmscraft.thorium_ingot": "Thorium",
       "item.grimmscraft.tatanium_axe": "Tatanium Axe",
       "block.grimmscraft.white_slab": "White Slab",
@@ -2754,12 +3250,14 @@
       "item.grimmscraft.tanium_armor_helmet": "Tanium Helmet",
       "item.grimmscraft.tanium_armor_boots": "Tanium Boots",
       "item.grimmscraft.tatatanium_armor_boots": "Tatatanium Boots",
+      "item.grimmscraft.white_glich_armor_boots": "Glich Boots",
       "block.grimmscraft.white_log": "White Log",
       "block.grimmscraft.tatatatatanium_block": "Block of Tatatatatanium",
       "block.grimmscraft.thorium_ore": "Thorium Ore",
       "block.grimmscraft.black_fence_gate": "Black Fence Gate",
       "item.grimmscraft.iron_wire": "Iron Wire",
       "item.grimmscraft.tier_2_coal": "Tier 2 Coal",
+      "item.grimmscraft.white_glich_armor_leggings": "White Glich Leggings",
       "item.grimmscraft.tatatatanium_armor_boots": "Tatatatanium Boots",
       "item.grimmscraft.tatatatatanium_pickaxe": "Tatatatatanium Pickaxe",
       "item.grimmscraft.tanium_armor_chestplate": "Tanium Chestplate",
@@ -2775,10 +3273,12 @@
       "item.grimmscraft.tatatatatanium_axe": "Tatatatatanium Axe",
       "item.grimmscraft.gold_wire": "Gold Wire",
       "block.grimmscraft.tanium_ore": "Tanium Ore",
+      "item.grimmscraft.fe_meter": "FE Meter",
       "item.grimmscraft.carton": "Carton",
       "block.grimmscraft.tatatatatanium_ore": "Tatatatatanium Ore",
       "block.grimmscraft.white_fence": "White Fence",
       "item.grimmscraft.tatatanium_armor_leggings": "Tatatanium Leggings",
+      "block.grimmscraft.electric_furnace_t_1": "Electric Furnace T 1",
       "item.grimmscraft.tatanium_shovel": "Tatanium Shovel",
       "item.grimmscraft.tatatatanium_armor_helmet": "Tatatatanium Helmet",
       "item.grimmscraft.l_bag_t_1": "LBag",
@@ -2880,6 +3380,10 @@
       },
       {
         "name": "Hud",
+        "children": []
+      },
+      {
+        "name": "Commands",
         "children": []
       }
     ]

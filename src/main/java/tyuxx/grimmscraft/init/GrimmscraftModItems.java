@@ -4,6 +4,8 @@
  */
 package tyuxx.grimmscraft.init;
 
+import tyuxx.grimmscraft.item.WhiteGlichItem;
+import tyuxx.grimmscraft.item.WhiteGlichArmorItem;
 import tyuxx.grimmscraft.item.Vodka1Item;
 import tyuxx.grimmscraft.item.UraniumIngotItem;
 import tyuxx.grimmscraft.item.Tier3CoalItem;
@@ -74,6 +76,7 @@ import tyuxx.grimmscraft.item.ForgedHotSteelT4Item;
 import tyuxx.grimmscraft.item.ForgedHotSteelT3Item;
 import tyuxx.grimmscraft.item.ForgedHotSteelT2Item;
 import tyuxx.grimmscraft.item.ForgedHotSteelT1Item;
+import tyuxx.grimmscraft.item.FEMeterItem;
 import tyuxx.grimmscraft.item.DyeStackItem;
 import tyuxx.grimmscraft.item.DustyIronItem;
 import tyuxx.grimmscraft.item.DiamondHammerItem;
@@ -85,6 +88,7 @@ import tyuxx.grimmscraft.GrimmscraftMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -251,6 +255,22 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> THORIUM_INGOT = REGISTRY.register("thorium_ingot", () -> new ThoriumIngotItem());
 	public static final RegistryObject<Item> THORIUM_ORE = block(GrimmscraftModBlocks.THORIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> THORIUM_BLOCK = block(GrimmscraftModBlocks.THORIUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TEST_DUMMY = REGISTRY.register("test_dummy_spawn_egg",
+			() -> new ForgeSpawnEggItem(GrimmscraftModEntities.TEST_DUMMY, -10092442, -16777063,
+					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> FE_METER = REGISTRY.register("fe_meter", () -> new FEMeterItem());
+	public static final RegistryObject<Item> SOLAR_PANEL_T_1 = block(GrimmscraftModBlocks.SOLAR_PANEL_T_1, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ELECTRIC_FURNACE_T_1 = block(GrimmscraftModBlocks.ELECTRIC_FURNACE_T_1,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> WHITE_GLICH = REGISTRY.register("white_glich", () -> new WhiteGlichItem());
+	public static final RegistryObject<Item> WHITE_GLICH_ARMOR_HELMET = REGISTRY.register("white_glich_armor_helmet",
+			() -> new WhiteGlichArmorItem.Helmet());
+	public static final RegistryObject<Item> WHITE_GLICH_ARMOR_CHESTPLATE = REGISTRY.register("white_glich_armor_chestplate",
+			() -> new WhiteGlichArmorItem.Chestplate());
+	public static final RegistryObject<Item> WHITE_GLICH_ARMOR_LEGGINGS = REGISTRY.register("white_glich_armor_leggings",
+			() -> new WhiteGlichArmorItem.Leggings());
+	public static final RegistryObject<Item> WHITE_GLICH_ARMOR_BOOTS = REGISTRY.register("white_glich_armor_boots",
+			() -> new WhiteGlichArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
