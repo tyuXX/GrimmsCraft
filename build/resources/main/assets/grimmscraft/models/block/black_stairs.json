@@ -1,9 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "grimmscraft:blocks/black_planks",
-    "top": "grimmscraft:blocks/black_planks",
-    "side": "grimmscraft:blocks/black_planks"
-  },
-  "render_type": "solid"
-}

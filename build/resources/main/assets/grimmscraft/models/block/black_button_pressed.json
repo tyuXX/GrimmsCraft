@@ -1,7 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "texture": "grimmscraft:blocks/black_planks"
-  },
-  "render_type": "solid"
-}

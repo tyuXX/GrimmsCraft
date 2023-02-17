@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "grimmscraft:blocks/diamondtree_leaves",
-    "particle": "grimmscraft:blocks/diamondtree_leaves"
-  }
-}

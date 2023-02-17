@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "grimmscraft:blocks/black_log_side",
-    "particle": "grimmscraft:blocks/black_log_side"
-  },
-  "render_type": "solid"
-}

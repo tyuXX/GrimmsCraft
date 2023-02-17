@@ -13,6 +13,8 @@
     "grimmscraft:tatatatatanium_block",
     "grimmscraft:printer",
     "grimmscraft:uranium_ore",
-    "grimmscraft:uranium_block"
+    "grimmscraft:uranium_block",
+    "grimmscraft:thorium_ore",
+    "grimmscraft:thorium_block"
   ]
 }

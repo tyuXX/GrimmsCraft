@@ -2542,6 +2542,81 @@
         ]
       },
       "path": "~/Events"
+    },
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "ThoriumOre",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore",
+      "path": "~/Materials"
+    },
+    {
+      "name": "ThoriumBlock",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "ThoriumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "ThoriumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "ThoriumOreSmelting",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "ThoriumIngotItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Materials"
     }
   ],
   "variable_elements": [
@@ -2574,12 +2649,25 @@
       "type": "number",
       "scope": "map",
       "value": "1000.0"
+    },
+    {
+      "name": "permradres",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.01"
+    },
+    {
+      "name": "radres",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.grimmscraft.tanium_sword": "Tanium Sword",
+      "block.grimmscraft.thorium_block": "Block of Thorium",
       "block.grimmscraft.tatanium_block": "Block of Tatanium",
       "block.grimmscraft.white_fence_gate": "White Fence Gate",
       "item.grimmscraft.tanium_axe": "Tanium Axe",
@@ -2603,8 +2691,8 @@
       "item.grimmscraft.katana_t_3": "Katana",
       "block.grimmscraft.tatatanium_ore": "Tatatanium Ore",
       "item.grimmscraft.steel": "Steel",
-      "item.grimmscraft.printed_paper": "Printed Paper",
       "item.grimmscraft.tatatatanium_armor_leggings": "Tatatatanium Leggings",
+      "item.grimmscraft.printed_paper": "Printed Paper",
       "block.grimmscraft.white_planks": "White Planks",
       "item.grimmscraft.tanium_hoe": "Tanium Hoe",
       "item.grimmscraft.tanium_shovel": "Tanium Shovel",
@@ -2645,6 +2733,7 @@
       "item.grimmscraft.tanium_armor_leggings": "Tanium Leggings",
       "block.grimmscraft.black_wood": "Black Wood",
       "item.grimmscraft.tatatanium_axe": "Tatatanium Axe",
+      "item.grimmscraft.thorium_ingot": "Thorium",
       "item.grimmscraft.tatanium_axe": "Tatanium Axe",
       "block.grimmscraft.white_slab": "White Slab",
       "item.grimmscraft.tatatatatanium_sword": "Tatatatatanium Sword",
@@ -2667,6 +2756,7 @@
       "item.grimmscraft.tatatanium_armor_boots": "Tatatanium Boots",
       "block.grimmscraft.white_log": "White Log",
       "block.grimmscraft.tatatatatanium_block": "Block of Tatatatatanium",
+      "block.grimmscraft.thorium_ore": "Thorium Ore",
       "block.grimmscraft.black_fence_gate": "Black Fence Gate",
       "item.grimmscraft.iron_wire": "Iron Wire",
       "item.grimmscraft.tier_2_coal": "Tier 2 Coal",

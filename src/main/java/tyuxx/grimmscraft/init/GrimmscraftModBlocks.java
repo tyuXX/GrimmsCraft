@@ -16,6 +16,8 @@ import tyuxx.grimmscraft.block.WhiteFenceBlock;
 import tyuxx.grimmscraft.block.WhiteButtonBlock;
 import tyuxx.grimmscraft.block.UraniumOreBlock;
 import tyuxx.grimmscraft.block.UraniumBlockBlock;
+import tyuxx.grimmscraft.block.ThoriumOreBlock;
+import tyuxx.grimmscraft.block.ThoriumBlockBlock;
 import tyuxx.grimmscraft.block.TatatatataniumOreBlock;
 import tyuxx.grimmscraft.block.TatatatataniumBlockBlock;
 import tyuxx.grimmscraft.block.TatatataniumOreBlock;
@@ -102,4 +104,6 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> PRINTER = REGISTRY.register("printer", () -> new PrinterBlock());
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
 	public static final RegistryObject<Block> URANIUM_BLOCK = REGISTRY.register("uranium_block", () -> new UraniumBlockBlock());
+	public static final RegistryObject<Block> THORIUM_ORE = REGISTRY.register("thorium_ore", () -> new ThoriumOreBlock());
+	public static final RegistryObject<Block> THORIUM_BLOCK = REGISTRY.register("thorium_block", () -> new ThoriumBlockBlock());
 }

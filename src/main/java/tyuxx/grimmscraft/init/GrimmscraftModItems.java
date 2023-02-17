@@ -9,6 +9,7 @@ import tyuxx.grimmscraft.item.UraniumIngotItem;
 import tyuxx.grimmscraft.item.Tier3CoalItem;
 import tyuxx.grimmscraft.item.Tier2CoalItem;
 import tyuxx.grimmscraft.item.Tier1CoalItem;
+import tyuxx.grimmscraft.item.ThoriumIngotItem;
 import tyuxx.grimmscraft.item.TatatatataniumSwordItem;
 import tyuxx.grimmscraft.item.TatatatataniumShovelItem;
 import tyuxx.grimmscraft.item.TatatatataniumPickaxeItem;
@@ -247,6 +248,9 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> URANIUM_INGOT = REGISTRY.register("uranium_ingot", () -> new UraniumIngotItem());
 	public static final RegistryObject<Item> URANIUM_ORE = block(GrimmscraftModBlocks.URANIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> URANIUM_BLOCK = block(GrimmscraftModBlocks.URANIUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> THORIUM_INGOT = REGISTRY.register("thorium_ingot", () -> new ThoriumIngotItem());
+	public static final RegistryObject<Item> THORIUM_ORE = block(GrimmscraftModBlocks.THORIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> THORIUM_BLOCK = block(GrimmscraftModBlocks.THORIUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

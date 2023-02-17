@@ -1,9 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "grimmscraft:blocks/diamondtree_planks",
-    "top": "grimmscraft:blocks/diamondtree_planks",
-    "side": "grimmscraft:blocks/diamondtree_planks"
-  },
-  "render_type": "solid"
-}
