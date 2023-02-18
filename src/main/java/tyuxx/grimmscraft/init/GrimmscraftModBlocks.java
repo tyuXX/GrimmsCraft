@@ -11,6 +11,7 @@ import tyuxx.grimmscraft.block.WhitePressurePlateBlock;
 import tyuxx.grimmscraft.block.WhitePlanksBlock;
 import tyuxx.grimmscraft.block.WhiteLogBlock;
 import tyuxx.grimmscraft.block.WhiteLeavesBlock;
+import tyuxx.grimmscraft.block.WhiteGlichBlockBlock;
 import tyuxx.grimmscraft.block.WhiteFenceGateBlock;
 import tyuxx.grimmscraft.block.WhiteFenceBlock;
 import tyuxx.grimmscraft.block.WhiteButtonBlock;
@@ -110,4 +111,5 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> THORIUM_BLOCK = REGISTRY.register("thorium_block", () -> new ThoriumBlockBlock());
 	public static final RegistryObject<Block> SOLAR_PANEL_T_1 = REGISTRY.register("solar_panel_t_1", () -> new SolarPanelT1Block());
 	public static final RegistryObject<Block> ELECTRIC_FURNACE_T_1 = REGISTRY.register("electric_furnace_t_1", () -> new ElectricFurnaceT1Block());
+	public static final RegistryObject<Block> WHITE_GLICH_BLOCK = REGISTRY.register("white_glich_block", () -> new WhiteGlichBlockBlock());
 }

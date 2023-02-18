@@ -6,6 +6,8 @@ package tyuxx.grimmscraft.init;
 
 import tyuxx.grimmscraft.item.WhiteGlichItem;
 import tyuxx.grimmscraft.item.WhiteGlichArmorItem;
+import tyuxx.grimmscraft.item.Vodka3Item;
+import tyuxx.grimmscraft.item.Vodka2Item;
 import tyuxx.grimmscraft.item.Vodka1Item;
 import tyuxx.grimmscraft.item.UraniumIngotItem;
 import tyuxx.grimmscraft.item.Tier3CoalItem;
@@ -52,6 +54,7 @@ import tyuxx.grimmscraft.item.RedstoneWireItem;
 import tyuxx.grimmscraft.item.PrinterCartridgeItem;
 import tyuxx.grimmscraft.item.PrintedPaperItem;
 import tyuxx.grimmscraft.item.LBagT1Item;
+import tyuxx.grimmscraft.item.KatanaT4Item;
 import tyuxx.grimmscraft.item.KatanaT3Item;
 import tyuxx.grimmscraft.item.KatanaT2Item;
 import tyuxx.grimmscraft.item.KatanaT1Item;
@@ -82,6 +85,8 @@ import tyuxx.grimmscraft.item.DustyIronItem;
 import tyuxx.grimmscraft.item.DiamondHammerItem;
 import tyuxx.grimmscraft.item.CatalystBaseItem;
 import tyuxx.grimmscraft.item.CartonItem;
+import tyuxx.grimmscraft.item.Bottle3Item;
+import tyuxx.grimmscraft.item.Bottle2Item;
 import tyuxx.grimmscraft.item.Bottle1Item;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
@@ -271,6 +276,12 @@ public class GrimmscraftModItems {
 			() -> new WhiteGlichArmorItem.Leggings());
 	public static final RegistryObject<Item> WHITE_GLICH_ARMOR_BOOTS = REGISTRY.register("white_glich_armor_boots",
 			() -> new WhiteGlichArmorItem.Boots());
+	public static final RegistryObject<Item> KATANA_T_4 = REGISTRY.register("katana_t_4", () -> new KatanaT4Item());
+	public static final RegistryObject<Item> BOTTLE_2 = REGISTRY.register("bottle_2", () -> new Bottle2Item());
+	public static final RegistryObject<Item> VODKA_2 = REGISTRY.register("vodka_2", () -> new Vodka2Item());
+	public static final RegistryObject<Item> VODKA_3 = REGISTRY.register("vodka_3", () -> new Vodka3Item());
+	public static final RegistryObject<Item> BOTTLE_3 = REGISTRY.register("bottle_3", () -> new Bottle3Item());
+	public static final RegistryObject<Item> WHITE_GLICH_BLOCK = block(GrimmscraftModBlocks.WHITE_GLICH_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

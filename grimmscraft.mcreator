@@ -3089,6 +3089,194 @@
       "locked_code": false,
       "registry_name": "esryrdy_5y_5ry_54y_4yert_armor_boots_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "KatanaT4",
+      "type": "tool",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_4",
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT4LivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_4_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "KatanaT4ItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_4_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "Bottle2",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_2",
+      "path": "~/Food"
+    },
+    {
+      "name": "Vodka2PlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_2_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "Vodka2",
+      "type": "item",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_2",
+      "path": "~/Food"
+    },
+    {
+      "name": "Vodka3",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_3",
+      "path": "~/Food"
+    },
+    {
+      "name": "Bottle3",
+      "type": "item",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_3",
+      "path": "~/Food"
+    },
+    {
+      "name": "Vodka3PlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_3_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "WhiteGlichBlock",
+      "type": "block",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_glich_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "WhiteGlichBlockRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_glich_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Bottle2Recipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_2_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Bottle3Recipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_3_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Vodka2Recipe",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_2_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Vodka3Recipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka_3_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "KatanaT4Recipe",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_t_4_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -3159,6 +3347,7 @@
       "item.grimmscraft.tanium_sword": "Tanium Sword",
       "block.grimmscraft.thorium_block": "Block of Thorium",
       "block.grimmscraft.tatanium_block": "Block of Tatanium",
+      "block.grimmscraft.white_glich_block": "Glich Block",
       "block.grimmscraft.white_fence_gate": "White Fence Gate",
       "item.grimmscraft.tanium_axe": "Tanium Axe",
       "block.grimmscraft.diamond_tree_log": "DiamondTree Log",
@@ -3181,6 +3370,7 @@
       "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",
       "item.grimmscraft.katana_t_3": "Katana",
       "block.grimmscraft.tatatanium_ore": "Tatatanium Ore",
+      "item.grimmscraft.katana_t_4": "Katana",
       "item.grimmscraft.steel": "Steel",
       "item.grimmscraft.tatatatanium_armor_leggings": "Tatatatanium Leggings",
       "item.grimmscraft.printed_paper": "Printed Paper",
@@ -3193,9 +3383,11 @@
       "item.grimmscraft.vodka_1": "Vodka",
       "item.grimmscraft.forged_steel_t_3": "Steel",
       "item.grimmscraft.forged_steel_t_6": "Steel",
+      "item.grimmscraft.vodka_2": "Vodka 2",
       "item.grimmscraft.tier_3_coal": "Tier 3 Coal",
       "item.grimmscraft.printer_cartridge": "Printer Cartridge",
       "item.grimmscraft.forged_steel_t_5": "Steel",
+      "item.grimmscraft.vodka_3": "Vodka",
       "item.grimmscraft.forged_steel_t_8": "Steel",
       "item.grimmscraft.forged_steel_t_7": "Steel",
       "item.grimmscraft.tatatatanium_axe": "Tatatatanium Axe",
@@ -3223,11 +3415,13 @@
       "block.grimmscraft.printer": "Printer",
       "item.grimmscraft.uranium_ingot": "Uranium",
       "item.grimmscraft.catalyst_base": "Catalyst Base",
+      "item.grimmscraft.bottle_2": "Bottle",
       "block.grimmscraft.diamond_tree_planks": "DiamondTree Planks",
       "item.grimmscraft.tanium_armor_leggings": "Tanium Leggings",
       "block.grimmscraft.solar_panel_t_1": "Solar Panel T 1",
       "block.grimmscraft.black_wood": "Black Wood",
       "item.grimmscraft.tatatanium_axe": "Tatatanium Axe",
+      "item.grimmscraft.bottle_3": "Bottle",
       "item.grimmscraft.white_glich": "Glich",
       "item.grimmscraft.thorium_ingot": "Thorium",
       "item.grimmscraft.tatanium_axe": "Tatanium Axe",
