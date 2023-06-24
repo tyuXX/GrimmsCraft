@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "grimmscraft:block/white_slab"
+    },
+    "type=top": {
+      "model": "grimmscraft:block/white_slab_top"
+    },
+    "type=double": {
+      "model": "grimmscraft:block/white_slab_full"
+    }
+  }
+}

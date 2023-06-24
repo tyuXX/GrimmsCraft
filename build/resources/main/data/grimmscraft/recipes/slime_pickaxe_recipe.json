@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_ball"
+    },
+    "1": {
+      "item": "minecraft:slime_ball"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:slime_pickaxe",
+    "count": 1
+  }
+}

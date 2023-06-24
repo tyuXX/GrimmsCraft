@@ -3,30 +3,27 @@ package tyuxx.grimmscraft.item;
 
 import tyuxx.grimmscraft.init.GrimmscraftModItems;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
 
 public abstract class TatatataniumArmorItem extends ArmorItem {
-	public TatatataniumArmorItem(EquipmentSlot slot, Item.Properties properties) {
+	public TatatataniumArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 75;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 75;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{10, 30, 25, 10}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{10, 30, 25, 10}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -36,7 +33,7 @@ public abstract class TatatataniumArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return SoundEvents.EMPTY;
 			}
 
 			@Override
@@ -58,12 +55,12 @@ public abstract class TatatataniumArmorItem extends ArmorItem {
 			public float getKnockbackResistance() {
 				return 0f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends TatatataniumArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
 
 		@Override
@@ -74,7 +71,7 @@ public abstract class TatatataniumArmorItem extends ArmorItem {
 
 	public static class Chestplate extends TatatataniumArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -85,7 +82,7 @@ public abstract class TatatataniumArmorItem extends ArmorItem {
 
 	public static class Leggings extends TatatataniumArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
 
 		@Override
@@ -96,7 +93,7 @@ public abstract class TatatataniumArmorItem extends ArmorItem {
 
 	public static class Boots extends TatatataniumArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
 
 		@Override

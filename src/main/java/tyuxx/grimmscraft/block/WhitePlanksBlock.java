@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class WhitePlanksBlock extends Block {
 	public WhitePlanksBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.2f, 0.4754679577383341f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.2f, 0.4754679577f));
 	}
 
 	@Override

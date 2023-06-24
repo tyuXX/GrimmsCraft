@@ -10,7 +10,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -20,10 +19,7 @@ import java.util.List;
 
 public class Vodka1Item extends Item {
 	public Vodka1Item() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(16).rarity(Rarity.UNCOMMON)
-				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f).alwaysEat()
-
-						.build()));
+		super(new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f).alwaysEat().build()));
 	}
 
 	@Override
@@ -44,7 +40,6 @@ public class Vodka1Item extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		Vodka1PlayerFinishesUsingItemProcedure.execute(entity);
 		if (itemstack.isEmpty()) {
 			return retval;

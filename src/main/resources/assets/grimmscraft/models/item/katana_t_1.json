@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/katanain",
+  "textures": {
+    "1": "grimmscraft:block/katanainosuketexture",
+    "particle": "grimmscraft:item/katanainosuketexture"
+  }
+}

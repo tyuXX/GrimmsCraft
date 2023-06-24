@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "1": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "2": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "3": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "4": {
+      "item": "grimmscraft:white_button"
+    },
+    "5": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "6": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "7": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "8": {
+      "item": "grimmscraft:hot_steel"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:button_of_doom",
+    "count": 1
+  }
+}

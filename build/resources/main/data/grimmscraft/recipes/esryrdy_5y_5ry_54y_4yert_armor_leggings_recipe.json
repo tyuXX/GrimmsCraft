@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:white_glich"
+    },
+    "1": {
+      "item": "grimmscraft:white_glich"
+    },
+    "2": {
+      "item": "grimmscraft:white_glich"
+    },
+    "3": {
+      "item": "grimmscraft:white_glich"
+    },
+    "5": {
+      "item": "grimmscraft:white_glich"
+    },
+    "6": {
+      "item": "grimmscraft:white_glich"
+    },
+    "8": {
+      "item": "grimmscraft:white_glich"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:white_glich_armor_leggings",
+    "count": 1
+  }
+}

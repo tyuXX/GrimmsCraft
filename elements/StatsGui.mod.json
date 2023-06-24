@@ -1,0 +1,173 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "PlayerModelTransformer"
+          },
+          "scale": 20,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 141,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_perm_regen_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "PermRegenGuiValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_upgrade_regen",
+          "text": "Upgrade Regen",
+          "onClick": {
+            "name": "PermRegenUpgrade"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 132,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_level_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "LevelGuiValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_statp_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "StatpGuiValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_perm_resist_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "PermResistGuiValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_upgrade_resistance",
+          "text": "Upgrade Resistance",
+          "onClick": {
+            "name": "PermResistUpgrade"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_perm_strenght_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "PermStrenghtGuiValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_upgrade_strength",
+          "text": "Upgrade Strength",
+          "onClick": {
+            "name": "PermStrengthUpgrade"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_l_xp_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "LXpGuiValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

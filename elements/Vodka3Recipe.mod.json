@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Bottle3"
+      },
+      {
+        "value": "Items.FISH#3"
+      },
+      {
+        "value": "Items.FISH#3"
+      },
+      {
+        "value": "Items.FISH#3"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Vodka3"
+    },
+    "name": "vodka_3_recipe",
+    "namespace": "mod"
+  }
+}

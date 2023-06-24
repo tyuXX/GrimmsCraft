@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "katanainosukediamond",
+    "customModelName": "diamondkatanain:default",
+    "name": "Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.3,
+    "enchantability": 15,
+    "damageVsEntity": 7.0,
+    "usageCount": 20000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "KatanaT2ItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "KatanaT2LivingEntityIsHitWithTool"
+    }
+  }
+}

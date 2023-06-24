@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "N",
+    "keyBindingName": "Open Status Toggle Window",
+    "keyBindingCategoryKey": "gmc",
+    "onKeyPressed": {
+      "name": "OpenStatusToggleWindow"
+    }
+  }
+}

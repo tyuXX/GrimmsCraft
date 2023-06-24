@@ -8,7 +8,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class TatatataniumShovelItem extends ShovelItem {
 	public TatatataniumShovelItem() {
@@ -36,6 +35,6 @@ public class TatatataniumShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(GrimmscraftModItems.TATATATANIUM_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties());
 	}
 }

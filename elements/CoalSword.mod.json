@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "coal_sword",
+    "customModelName": "Normal",
+    "name": "Coal Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 6,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 41,
+    "damageVsEntity": 6.0,
+    "usageCount": 1110,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.COAL#0"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

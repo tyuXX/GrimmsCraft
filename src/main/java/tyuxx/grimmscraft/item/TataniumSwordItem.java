@@ -8,7 +8,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class TataniumSwordItem extends SwordItem {
 	public TataniumSwordItem() {
@@ -36,6 +35,6 @@ public class TataniumSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(GrimmscraftModItems.TATANIUM_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties());
 	}
 }

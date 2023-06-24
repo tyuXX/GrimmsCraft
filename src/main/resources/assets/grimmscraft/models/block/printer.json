@@ -1,0 +1,9 @@
+{
+  "parent": "grimmscraft:custom/printer",
+  "textures": {
+    "all": "grimmscraft:block/printer",
+    "particle": "grimmscraft:block/printer",
+    "0": "grimmscraft:block/printer"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "Open Status Window",
+    "keyBindingCategoryKey": "gmc",
+    "onKeyPressed": {
+      "name": "OpenStatusWindow"
+    }
+  }
+}

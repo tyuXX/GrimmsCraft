@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ForgedHotSteelT8"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:UraniumIngot"
+      },
+      {
+        "value": "CUSTOM:Bottle1"
+      },
+      {
+        "value": "CUSTOM:ForgedHotSteelT7"
+      },
+      {
+        "value": "CUSTOM:Bottle1"
+      },
+      {
+        "value": "CUSTOM:ThoriumIngot"
+      },
+      {
+        "value": "CUSTOM:PrintedPaper"
+      },
+      {
+        "value": "CUSTOM:ForgedHotSteelT7"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WhiteGlich"
+    },
+    "name": "white_glich_recipe",
+    "namespace": "mod"
+  }
+}

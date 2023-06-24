@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone"
+    },
+    "1": {
+      "item": "minecraft:glowstone"
+    },
+    "2": {
+      "item": "minecraft:glowstone"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:glowstone_pickaxe",
+    "count": 1
+  }
+}

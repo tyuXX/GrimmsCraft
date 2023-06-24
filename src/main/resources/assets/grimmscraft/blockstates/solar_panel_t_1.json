@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "grimmscraft:block/solar_panel_t_1"
+    },
+    "type=top": {
+      "model": "grimmscraft:block/solar_panel_t_1_top"
+    },
+    "type=double": {
+      "model": "grimmscraft:block/solar_panel_t_1_full"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:TntX81"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:TntX81"
+      },
+      {
+        "value": "CUSTOM:WhiteButton"
+      },
+      {
+        "value": "CUSTOM:TntX81"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:TntX81"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ButtonOfDoom"
+    },
+    "name": "button_of_doom_recipe",
+    "namespace": "mod"
+  }
+}

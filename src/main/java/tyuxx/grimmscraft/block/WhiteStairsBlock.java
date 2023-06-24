@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class WhiteStairsBlock extends StairBlock {
 	public WhiteStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.3f, 0.2f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.3f, 0.2f).dynamicShape());
 	}
 
 	@Override

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grimmscraft:block/tntx9bottom",
+    "up": "grimmscraft:block/tntx9top",
+    "north": "grimmscraft:block/tntx9front",
+    "east": "grimmscraft:block/tntx9sides",
+    "south": "grimmscraft:block/tntx9sides",
+    "west": "grimmscraft:block/tntx9sides",
+    "particle": "grimmscraft:block/tntx9bottom"
+  },
+  "render_type": "solid"
+}

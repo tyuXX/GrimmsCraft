@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "grimmscraft:printed_paper"
+    },
+    {
+      "item": "grimmscraft:printed_paper"
+    },
+    {
+      "item": "grimmscraft:printed_paper"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "grimmscraft:carton",
+    "count": 2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      },
+      {
+        "value": "CUSTOM:TntX9"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TntX81"
+    },
+    "name": "tnt_x_81_recipe",
+    "namespace": "mod"
+  }
+}

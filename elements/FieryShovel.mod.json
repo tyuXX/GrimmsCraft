@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "fiery_shovel",
+    "customModelName": "Normal",
+    "name": "Fiery Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 15,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 104,
+    "damageVsEntity": 15.0,
+    "usageCount": 4120,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.BLAZE_ROD"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

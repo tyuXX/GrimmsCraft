@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_rod"
+    },
+    "1": {
+      "item": "minecraft:blaze_rod"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:fiery_pickaxe",
+    "count": 1
+  }
+}

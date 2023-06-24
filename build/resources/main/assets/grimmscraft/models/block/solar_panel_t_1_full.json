@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "grimmscraft:block/machinebottomt1",
+    "top": "grimmscraft:block/solarpaneltop",
+    "side": "grimmscraft:block/machinesidet1"
+  },
+  "render_type": "solid"
+}

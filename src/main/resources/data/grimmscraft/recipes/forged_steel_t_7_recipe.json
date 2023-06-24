@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "grimmscraft:forged_hot_steel_t_6"
+  },
+  "addition": {
+    "item": "grimmscraft:forged_hot_steel_t_6"
+  },
+  "result": {
+    "item": "grimmscraft:forged_steel_t_7"
+  }
+}

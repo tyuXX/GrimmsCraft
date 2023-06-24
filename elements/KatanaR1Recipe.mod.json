@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WhiteGlichBlock"
+      },
+      {
+        "value": "CUSTOM:ForgedHotSteelT9"
+      },
+      {
+        "value": "CUSTOM:WhiteGlichBlock"
+      },
+      {
+        "value": "CUSTOM:ForgedHotSteelT9"
+      },
+      {
+        "value": "CUSTOM:KatanaT4"
+      },
+      {
+        "value": "CUSTOM:ForgedHotSteelT9"
+      },
+      {
+        "value": "CUSTOM:WhiteGlichBlock"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:WhiteGlichBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KatanaR1"
+    },
+    "name": "katana_r_1_recipe",
+    "namespace": "mod"
+  }
+}

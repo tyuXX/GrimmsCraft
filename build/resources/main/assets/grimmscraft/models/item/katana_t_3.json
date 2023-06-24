@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/katanainnetherite",
+  "textures": {
+    "1": "grimmscraft:block/netheritekatanainosuketexture",
+    "particle": "grimmscraft:item/netheritekatanainosuketexture"
+  }
+}

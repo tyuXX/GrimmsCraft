@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "paper_axe",
+    "customModelName": "Normal",
+    "name": "Paper Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 3.0,
+    "attackSpeed": 1.0,
+    "enchantability": 6,
+    "damageVsEntity": 1.0,
+    "usageCount": 69,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.PAPER"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

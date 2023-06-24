@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "grimmscraft:block/printer"
+    },
+    "facing=east": {
+      "model": "grimmscraft:block/printer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "grimmscraft:block/printer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "grimmscraft:block/printer",
+      "y": 270
+    }
+  }
+}

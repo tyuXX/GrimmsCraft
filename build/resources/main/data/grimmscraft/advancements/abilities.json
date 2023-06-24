@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "grimmscraft:vodka_2"
+    },
+    "title": {
+      "translate": "advancements.abilities.title"
+    },
+    "description": {
+      "translate": "advancements.abilities.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abilities": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "grimmscraft:start"
+}

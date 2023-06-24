@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "grimmscraft:item/coal_hoe"
+  }
+}

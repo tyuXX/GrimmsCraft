@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ForgedHotSteelT1"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ForgedHotSteelT1"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ForgedSteelT2"
+    },
+    "name": "forged_steel_t_2_recipe",
+    "namespace": "mod"
+  }
+}

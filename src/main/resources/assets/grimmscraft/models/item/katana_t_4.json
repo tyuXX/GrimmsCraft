@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/katanainglich",
+  "textures": {
+    "1": "grimmscraft:block/glichedkatana",
+    "particle": "grimmscraft:item/glichedkatana"
+  }
+}

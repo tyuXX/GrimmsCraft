@@ -1,0 +1,14 @@
+{
+  "parent": "grimmscraft:custom/rrevolver",
+  "textures": {
+    "78": "grimmscraft:block/darker_wood_2",
+    "24": "grimmscraft:block/barrett_sandy_metal_darker_2",
+    "2": "grimmscraft:block/aa12_drum",
+    "25": "grimmscraft:block/barrett_sandy_metal",
+    "3": "grimmscraft:block/aa12_grip",
+    "5": "grimmscraft:block/aa12_outside",
+    "6": "grimmscraft:block/aa12_shoulder",
+    "7": "grimmscraft:block/ak47_black",
+    "particle": "grimmscraft:item/whitenoise"
+  }
+}

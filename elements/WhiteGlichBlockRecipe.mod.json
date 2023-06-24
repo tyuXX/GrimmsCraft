@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      },
+      {
+        "value": "CUSTOM:WhiteGlich"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WhiteGlichBlock"
+    },
+    "name": "white_glich_block_recipe",
+    "namespace": "mod"
+  }
+}

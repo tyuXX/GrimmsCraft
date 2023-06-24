@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:forged_hot_steel_t_8"
+    },
+    "1": {
+      "item": "minecraft:diamond_block"
+    },
+    "2": {
+      "item": "grimmscraft:uranium_ingot"
+    },
+    "3": {
+      "item": "grimmscraft:bottle_1"
+    },
+    "4": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "5": {
+      "item": "grimmscraft:bottle_1"
+    },
+    "6": {
+      "item": "grimmscraft:thorium_ingot"
+    },
+    "7": {
+      "item": "grimmscraft:printed_paper"
+    },
+    "8": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:white_glich",
+    "count": 1
+  }
+}

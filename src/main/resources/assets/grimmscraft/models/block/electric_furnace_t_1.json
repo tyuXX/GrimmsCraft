@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grimmscraft:block/machinebottomt1",
+    "up": "grimmscraft:block/machinebottomt1",
+    "north": "grimmscraft:block/furnacefrontt1",
+    "east": "grimmscraft:block/machinesidet1",
+    "south": "grimmscraft:block/machinesidet1",
+    "west": "grimmscraft:block/machinesidet1",
+    "particle": "grimmscraft:block/machinebottomt1"
+  },
+  "render_type": "solid"
+}

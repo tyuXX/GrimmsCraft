@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:white_glich"
+    },
+    "2": {
+      "item": "grimmscraft:white_glich"
+    },
+    "3": {
+      "item": "grimmscraft:white_glich"
+    },
+    "5": {
+      "item": "grimmscraft:white_glich"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:white_glich_armor_boots",
+    "count": 1
+  }
+}

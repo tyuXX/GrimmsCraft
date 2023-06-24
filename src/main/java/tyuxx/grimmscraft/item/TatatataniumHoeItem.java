@@ -8,7 +8,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class TatatataniumHoeItem extends HoeItem {
 	public TatatataniumHoeItem() {
@@ -36,6 +35,6 @@ public class TatatataniumHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(GrimmscraftModItems.TATATATANIUM_INGOT.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -3f, new Item.Properties());
 	}
 }

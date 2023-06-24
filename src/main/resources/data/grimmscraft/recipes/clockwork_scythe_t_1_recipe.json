@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:white_glich_block"
+    },
+    "1": {
+      "item": "grimmscraft:white_glich_block"
+    },
+    "2": {
+      "item": "grimmscraft:white_glich_block"
+    },
+    "3": {
+      "item": "grimmscraft:forged_hot_steel_t_9"
+    },
+    "4": {
+      "item": "grimmscraft:clockwork_scythe_t_0"
+    },
+    "5": {
+      "item": "grimmscraft:forged_hot_steel_t_9"
+    },
+    "6": {
+      "item": "grimmscraft:white_glich_block"
+    },
+    "7": {
+      "item": "grimmscraft:forged_hot_steel_t_9"
+    },
+    "8": {
+      "item": "grimmscraft:forged_hot_steel_t_9"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:clockwork_scythe_t_1",
+    "count": 1
+  }
+}

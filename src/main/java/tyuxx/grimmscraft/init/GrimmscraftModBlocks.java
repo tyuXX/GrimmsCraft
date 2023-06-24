@@ -17,6 +17,8 @@ import tyuxx.grimmscraft.block.WhiteFenceBlock;
 import tyuxx.grimmscraft.block.WhiteButtonBlock;
 import tyuxx.grimmscraft.block.UraniumOreBlock;
 import tyuxx.grimmscraft.block.UraniumBlockBlock;
+import tyuxx.grimmscraft.block.TntX9Block;
+import tyuxx.grimmscraft.block.TntX81Block;
 import tyuxx.grimmscraft.block.ThoriumOreBlock;
 import tyuxx.grimmscraft.block.ThoriumBlockBlock;
 import tyuxx.grimmscraft.block.TatatatataniumOreBlock;
@@ -99,10 +101,8 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> DIAMOND_TREE_STAIRS = REGISTRY.register("diamond_tree_stairs", () -> new DiamondTreeStairsBlock());
 	public static final RegistryObject<Block> DIAMOND_TREE_SLAB = REGISTRY.register("diamond_tree_slab", () -> new DiamondTreeSlabBlock());
 	public static final RegistryObject<Block> DIAMOND_TREE_FENCE = REGISTRY.register("diamond_tree_fence", () -> new DiamondTreeFenceBlock());
-	public static final RegistryObject<Block> DIAMOND_TREE_FENCE_GATE = REGISTRY.register("diamond_tree_fence_gate",
-			() -> new DiamondTreeFenceGateBlock());
-	public static final RegistryObject<Block> DIAMOND_TREE_PRESSURE_PLATE = REGISTRY.register("diamond_tree_pressure_plate",
-			() -> new DiamondTreePressurePlateBlock());
+	public static final RegistryObject<Block> DIAMOND_TREE_FENCE_GATE = REGISTRY.register("diamond_tree_fence_gate", () -> new DiamondTreeFenceGateBlock());
+	public static final RegistryObject<Block> DIAMOND_TREE_PRESSURE_PLATE = REGISTRY.register("diamond_tree_pressure_plate", () -> new DiamondTreePressurePlateBlock());
 	public static final RegistryObject<Block> DIAMOND_TREE_BUTTON = REGISTRY.register("diamond_tree_button", () -> new DiamondTreeButtonBlock());
 	public static final RegistryObject<Block> PRINTER = REGISTRY.register("printer", () -> new PrinterBlock());
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
@@ -112,4 +112,6 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> SOLAR_PANEL_T_1 = REGISTRY.register("solar_panel_t_1", () -> new SolarPanelT1Block());
 	public static final RegistryObject<Block> ELECTRIC_FURNACE_T_1 = REGISTRY.register("electric_furnace_t_1", () -> new ElectricFurnaceT1Block());
 	public static final RegistryObject<Block> WHITE_GLICH_BLOCK = REGISTRY.register("white_glich_block", () -> new WhiteGlichBlockBlock());
+	public static final RegistryObject<Block> TNT_X_9 = REGISTRY.register("tnt_x_9", () -> new TntX9Block());
+	public static final RegistryObject<Block> TNT_X_81 = REGISTRY.register("tnt_x_81", () -> new TntX81Block());
 }

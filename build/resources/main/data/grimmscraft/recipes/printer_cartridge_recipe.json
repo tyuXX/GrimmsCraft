@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "item": "grimmscraft:dye_stack"
+    },
+    "4": {
+      "item": "grimmscraft:dye_stack"
+    },
+    "5": {
+      "item": "grimmscraft:dye_stack"
+    },
+    "6": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "item": "minecraft:iron_nugget"
+    },
+    "8": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:printer_cartridge",
+    "count": 1
+  }
+}

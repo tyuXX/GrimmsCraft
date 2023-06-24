@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "3": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "5": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "6": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "8": {
+      "tag": "forge:stained_glass_panes"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:bottle_1",
+    "count": 1
+  }
+}

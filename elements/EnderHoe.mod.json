@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ender_hoe",
+    "customModelName": "Normal",
+    "name": "Ender Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 17,
+    "efficiency": 21.0,
+    "attackSpeed": 1.0,
+    "enchantability": 116,
+    "damageVsEntity": 17.0,
+    "usageCount": 4838,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.ENDER_EYE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

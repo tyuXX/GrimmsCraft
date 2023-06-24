@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "3": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "4": {
+      "item": "grimmscraft:katana_t_1"
+    },
+    "5": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    },
+    "7": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "8": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:katana_t_2",
+    "count": 1
+  }
+}

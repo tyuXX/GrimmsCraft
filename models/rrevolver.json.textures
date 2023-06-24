@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "78": "darker_wood_2",
+        "24": "barrett_sandy_metal_darker_2",
+        "2": "aa12_drum",
+        "25": "barrett_sandy_metal",
+        "3": "aa12_grip",
+        "5": "aa12_outside",
+        "6": "aa12_shoulder",
+        "7": "ak47_black"
+      },
+      "name": "default"
+    }
+  }
+}

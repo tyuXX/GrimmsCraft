@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_block"
+    },
+    "1": {
+      "item": "grimmscraft:forged_hot_steel_t_8"
+    },
+    "2": {
+      "item": "minecraft:netherite_block"
+    },
+    "3": {
+      "item": "grimmscraft:forged_hot_steel_t_8"
+    },
+    "4": {
+      "item": "grimmscraft:katana_t_2"
+    },
+    "5": {
+      "item": "grimmscraft:forged_hot_steel_t_8"
+    },
+    "6": {
+      "item": "minecraft:netherite_block"
+    },
+    "7": {
+      "item": "grimmscraft:forged_hot_steel_t_8"
+    },
+    "8": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:katana_t_3",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tnt"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "minecraft:tnt"
+    },
+    "3": {
+      "item": "minecraft:tnt"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "minecraft:tnt"
+    },
+    "6": {
+      "item": "minecraft:tnt"
+    },
+    "7": {
+      "item": "minecraft:tnt"
+    },
+    "8": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:tnt_x_9",
+    "count": 1
+  }
+}

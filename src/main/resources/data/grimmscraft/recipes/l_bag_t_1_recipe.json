@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "grimmscraft:carton"
+    },
+    {
+      "item": "grimmscraft:carton"
+    },
+    {
+      "item": "grimmscraft:carton"
+    },
+    {
+      "item": "grimmscraft:carton"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "grimmscraft:l_bag_t_1",
+    "count": 1
+  }
+}

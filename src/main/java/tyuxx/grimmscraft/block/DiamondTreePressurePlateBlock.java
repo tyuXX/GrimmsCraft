@@ -3,6 +3,7 @@ package tyuxx.grimmscraft.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -17,7 +18,7 @@ import java.util.Collections;
 
 public class DiamondTreePressurePlateBlock extends PressurePlateBlock {
 	public DiamondTreePressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.2f, 0.3f).dynamicShape());
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.2f, 0.3f).dynamicShape(), BlockSetType.OAK);
 	}
 
 	@Override

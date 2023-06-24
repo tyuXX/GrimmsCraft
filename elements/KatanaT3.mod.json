@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "netheritekatanainosuketexture",
+    "customModelName": "katanainnetherite:default",
+    "name": "Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.5,
+    "enchantability": 20,
+    "damageVsEntity": 10.0,
+    "usageCount": 30000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "KatanaT3ItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "KatanaT3LivingEntityIsHitWithTool"
+    }
+  }
+}
