@@ -39,7 +39,7 @@ public class AzureSaberHitProcedure {
 				}
 			}, (float) (itemstack.getOrCreateTag().getDouble("lvl") * itemstack.getOrCreateTag().getDouble("rank") * itemstack.getOrCreateTag().getDouble("lvld") * itemstack.getOrCreateTag().getDouble("combo")));
 		itemstack.setHoverName(Component.literal((("\u00A76\"" + "" + itemstack.getOrCreateTag().getString("name") + "\"") + "/\u00A74LvL" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("lvl")) + "\u00A76/\u00A74Rank"
-				+ new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("rank")))));
+				+ new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("rank")) + "\u00A7r")));
 		if (entity instanceof Player _player && !_player.level.isClientSide())
 			_player.displayClientMessage(Component.literal(("\u00A72Combo:\u00A76\u00A7l" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("combo")))), true);
 	}

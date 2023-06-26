@@ -9273,8 +9273,8 @@
       "registry_name": "azure_saber",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/AzureSaberItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/azure_saber.json"
+          "src/main/resources/assets/grimmscraft/models/item/azure_saber.json",
+          "src/main/java/tyuxx/grimmscraft/item/AzureSaberItem.java"
         ]
       },
       "path": "~/Special"
@@ -9595,6 +9595,231 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "OnRespawn",
+      "type": "procedure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_respawn",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/OnRespawnProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "AzureSaberHUD",
+      "type": "overlay",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azure_saber_hud",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/client/screens/AzureSaberHUDOverlay.java"
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "AzureSaberHUDDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azure_saber_hud_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/AzureSaberHUDDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "DeathHUD",
+      "type": "overlay",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_hud",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/client/screens/DeathHUDOverlay.java"
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "GetItemKillsText",
+      "type": "procedure",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_kills_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemKillsTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemNameText",
+      "type": "procedure",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_name_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemNameTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemXpText",
+      "type": "procedure",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_xp_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemXpTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemLvLText",
+      "type": "procedure",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_lv_l_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemLvLTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemRankText",
+      "type": "procedure",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_rank_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemRankTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemComboText",
+      "type": "procedure",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_combo_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemComboTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "Soulbound",
+      "type": "enchantment",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulbound",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/enchantment/SoulboundEnchantment.java"
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "GetItemRevivesText",
+      "type": "procedure",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_revives_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemRevivesTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
     }
   ],
   "variable_elements": [
@@ -9954,6 +10179,7 @@
       "block.grimmscraft.diamond_tree_fence_gate": "DiamondTree Fence Gate",
       "block.grimmscraft.tatatatanium_block": "Block of Tatatatanium",
       "item.grimmscraft.redstone_wire": "Redstone Wire",
+      "enchantment.grimmscraft.soulbound": "Soulbound",
       "item.grimmscraft.obsidian_hoe": "Obsidian Hoe",
       "item.grimmscraft.tanium_pickaxe": "Tanium Pickaxe",
       "gui.grimmscraft.geiger_counter_hud.label_radiationvarintegerradiation": "Radiation:\u003cVAR:integer:radiation\u003e/\u003cVAR:integer:maxradiation\u003e",

@@ -4,6 +4,7 @@
  */
 package tyuxx.grimmscraft.init;
 
+import tyuxx.grimmscraft.enchantment.SoulboundEnchantment;
 import tyuxx.grimmscraft.enchantment.MoreXpT3Enchantment;
 import tyuxx.grimmscraft.enchantment.MoreXpT2Enchantment;
 import tyuxx.grimmscraft.enchantment.MoreXpT1Enchantment;
@@ -20,4 +21,5 @@ public class GrimmscraftModEnchantments {
 	public static final RegistryObject<Enchantment> MORE_XP_T_1 = REGISTRY.register("more_xp_t_1", () -> new MoreXpT1Enchantment());
 	public static final RegistryObject<Enchantment> MORE_XP_T_2 = REGISTRY.register("more_xp_t_2", () -> new MoreXpT2Enchantment());
 	public static final RegistryObject<Enchantment> MORE_XP_T_3 = REGISTRY.register("more_xp_t_3", () -> new MoreXpT3Enchantment());
+	public static final RegistryObject<Enchantment> SOULBOUND = REGISTRY.register("soulbound", () -> new SoulboundEnchantment());
 }

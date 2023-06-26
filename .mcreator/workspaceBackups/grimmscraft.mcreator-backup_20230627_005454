@@ -8067,28 +8067,8 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -8524,86 +8504,6 @@
         ]
       },
       "path": "~/Technical/Items"
-    },
-    {
-      "name": "ClockworkGUISetName",
-      "type": "procedure",
-      "sortid": 528,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clockwork_gui_set_name",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/ClockworkGUISetNameProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
-    },
-    {
-      "name": "ClockworkRenameGui",
-      "type": "gui",
-      "sortid": 529,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clockwork_rename_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/network/ClockworkRenameGuiButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/ClockworkRenameGuiScreen.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/ClockworkRenameGuiMenu.java"
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "OpenClockworkGUI",
-      "type": "procedure",
-      "sortid": 530,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_clockwork_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OpenClockworkGUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
     },
     {
       "name": "DigitalClock",
@@ -9240,86 +9140,6 @@
       "path": "~/Special"
     },
     {
-      "name": "ClockworkT2RenameGUI",
-      "type": "gui",
-      "sortid": 561,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clockwork_t_2_rename_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/network/ClockworkT2RenameGUIButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/ClockworkT2RenameGUIMenu.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/ClockworkT2RenameGUIScreen.java"
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "ClockworkT3RenameGUI",
-      "type": "gui",
-      "sortid": 562,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clockwork_t_3_rename_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/network/ClockworkT3RenameGUIButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/ClockworkT3RenameGUIMenu.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/ClockworkT3RenameGUIScreen.java"
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "ClockworkT4RenameGUI",
-      "type": "gui",
-      "sortid": 563,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clockwork_t_4_rename_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/network/ClockworkT4RenameGUIButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/ClockworkT4RenameGUIScreen.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/ClockworkT4RenameGUIMenu.java"
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "ClockworkR1RenameGUI",
-      "type": "gui",
-      "sortid": 564,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clockwork_r_1_rename_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/network/ClockworkR1RenameGUIButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/ClockworkR1RenameGUIScreen.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/ClockworkR1RenameGUIMenu.java"
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "AzureSaberRenameGUI",
-      "type": "gui",
-      "sortid": 565,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "azure_saber_rename_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/world/inventory/AzureSaberRenameGUIMenu.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/AzureSaberRenameGUIScreen.java",
-          "src/main/java/tyuxx/grimmscraft/network/AzureSaberRenameGUIButtonMessage.java"
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
       "name": "ClockworkScyteT2CraftedSmelted",
       "type": "procedure",
       "sortid": 566,
@@ -9332,28 +9152,8 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -9372,28 +9172,8 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -9412,28 +9192,8 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -9452,28 +9212,8 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -9533,8 +9273,8 @@
       "registry_name": "azure_saber",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/AzureSaberItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/azure_saber.json"
+          "src/main/resources/assets/grimmscraft/models/item/azure_saber.json",
+          "src/main/java/tyuxx/grimmscraft/item/AzureSaberItem.java"
         ]
       },
       "path": "~/Special"
@@ -9602,186 +9342,6 @@
         ]
       },
       "path": "~/Special"
-    },
-    {
-      "name": "OpenClockworkT2GUI",
-      "type": "procedure",
-      "sortid": 577,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_clockwork_t_2_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OpenClockworkT2GUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
-    },
-    {
-      "name": "OpenClockworkT3GUI",
-      "type": "procedure",
-      "sortid": 578,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_clockwork_t_3_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OpenClockworkT3GUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
-    },
-    {
-      "name": "OpenClockworkT4GUI",
-      "type": "procedure",
-      "sortid": 579,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_clockwork_t_4_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OpenClockworkT4GUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
-    },
-    {
-      "name": "OpenClockworkR1GUI",
-      "type": "procedure",
-      "sortid": 580,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_clockwork_r_1_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OpenClockworkR1GUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
-    },
-    {
-      "name": "OpenAzureSaberGUI",
-      "type": "procedure",
-      "sortid": 581,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_azure_saber_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OpenAzureSaberGUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procs"
     },
     {
       "name": "AzureSaberRightclicked",
@@ -9997,6 +9557,282 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "SetNamedItemName",
+      "type": "procedure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_named_item_name",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/SetNamedItemNameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "NameItem",
+      "type": "command",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_item",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/command/NameItemCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "OnRespawn",
+      "type": "procedure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_respawn",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/OnRespawnProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "AzureSaberHUD",
+      "type": "overlay",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azure_saber_hud",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/client/screens/AzureSaberHUDOverlay.java"
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "AzureSaberHUDDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azure_saber_hud_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/AzureSaberHUDDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "DeathHUD",
+      "type": "overlay",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_hud",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/client/screens/DeathHUDOverlay.java"
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "GetItemKillsText",
+      "type": "procedure",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_kills_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemKillsTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemNameText",
+      "type": "procedure",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_name_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemNameTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemXpText",
+      "type": "procedure",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_xp_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemXpTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemLvLText",
+      "type": "procedure",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_lv_l_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemLvLTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemRankText",
+      "type": "procedure",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_rank_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemRankTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetItemComboText",
+      "type": "procedure",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_combo_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemComboTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "HardenedEventsListener",
+      "type": "code",
+      "sortid": 608,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "hardened_events_listener",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/HardenedEventsListener.java"
+        ]
+      }
+    },
+    {
+      "name": "Soulbound",
+      "type": "enchantment",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulbound",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/enchantment/SoulboundEnchantment.java"
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "GetItemRevivesText",
+      "type": "procedure",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_item_revives_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetItemRevivesTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
     }
   ],
   "variable_elements": [
@@ -10129,7 +9965,6 @@
       "item.grimmscraft.clockwork_scyte_r_1": "Clockwork Scythe",
       "block.grimmscraft.white_glich_block": "Glich Block",
       "item.grimmscraft.tanium_axe": "Tanium Axe",
-      "gui.grimmscraft.clockwork_rename_gui.button_done": "Done",
       "item.grimmscraft.lighter_t_3_closed": "Lighter T3",
       "block.grimmscraft.diamond_tree_log": "DiamondTree Log",
       "item.grimmscraft.tatanium_armor_chestplate": "Tatanium Chestplate",
@@ -10141,7 +9976,6 @@
       "item.grimmscraft.tatatatanium_pickaxe": "Tatatatanium Pickaxe",
       "item.grimmscraft.hot_steel": "Hot Steel",
       "item.grimmscraft.button_of_doom": "Button Of Doom",
-      "gui.grimmscraft.clockwork_r_1_rename_gui.cname": "",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
       "gui.grimmscraft.stats_toggle_gui.button_toggle_strength": "Toggle Strength",
       "item.grimmscraft.digital_clock": "Digital Clock",
@@ -10170,7 +10004,6 @@
       "item.grimmscraft.azure_silver": "Azure Silver",
       "item.grimmscraft.glowstone_hoe": "Glowstone Hoe",
       "item.grimmscraft.tatanium_hoe": "Tatanium Hoe",
-      "gui.grimmscraft.clockwork_t_4_rename_gui.label_clockwork_scyte_rename_center": "Clockwork Scyte Rename Center",
       "key.grimmscraft.open_status_toggle_window_key": "Open Status Toggle Window",
       "item.grimmscraft.lighter_t_1_open": "Lighter T1",
       "block.grimmscraft.diamond_tree_fence": "DiamondTree Fence",
@@ -10178,7 +10011,6 @@
       "item.grimmscraft.prismarine_sword": "Prismarine Sword",
       "item.grimmscraft.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
       "item.grimmscraft.netherrack_hoe": "Netherrack Hoe",
-      "gui.grimmscraft.clockwork_t_2_rename_gui.label_clockwork_scyte_rename_center": "Clockwork Scyte Rename Center",
       "item.grimmscraft.tatatatanium_shovel": "Tatatatanium Shovel",
       "item.grimmscraft.forged_steel_t_2": "Steel",
       "item.grimmscraft.forged_steel_t_1": "Steel",
@@ -10221,7 +10053,6 @@
       "block.grimmscraft.diamond_tree_wood": "DiamondTree Wood",
       "block.grimmscraft.white_leaves": "White Leaves",
       "item.grimmscraft.tatatanium_armor_helmet": "Tatatanium Helmet",
-      "gui.grimmscraft.clockwork_t_2_rename_gui.button_done": "Done",
       "item.grimmscraft.tanium_armor_helmet": "Tanium Helmet",
       "item.grimmscraft.obsidian_sword": "Obsidian Sword",
       "item.grimmscraft.clockwork_scythe_t_0": "Clockwork Scythe",
@@ -10240,7 +10071,6 @@
       "item.grimmscraft.tatanium_ingot": "Tatanium",
       "item.grimmscraft.tatatanium_sword": "Tatatanium Sword",
       "block.grimmscraft.black_button": "Black Button",
-      "gui.grimmscraft.clockwork_t_4_rename_gui.cname": "",
       "item.grimmscraft.gold_wire": "Gold Wire",
       "block.grimmscraft.tanium_ore": "Tanium Ore",
       "block.grimmscraft.fire_t_3": "Fire T3",
@@ -10263,7 +10093,6 @@
       "item.grimmscraft.slime_shovel": "Slime Shovel",
       "block.grimmscraft.black_fence": "Black Fence",
       "item.grimmscraft.generated_item": "Generated Item",
-      "gui.grimmscraft.clockwork_t_4_rename_gui.button_done": "Done",
       "item.grimmscraft.redstone_pickaxe": "Redstone Pickaxe",
       "item.grimmscraft.tha_wand": "Tha Wand",
       "item.grimmscraft.lapis_hoe": "Lapis Hoe",
@@ -10273,8 +10102,6 @@
       "item.grimmscraft.tatatatanium_ingot": "Tatatatanium",
       "item.grimmscraft.slime_pickaxe": "Slime Pickaxe",
       "item.grimmscraft.paper_pickaxe": "Paper Pickaxe",
-      "gui.grimmscraft.clockwork_t_3_rename_gui.label_clockwork_scyte_rename_center": "Clockwork Scyte Rename Center",
-      "gui.grimmscraft.clockwork_rename_gui.cname": "",
       "item.grimmscraft.tanium_sword": "Tanium Sword",
       "item.grimmscraft.netherrack_pickaxe": "Netherrack Pickaxe",
       "block.grimmscraft.tatanium_block": "Block of Tatanium",
@@ -10284,7 +10111,6 @@
       "block.grimmscraft.white_wood": "White Wood",
       "item.grimmscraft.coal_hoe": "Coal Hoe",
       "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
-      "gui.grimmscraft.clockwork_r_1_rename_gui.button_done": "Done",
       "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.bone_pickaxe": "Bone Pickaxe",
@@ -10312,7 +10138,6 @@
       "item.grimmscraft.glowstone_shovel": "Glowstone Shovel",
       "block.grimmscraft.tnt_x_81": "Tnt X 81",
       "item.grimmscraft.obsidian_shard": "Obsidian Shard",
-      "gui.grimmscraft.clockwork_t_2_rename_gui.cname": "",
       "item.grimmscraft.bone_sword": "Bone Sword",
       "item.grimmscraft.tatanium_pickaxe": "Tatanium Pickaxe",
       "item.grimmscraft.slime_axe": "Slime Axe",
@@ -10334,7 +10159,6 @@
       "item.grimmscraft.uranium_ingot": "Uranium",
       "item.grimmscraft.prismarine_shovel": "Prismarine Shovel",
       "block.grimmscraft.diamond_tree_planks": "DiamondTree Planks",
-      "gui.grimmscraft.azure_saber_rename_gui.label_clockwork_scyte_rename_center": "Clockwork Scyte Rename Center",
       "item.grimmscraft.netherrack_sword": "Netherrack Sword",
       "enchantment.grimmscraft.more_xp_t_1": "More Xp T1",
       "item.grimmscraft.bone_axe": "Bone Axe",
@@ -10365,18 +10189,16 @@
       "item.grimmscraft.white_glich_armor_leggings": "White Glich Leggings",
       "item.grimmscraft.tatatatanium_armor_boots": "Tatatatanium Boots",
       "item.grimmscraft.tatatatatanium_pickaxe": "Tatatatatanium Pickaxe",
-      "gui.grimmscraft.clockwork_rename_gui.label_clockwork_scyte_rename_center": "Clockwork Scyte Rename Center",
       "block.grimmscraft.diamond_tree_fence_gate": "DiamondTree Fence Gate",
       "block.grimmscraft.tatatatanium_block": "Block of Tatatatanium",
       "item.grimmscraft.redstone_wire": "Redstone Wire",
+      "enchantment.grimmscraft.soulbound": "Soulbound",
       "item.grimmscraft.obsidian_hoe": "Obsidian Hoe",
       "item.grimmscraft.tanium_pickaxe": "Tanium Pickaxe",
       "gui.grimmscraft.geiger_counter_hud.label_radiationvarintegerradiation": "Radiation:\u003cVAR:integer:radiation\u003e/\u003cVAR:integer:maxradiation\u003e",
-      "gui.grimmscraft.azure_saber_rename_gui.button_done": "Done",
       "item.grimmscraft.lighter_t_2_open": "Lighter T2",
       "item.grimmscraft.ender_axe": "Ender Axe",
       "item.grimmscraft.iron_hammer": "Iron Hammer",
-      "gui.grimmscraft.clockwork_t_3_rename_gui.button_done": "Done",
       "item.grimmscraft.tatatatatanium_axe": "Tatatatatanium Axe",
       "item.grimmscraft.ender_pickaxe": "Ender Pickaxe",
       "block.grimmscraft.tatatatatanium_ore": "Tatatatatanium Ore",
@@ -10387,10 +10209,7 @@
       "item.grimmscraft.forged_hot_steel_t_4": "Steel",
       "item.grimmscraft.forged_hot_steel_t_3": "Steel",
       "item.grimmscraft.forged_hot_steel_t_2": "Steel",
-      "gui.grimmscraft.clockwork_t_3_rename_gui.cname": "",
       "item.grimmscraft.forged_hot_steel_t_1": "Steel",
-      "gui.grimmscraft.clockwork_r_1_rename_gui.label_clockwork_scyte_rename_center": "Clockwork Scyte Rename Center",
-      "gui.grimmscraft.azure_saber_rename_gui.cname": "",
       "gui.grimmscraft.stats_toggle_gui.button_toggle_regen": "Toggle Regen",
       "item.grimmscraft.coal_axe": "Coal Axe",
       "item.grimmscraft.geiger_counter": "Geiger Counter",
@@ -10551,6 +10370,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Villagers",
+        "children": []
       }
     ]
   },

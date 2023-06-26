@@ -1,0 +1,117 @@
+{
+  "_fv": 43,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_item_name_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetItemNameText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_item_kills_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetItemKillsText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 11
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_item_xp_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetItemXpText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 21
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_item_lv_l_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetItemLvLText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_item_rank_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetItemRankText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_item_combo_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetItemComboText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 51
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "AzureSaberHUDDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

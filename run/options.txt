@@ -120,7 +120,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.grimmscraft.open_status_window_key:key.keyboard.m
 key_key.grimmscraft.open_status_toggle_window_key:key.keyboard.n
-soundCategory_master:1.0
+soundCategory_master:0.24751655629139072
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

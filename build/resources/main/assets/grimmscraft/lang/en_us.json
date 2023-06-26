@@ -231,6 +231,7 @@
   "block.grimmscraft.diamond_tree_fence_gate": "DiamondTree Fence Gate",
   "block.grimmscraft.tatatatanium_block": "Block of Tatatatanium",
   "item.grimmscraft.redstone_wire": "Redstone Wire",
+  "enchantment.grimmscraft.soulbound": "Soulbound",
   "item.grimmscraft.obsidian_hoe": "Obsidian Hoe",
   "item.grimmscraft.tanium_pickaxe": "Tanium Pickaxe",
   "gui.grimmscraft.geiger_counter_hud.label_radiationvarintegerradiation": "Radiation:\u003cVAR:integer:radiation\u003e/\u003cVAR:integer:maxradiation\u003e",
