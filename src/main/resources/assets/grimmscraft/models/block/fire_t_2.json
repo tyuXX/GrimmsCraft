@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "grimmscraft:block/firet2",
+    "particle": "grimmscraft:block/firet2"
+  },
+  "render_type": "cutout"
+}

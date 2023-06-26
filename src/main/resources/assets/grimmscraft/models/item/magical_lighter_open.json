@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/magiclighteropen",
+  "textures": {
+    "0": "grimmscraft:block/magiclighter",
+    "particle": "grimmscraft:item/magiclighter"
+  }
+}

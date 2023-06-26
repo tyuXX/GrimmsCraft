@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "1": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "2": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "3": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "4": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "5": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "6": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "7": {
+      "item": "grimmscraft:hot_steel"
+    },
+    "8": {
+      "item": "grimmscraft:hot_steel"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:lighter_t_1_closed",
+    "count": 1
+  }
+}

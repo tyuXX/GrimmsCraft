@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/clockwork_scythet2",
+  "textures": {
+    "3": "grimmscraft:block/clockworkt2",
+    "particle": "grimmscraft:item/clockworkt2"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AzureSilver"
+      },
+      {
+        "value": "CUSTOM:ClockworkScyteT4"
+      },
+      {
+        "value": "CUSTOM:AzureSilver"
+      },
+      {
+        "value": "CUSTOM:MagicalLighterClosed"
+      },
+      {
+        "value": "CUSTOM:ClockworkScyteR1"
+      },
+      {
+        "value": "CUSTOM:MagicalLighterClosed"
+      },
+      {
+        "value": "CUSTOM:AzureSilver"
+      },
+      {
+        "value": "CUSTOM:KatanaR1"
+      },
+      {
+        "value": "CUSTOM:AzureSilver"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AzureSaber"
+    },
+    "name": "azure_saber_recipe",
+    "namespace": "mod"
+  }
+}

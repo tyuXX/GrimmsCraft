@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/azure_sabre",
+  "textures": {
+    "0": "grimmscraft:block/azure_sabre",
+    "particle": "grimmscraft:item/azure_sabre"
+  }
+}

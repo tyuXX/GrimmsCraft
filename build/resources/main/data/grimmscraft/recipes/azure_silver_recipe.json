@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "grimmscraft:soul"
+    },
+    "3": {
+      "item": "grimmscraft:obsidian_shard"
+    },
+    "4": {
+      "item": "grimmscraft:forged_hot_steel_t_9"
+    },
+    "5": {
+      "item": "grimmscraft:obsidian_shard"
+    },
+    "7": {
+      "item": "grimmscraft:soul"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:azure_silver",
+    "count": 1
+  }
+}

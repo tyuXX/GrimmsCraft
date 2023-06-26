@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/lightert1closed",
+  "textures": {
+    "0": "grimmscraft:block/lighterdefault",
+    "particle": "grimmscraft:item/lighterdefault"
+  }
+}

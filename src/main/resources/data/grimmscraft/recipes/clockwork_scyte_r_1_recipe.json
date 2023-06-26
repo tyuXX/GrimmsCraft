@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:clockwork_scyte_t_3"
+    },
+    "1": {
+      "item": "grimmscraft:clockwork_scyte_t_3"
+    },
+    "2": {
+      "item": "grimmscraft:clockwork_scyte_t_3"
+    },
+    "4": {
+      "item": "grimmscraft:clockwork_scyte_t_4"
+    },
+    "6": {
+      "item": "grimmscraft:clockwork_scyte_t_3"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:clockwork_scyte_r_1",
+    "count": 1
+  }
+}

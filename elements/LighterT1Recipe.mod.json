@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      },
+      {
+        "value": "CUSTOM:HotSteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LighterT1Closed"
+    },
+    "name": "lighter_t_1_recipe",
+    "namespace": "mod"
+  }
+}

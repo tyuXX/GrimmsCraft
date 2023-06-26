@@ -1,0 +1,7 @@
+{
+  "parent": "grimmscraft:custom/blackholet1",
+  "textures": {
+    "0": "grimmscraft:block/blackholet1",
+    "particle": "grimmscraft:item/blackholet1"
+  }
+}

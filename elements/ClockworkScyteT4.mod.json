@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "clockworkt4",
+    "customModelName": "clockwork_scythet4:default",
+    "name": "Clockwork Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.7,
+    "enchantability": 2,
+    "damageVsEntity": 40.0,
+    "usageCount": 120000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "ClockworkScyteT4CraftedSmelted"
+    },
+    "onEntityHitWith": {
+      "name": "ClockworkScytheT1LivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "ClockworkScytheT1ToolInInventoryTick"
+    }
+  }
+}

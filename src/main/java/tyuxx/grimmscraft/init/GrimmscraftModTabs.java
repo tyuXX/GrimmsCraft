@@ -107,6 +107,7 @@ public class GrimmscraftModTabs {
 			tabData.accept(GrimmscraftModItems.PAPER_SWORD.get());
 			tabData.accept(GrimmscraftModItems.REDSTONE_SWORD.get());
 			tabData.accept(GrimmscraftModItems.QUARTZ_SWORD.get());
+			tabData.accept(GrimmscraftModItems.AZURE_SABER.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
@@ -168,6 +169,7 @@ public class GrimmscraftModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(GrimmscraftModItems.OBSIDIAN_SHARD.get());
+			tabData.accept(GrimmscraftModItems.AZURE_SILVER.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
@@ -261,6 +263,19 @@ public class GrimmscraftModTabs {
 			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTHE_T_0.get());
 			tabData.accept(GrimmscraftModItems.SOUL.get());
 			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTHE_T_1.get());
+			tabData.accept(GrimmscraftModItems.DIGITAL_CLOCK.get());
+			tabData.accept(GrimmscraftModItems.LIGHTER_T_1_OPEN.get());
+			tabData.accept(GrimmscraftModItems.LIGHTER_T_1_CLOSED.get());
+			tabData.accept(GrimmscraftModItems.LIGHTER_T_2_CLOSED.get());
+			tabData.accept(GrimmscraftModItems.LIGHTER_T_2_OPEN.get());
+			tabData.accept(GrimmscraftModItems.LIGHTER_T_3_CLOSED.get());
+			tabData.accept(GrimmscraftModItems.LIGHTER_T_3_OPEN.get());
+			tabData.accept(GrimmscraftModItems.MAGICAL_LIGHTER_OPEN.get());
+			tabData.accept(GrimmscraftModItems.MAGICAL_LIGHTER_CLOSED.get());
+			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTHE_T_2.get());
+			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTE_T_3.get());
+			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTE_T_4.get());
+			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTE_R_1.get());
 		}
 	}
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Soul"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ObsidianShard"
+      },
+      {
+        "value": "CUSTOM:ForgedHotSteelT9"
+      },
+      {
+        "value": "CUSTOM:ObsidianShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Soul"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AzureSilver"
+    },
+    "name": "azure_silver_recipe",
+    "namespace": "mod"
+  }
+}

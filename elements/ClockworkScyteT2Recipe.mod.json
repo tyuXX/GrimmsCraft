@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClockworkScytheT0"
+      },
+      {
+        "value": "CUSTOM:ClockworkScytheT0"
+      },
+      {
+        "value": "CUSTOM:ClockworkScytheT0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClockworkScytheT1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClockworkScytheT0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClockworkScytheT2"
+    },
+    "name": "clockwork_scyte_t_2_recipe",
+    "namespace": "mod"
+  }
+}

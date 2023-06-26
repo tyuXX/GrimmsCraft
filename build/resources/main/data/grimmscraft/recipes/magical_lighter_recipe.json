@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:azure_silver"
+    },
+    "1": {
+      "item": "grimmscraft:lighter_t_3_closed"
+    },
+    "2": {
+      "item": "grimmscraft:azure_silver"
+    },
+    "3": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "4": {
+      "item": "grimmscraft:lighter_t_3_closed"
+    },
+    "5": {
+      "item": "grimmscraft:forged_hot_steel_t_7"
+    },
+    "6": {
+      "item": "grimmscraft:azure_silver"
+    },
+    "7": {
+      "item": "grimmscraft:lighter_t_3_closed"
+    },
+    "8": {
+      "item": "grimmscraft:azure_silver"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:magical_lighter_closed",
+    "count": 1
+  }
+}

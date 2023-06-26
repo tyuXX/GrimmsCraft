@@ -33,6 +33,10 @@ import tyuxx.grimmscraft.block.TaniumOreBlock;
 import tyuxx.grimmscraft.block.TaniumBlockBlock;
 import tyuxx.grimmscraft.block.SolarPanelT1Block;
 import tyuxx.grimmscraft.block.PrinterBlock;
+import tyuxx.grimmscraft.block.MagicalFireBlock;
+import tyuxx.grimmscraft.block.FireT3Block;
+import tyuxx.grimmscraft.block.FireT2Block;
+import tyuxx.grimmscraft.block.FireT1Block;
 import tyuxx.grimmscraft.block.ElectricFurnaceT1Block;
 import tyuxx.grimmscraft.block.DiamondTreeWoodBlock;
 import tyuxx.grimmscraft.block.DiamondTreeStairsBlock;
@@ -114,4 +118,8 @@ public class GrimmscraftModBlocks {
 	public static final RegistryObject<Block> WHITE_GLICH_BLOCK = REGISTRY.register("white_glich_block", () -> new WhiteGlichBlockBlock());
 	public static final RegistryObject<Block> TNT_X_9 = REGISTRY.register("tnt_x_9", () -> new TntX9Block());
 	public static final RegistryObject<Block> TNT_X_81 = REGISTRY.register("tnt_x_81", () -> new TntX81Block());
+	public static final RegistryObject<Block> FIRE_T_1 = REGISTRY.register("fire_t_1", () -> new FireT1Block());
+	public static final RegistryObject<Block> FIRE_T_2 = REGISTRY.register("fire_t_2", () -> new FireT2Block());
+	public static final RegistryObject<Block> FIRE_T_3 = REGISTRY.register("fire_t_3", () -> new FireT3Block());
+	public static final RegistryObject<Block> MAGICAL_FIRE = REGISTRY.register("magical_fire", () -> new MagicalFireBlock());
 }
