@@ -36,7 +36,7 @@
     "nutritionalValue": 10,
     "saturation": 2.0,
     "eatResultItem": {
-      "value": "CUSTOM:Bottle1"
+      "value": "CUSTOM:Bottle3"
     },
     "isMeat": false,
     "isAlwaysEdible": true,

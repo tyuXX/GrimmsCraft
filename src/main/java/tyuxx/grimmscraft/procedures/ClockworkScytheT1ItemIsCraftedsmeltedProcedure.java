@@ -21,5 +21,6 @@ public class ClockworkScytheT1ItemIsCraftedsmeltedProcedure {
 		itemstack.getOrCreateTag().putDouble("xppk", 5);
 		itemstack.getOrCreateTag().putDouble("lvld", 0.5);
 		itemstack.getOrCreateTag().putDouble("revives", 0);
+		itemstack.getOrCreateTag().putString("name", "");
 	}
 }

@@ -41,7 +41,7 @@ public class ClockworkScytheT1Item extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.3f, new Item.Properties());
 	}
 
 	@Override

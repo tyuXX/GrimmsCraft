@@ -96,7 +96,7 @@ public class TestDummyEntity extends PathfinderMob {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
-		TestDummyEntityIsHurtProcedure.execute(this);
+		TestDummyEntityIsHurtProcedure.execute(this, source.getEntity());
 		return super.hurt(source, amount);
 	}
 

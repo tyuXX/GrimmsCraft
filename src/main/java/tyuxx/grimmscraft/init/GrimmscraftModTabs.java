@@ -166,6 +166,10 @@ public class GrimmscraftModTabs {
 			tabData.accept(GrimmscraftModItems.FORGED_HOT_STEEL_T_9.get());
 		}
 
+		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(GrimmscraftModItems.OBSIDIAN_SHARD.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(GrimmscraftModBlocks.WHITE_LEAVES.get().asItem());
 			tabData.accept(GrimmscraftModBlocks.WHITE_FENCE.get().asItem());

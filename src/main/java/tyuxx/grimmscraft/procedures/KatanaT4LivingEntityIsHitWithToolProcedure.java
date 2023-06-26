@@ -1,6 +1,7 @@
 package tyuxx.grimmscraft.procedures;
 
 import tyuxx.grimmscraft.network.GrimmscraftModVariables;
+import tyuxx.grimmscraft.init.GrimmscraftModEnchantments;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
@@ -15,7 +16,8 @@ public class KatanaT4LivingEntityIsHitWithToolProcedure {
 	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		itemstack.getOrCreateTag().putDouble("xp", (itemstack.getOrCreateTag().getDouble("xp") + 1.5));
+		itemstack.getOrCreateTag().putDouble("xp", (itemstack.getOrCreateTag().getDouble("xp") + 1.5 * (itemstack.getEnchantmentLevel(GrimmscraftModEnchantments.MORE_XP_T_1.get()) + 1)
+				* (itemstack.getEnchantmentLevel(GrimmscraftModEnchantments.MORE_XP_T_2.get()) + 1) * 2 * (itemstack.getEnchantmentLevel(GrimmscraftModEnchantments.MORE_XP_T_2.get()) + 1) * 3));
 		if (entity instanceof LivingEntity _entity)
 			_entity.hurt(new DamageSource(_entity.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
 				@Override

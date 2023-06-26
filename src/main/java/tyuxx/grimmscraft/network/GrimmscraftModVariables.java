@@ -153,7 +153,7 @@ public class GrimmscraftModVariables {
 		public double katanadefxpn = 10.0;
 		public double katanalevelupdif = 1.1;
 		public double katanapow = 1.5;
-		public double tdeaths = 0;
+		public double tdeaths = 0.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();

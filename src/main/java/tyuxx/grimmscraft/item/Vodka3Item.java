@@ -19,7 +19,7 @@ public class Vodka3Item extends Item {
 
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = new ItemStack(GrimmscraftModItems.BOTTLE_1.get());
+		ItemStack retval = new ItemStack(GrimmscraftModItems.BOTTLE_3.get());
 		super.finishUsingItem(itemstack, world, entity);
 		double x = entity.getX();
 		double y = entity.getY();

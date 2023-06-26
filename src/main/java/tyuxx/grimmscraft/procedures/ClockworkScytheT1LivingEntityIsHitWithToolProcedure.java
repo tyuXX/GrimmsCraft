@@ -1,5 +1,7 @@
 package tyuxx.grimmscraft.procedures;
 
+import tyuxx.grimmscraft.init.GrimmscraftModEnchantments;
+
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -12,13 +14,14 @@ public class ClockworkScytheT1LivingEntityIsHitWithToolProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		itemstack.getOrCreateTag().putDouble("xp", (itemstack.getOrCreateTag().getDouble("xp") + itemstack.getOrCreateTag().getDouble("xpph")));
-		if (itemstack.getOrCreateTag().getDouble("xp") >= itemstack.getOrCreateTag().getDouble("xpn")) {
+		itemstack.getOrCreateTag().putDouble("xp", (itemstack.getOrCreateTag().getDouble("xp") + itemstack.getOrCreateTag().getDouble("xpph") * (itemstack.getEnchantmentLevel(GrimmscraftModEnchantments.MORE_XP_T_1.get()) + 1)
+				* (itemstack.getEnchantmentLevel(GrimmscraftModEnchantments.MORE_XP_T_2.get()) + 1) * 2 * (itemstack.getEnchantmentLevel(GrimmscraftModEnchantments.MORE_XP_T_3.get()) + 1) * 3));
+		while (itemstack.getOrCreateTag().getDouble("xp") >= itemstack.getOrCreateTag().getDouble("xpn")) {
 			itemstack.getOrCreateTag().putDouble("xp", (itemstack.getOrCreateTag().getDouble("xp") - itemstack.getOrCreateTag().getDouble("xpn")));
 			itemstack.getOrCreateTag().putDouble("xpn", (itemstack.getOrCreateTag().getDouble("xpn") * itemstack.getOrCreateTag().getDouble("xpnd")));
 			itemstack.getOrCreateTag().putDouble("lvl", (itemstack.getOrCreateTag().getDouble("lvl") + 1));
 		}
-		if (itemstack.getOrCreateTag().getDouble("lvl") >= itemstack.getOrCreateTag().getDouble("rlvln")) {
+		while (itemstack.getOrCreateTag().getDouble("lvl") >= itemstack.getOrCreateTag().getDouble("rlvln")) {
 			itemstack.getOrCreateTag().putDouble("lvl", (itemstack.getOrCreateTag().getDouble("lvl") - itemstack.getOrCreateTag().getDouble("rlvln")));
 			itemstack.getOrCreateTag().putDouble("rlvln", (itemstack.getOrCreateTag().getDouble("rlvln") * itemstack.getOrCreateTag().getDouble("rlvlnd")));
 			itemstack.getOrCreateTag().putDouble("rank", (itemstack.getOrCreateTag().getDouble("rank") + 1));
@@ -32,7 +35,7 @@ public class ClockworkScytheT1LivingEntityIsHitWithToolProcedure {
 					return Component.translatable("death.attack." + "clockwork");
 				}
 			}, (float) (itemstack.getOrCreateTag().getDouble("lvl") * itemstack.getOrCreateTag().getDouble("rank") * itemstack.getOrCreateTag().getDouble("lvld")));
-		itemstack.setHoverName(Component.literal((Component.translatable("item.grimmscraft.clockwork_scythe_t_1").getString() + "/LvL" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("lvl")) + "/Rank"
+		itemstack.setHoverName(Component.literal((("\u00A76\"" + "" + itemstack.getOrCreateTag().getString("name") + "\"") + "/\u00A74LvL" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("lvl")) + "\u00A76/\u00A74Rank"
 				+ new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("rank")))));
 	}
 }

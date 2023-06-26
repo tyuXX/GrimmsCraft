@@ -84,6 +84,7 @@ import tyuxx.grimmscraft.item.PaperHoeItem;
 import tyuxx.grimmscraft.item.PaperAxeItem;
 import tyuxx.grimmscraft.item.ObsidianSwordItem;
 import tyuxx.grimmscraft.item.ObsidianShovelItem;
+import tyuxx.grimmscraft.item.ObsidianShardItem;
 import tyuxx.grimmscraft.item.ObsidianPickaxeItem;
 import tyuxx.grimmscraft.item.ObsidianHoeItem;
 import tyuxx.grimmscraft.item.ObsidianAxeItem;
@@ -112,6 +113,7 @@ import tyuxx.grimmscraft.item.GlowstoneShovelItem;
 import tyuxx.grimmscraft.item.GlowstonePickaxeItem;
 import tyuxx.grimmscraft.item.GlowstoneHoeItem;
 import tyuxx.grimmscraft.item.GlowstoneAxeItem;
+import tyuxx.grimmscraft.item.GeneratedItemItem;
 import tyuxx.grimmscraft.item.GeigerCounterItem;
 import tyuxx.grimmscraft.item.ForgedSteelT9Item;
 import tyuxx.grimmscraft.item.ForgedSteelT8Item;
@@ -404,6 +406,8 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> THA_WAND = REGISTRY.register("tha_wand", () -> new ThaWandItem());
 	public static final RegistryObject<Item> FORGED_STEEL_T_9 = REGISTRY.register("forged_steel_t_9", () -> new ForgedSteelT9Item());
 	public static final RegistryObject<Item> FORGED_HOT_STEEL_T_9 = REGISTRY.register("forged_hot_steel_t_9", () -> new ForgedHotSteelT9Item());
+	public static final RegistryObject<Item> GENERATED_ITEM = REGISTRY.register("generated_item", () -> new GeneratedItemItem());
+	public static final RegistryObject<Item> OBSIDIAN_SHARD = REGISTRY.register("obsidian_shard", () -> new ObsidianShardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
