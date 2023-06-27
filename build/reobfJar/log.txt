@@ -1,8 +1,8 @@
 Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--in-jar, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\libs\modid-1.0.jar, --out-jar, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\reobfJar\output.jar, --srg-in, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\createMcpToSrg\output.tsrg, --live'
+Arguments: '--in-jar, C:\Users\GÖKALP\Desktop\grimmscraft\build\libs\modid-1.0.jar, --out-jar, C:\Users\GÖKALP\Desktop\grimmscraft\build\reobfJar\output.jar, --srg-in, C:\Users\GÖKALP\Desktop\grimmscraft\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
- - F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar
+ - C:\Users\GÖKALP\Desktop\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.4\client-extra.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.4-45.1.0\19f2cac18253bfe899117e601fcbef66d28ebe08\fmlloader-1.19.4-45.1.0.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
@@ -114,7 +114,7 @@ Classpath:
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
-Working directory: F:\GsDistance\Games\minecraft\mods\grimmscraft\build\reobfJar
+Working directory: C:\Users\GÖKALP\Desktop\grimmscraft\build\reobfJar
 Main class: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

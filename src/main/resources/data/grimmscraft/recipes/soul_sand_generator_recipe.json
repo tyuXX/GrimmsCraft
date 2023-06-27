@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "1": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "2": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "3": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "4": {
+      "item": "minecraft:soul_sand"
+    },
+    "5": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "6": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "7": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "8": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:soulsand_generator",
+    "count": 1
+  }
+}

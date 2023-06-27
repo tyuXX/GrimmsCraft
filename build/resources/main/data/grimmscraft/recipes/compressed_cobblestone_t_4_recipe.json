@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "1": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "2": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "3": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "4": {
+      "item": "minecraft:piston"
+    },
+    "5": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "6": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "7": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    },
+    "8": {
+      "item": "grimmscraft:compressed_cobblestone_t_3"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:compressed_cobblestone_t_4",
+    "count": 1
+  }
+}
