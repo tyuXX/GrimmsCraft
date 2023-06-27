@@ -8,7 +8,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class GrimmscraftModTabs {
@@ -281,6 +284,26 @@ public class GrimmscraftModTabs {
 			tabData.accept(GrimmscraftModBlocks.SAND_GENERATOR.get().asItem());
 			tabData.accept(GrimmscraftModBlocks.SOULSAND_GENERATOR.get().asItem());
 			tabData.accept(GrimmscraftModBlocks.DIRT_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.EMERALD_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.REDSTONE_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.IRON_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.DIAMOND_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.COAL_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.GOLD_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.LAPIS_LAZULI_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.QUARTZ_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.COPPER_GENERATOR.get().asItem());
 		}
+	}
+
+	@SubscribeEvent
+	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
+		event.registerCreativeModeTab(new ResourceLocation("grimmscraft", "grimmscraft"),
+				builder -> builder.title(Component.translatable("item_group.grimmscraft.grimmscraft")).icon(() -> new ItemStack(GrimmscraftModItems.LOGO.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_1.get());
+					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_2.get());
+					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_3.get());
+					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_4.get());
+				}).withSearchBar());
 	}
 }

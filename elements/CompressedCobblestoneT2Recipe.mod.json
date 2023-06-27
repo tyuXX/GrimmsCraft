@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      },
+      {
+        "value": "CUSTOM:CompressedCobblestoneT1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CompressedCobblestoneT2"
+    },
+    "name": "compressed_cobblestone_t_2_recipe",
+    "namespace": "mod"
+  }
+}

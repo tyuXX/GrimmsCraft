@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "grimmscraft:block/lapis_lazuli_generator"
+    }
+  }
+}

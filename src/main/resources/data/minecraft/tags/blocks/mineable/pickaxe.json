@@ -22,6 +22,15 @@
     "grimmscraft:cobbled_deepslate_generator",
     "grimmscraft:sand_generator",
     "grimmscraft:soulsand_generator",
-    "grimmscraft:dirt_generator"
+    "grimmscraft:dirt_generator",
+    "grimmscraft:emerald_generator",
+    "grimmscraft:redstone_generator",
+    "grimmscraft:iron_generator",
+    "grimmscraft:diamond_generator",
+    "grimmscraft:coal_generator",
+    "grimmscraft:gold_generator",
+    "grimmscraft:lapis_lazuli_generator",
+    "grimmscraft:quartz_generator",
+    "grimmscraft:copper_generator"
   ]
 }

@@ -158,6 +158,10 @@ import tyuxx.grimmscraft.item.DustyIronItem;
 import tyuxx.grimmscraft.item.DimensionNothingItem;
 import tyuxx.grimmscraft.item.DigitalClockItem;
 import tyuxx.grimmscraft.item.DiamondHammerItem;
+import tyuxx.grimmscraft.item.CompressedCobblestoneT4Item;
+import tyuxx.grimmscraft.item.CompressedCobblestoneT3Item;
+import tyuxx.grimmscraft.item.CompressedCobblestoneT2Item;
+import tyuxx.grimmscraft.item.CompressedCobblestoneT1Item;
 import tyuxx.grimmscraft.item.CoalSwordItem;
 import tyuxx.grimmscraft.item.CoalShovelItem;
 import tyuxx.grimmscraft.item.CoalPickaxeItem;
@@ -455,6 +459,19 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> SOULSAND_GENERATOR = block(GrimmscraftModBlocks.SOULSAND_GENERATOR);
 	public static final RegistryObject<Item> LOGO = REGISTRY.register("logo", () -> new LogoItem());
 	public static final RegistryObject<Item> DIRT_GENERATOR = block(GrimmscraftModBlocks.DIRT_GENERATOR);
+	public static final RegistryObject<Item> EMERALD_GENERATOR = block(GrimmscraftModBlocks.EMERALD_GENERATOR);
+	public static final RegistryObject<Item> REDSTONE_GENERATOR = block(GrimmscraftModBlocks.REDSTONE_GENERATOR);
+	public static final RegistryObject<Item> IRON_GENERATOR = block(GrimmscraftModBlocks.IRON_GENERATOR);
+	public static final RegistryObject<Item> DIAMOND_GENERATOR = block(GrimmscraftModBlocks.DIAMOND_GENERATOR);
+	public static final RegistryObject<Item> COAL_GENERATOR = block(GrimmscraftModBlocks.COAL_GENERATOR);
+	public static final RegistryObject<Item> GOLD_GENERATOR = block(GrimmscraftModBlocks.GOLD_GENERATOR);
+	public static final RegistryObject<Item> LAPIS_LAZULI_GENERATOR = block(GrimmscraftModBlocks.LAPIS_LAZULI_GENERATOR);
+	public static final RegistryObject<Item> QUARTZ_GENERATOR = block(GrimmscraftModBlocks.QUARTZ_GENERATOR);
+	public static final RegistryObject<Item> COPPER_GENERATOR = block(GrimmscraftModBlocks.COPPER_GENERATOR);
+	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_1 = REGISTRY.register("compressed_cobblestone_t_1", () -> new CompressedCobblestoneT1Item());
+	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_2 = REGISTRY.register("compressed_cobblestone_t_2", () -> new CompressedCobblestoneT2Item());
+	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_3 = REGISTRY.register("compressed_cobblestone_t_3", () -> new CompressedCobblestoneT3Item());
+	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_4 = REGISTRY.register("compressed_cobblestone_t_4", () -> new CompressedCobblestoneT4Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

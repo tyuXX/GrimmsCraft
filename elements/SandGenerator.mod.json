@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Cobblestone Generator",
+    "name": "Sand Generator",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

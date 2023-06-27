@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "grimmscraft:block/iron_oregenerator",
+    "particle": "grimmscraft:block/iron_oregenerator"
+  },
+  "render_type": "solid"
+}

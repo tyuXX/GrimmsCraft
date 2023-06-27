@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "grimmscraft:block/coal_generator"
+    }
+  }
+}
