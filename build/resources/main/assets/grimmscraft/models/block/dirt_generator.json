@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "grimmscraft:block/dirtgen",
+    "particle": "grimmscraft:block/dirtgen"
+  },
+  "render_type": "solid"
+}

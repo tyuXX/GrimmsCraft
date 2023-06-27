@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\mcp\1.19.4-20230314.122934\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\stripClient\output.jar", "--server", "F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\mcp\1.19.4-20230314.122934\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\stripServer\output.jar", "--ann", "1.19.4", "--output", "F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\mcp\1.19.4-20230314.122934\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\mcp\1.19.4-20230314.122934\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

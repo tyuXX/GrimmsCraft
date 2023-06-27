@@ -154,6 +154,7 @@ public class GrimmscraftModVariables {
 		public double katanalevelupdif = 1.1;
 		public double katanapow = 1.5;
 		public double tdeaths = 0.0;
+		public String addonsloaded = "\"\"";
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -167,6 +168,7 @@ public class GrimmscraftModVariables {
 			katanalevelupdif = nbt.getDouble("katanalevelupdif");
 			katanapow = nbt.getDouble("katanapow");
 			tdeaths = nbt.getDouble("tdeaths");
+			addonsloaded = nbt.getString("addonsloaded");
 		}
 
 		@Override
@@ -176,6 +178,7 @@ public class GrimmscraftModVariables {
 			nbt.putDouble("katanalevelupdif", katanalevelupdif);
 			nbt.putDouble("katanapow", katanapow);
 			nbt.putDouble("tdeaths", tdeaths);
+			nbt.putString("addonsloaded", addonsloaded);
 			return nbt;
 		}
 

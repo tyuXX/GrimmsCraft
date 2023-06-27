@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "grimmscraft:block/dimension_nothing_portal_ew"
+    },
+    "axis=x": {
+      "model": "grimmscraft:block/dimension_nothing_portal_ns"
+    }
+  }
+}

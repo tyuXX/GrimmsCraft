@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--clean, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar, --output, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar, --apply, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma'
+Arguments: '--clean, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar, --output, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar, --apply, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma'
 Classpath:
  - C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: F:\GsDistance\Games\minecraft\mods\grimmscraft\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\GￃﾖKALP\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar
-  Output:    C:\Users\GￃﾖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar
+  Output:    F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\GￃﾖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma
+Loading patches file: F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: e3acb46a Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch

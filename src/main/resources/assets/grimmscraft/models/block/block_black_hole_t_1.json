@@ -1,0 +1,9 @@
+{
+  "parent": "grimmscraft:custom/blackholet1",
+  "textures": {
+    "all": "grimmscraft:block/texturefull",
+    "particle": "grimmscraft:block/texturefull",
+    "0": "grimmscraft:block/blackholet1"
+  },
+  "render_type": "solid"
+}

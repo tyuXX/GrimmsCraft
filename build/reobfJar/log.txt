@@ -2,7 +2,7 @@ Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 Arguments: '--in-jar, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\libs\modid-1.0.jar, --out-jar, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\reobfJar\output.jar, --srg-in, F:\GsDistance\Games\minecraft\mods\grimmscraft\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
- - C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar
+ - F:\GsDistance\Games\minecraft\mods\grimmscraft\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.4\client-extra.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.4-45.1.0\19f2cac18253bfe899117e601fcbef66d28ebe08\fmlloader-1.19.4-45.1.0.jar
  - C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar

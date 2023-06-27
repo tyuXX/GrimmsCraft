@@ -276,6 +276,11 @@ public class GrimmscraftModTabs {
 			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTE_T_3.get());
 			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTE_T_4.get());
 			tabData.accept(GrimmscraftModItems.CLOCKWORK_SCYTE_R_1.get());
+			tabData.accept(GrimmscraftModBlocks.COBBLESTONE_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.COBBLED_DEEPSLATE_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.SAND_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.SOULSAND_GENERATOR.get().asItem());
+			tabData.accept(GrimmscraftModBlocks.DIRT_GENERATOR.get().asItem());
 		}
 	}
 }

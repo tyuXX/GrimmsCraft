@@ -95,6 +95,7 @@ import tyuxx.grimmscraft.item.NetherrackHoeItem;
 import tyuxx.grimmscraft.item.NetherrackAxeItem;
 import tyuxx.grimmscraft.item.MagicalLighterOpenItem;
 import tyuxx.grimmscraft.item.MagicalLighterClosedItem;
+import tyuxx.grimmscraft.item.LogoItem;
 import tyuxx.grimmscraft.item.LighterT3OpenItem;
 import tyuxx.grimmscraft.item.LighterT3ClosedItem;
 import tyuxx.grimmscraft.item.LighterT2OpenItem;
@@ -154,6 +155,7 @@ import tyuxx.grimmscraft.item.EnderHoeItem;
 import tyuxx.grimmscraft.item.EnderAxeItem;
 import tyuxx.grimmscraft.item.DyeStackItem;
 import tyuxx.grimmscraft.item.DustyIronItem;
+import tyuxx.grimmscraft.item.DimensionNothingItem;
 import tyuxx.grimmscraft.item.DigitalClockItem;
 import tyuxx.grimmscraft.item.DiamondHammerItem;
 import tyuxx.grimmscraft.item.CoalSwordItem;
@@ -444,6 +446,15 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> CLOCKWORK_SCYTE_R_1 = REGISTRY.register("clockwork_scyte_r_1", () -> new ClockworkScyteR1Item());
 	public static final RegistryObject<Item> AZURE_SABER = REGISTRY.register("azure_saber", () -> new AzureSaberItem());
 	public static final RegistryObject<Item> AZURE_SILVER = REGISTRY.register("azure_silver", () -> new AzureSilverItem());
+	public static final RegistryObject<Item> BLOCK_NOTHING = block(GrimmscraftModBlocks.BLOCK_NOTHING);
+	public static final RegistryObject<Item> BLOCK_BLACK_HOLE_T_1 = block(GrimmscraftModBlocks.BLOCK_BLACK_HOLE_T_1);
+	public static final RegistryObject<Item> DIMENSION_NOTHING = REGISTRY.register("dimension_nothing", () -> new DimensionNothingItem());
+	public static final RegistryObject<Item> COBBLESTONE_GENERATOR = block(GrimmscraftModBlocks.COBBLESTONE_GENERATOR);
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_GENERATOR = block(GrimmscraftModBlocks.COBBLED_DEEPSLATE_GENERATOR);
+	public static final RegistryObject<Item> SAND_GENERATOR = block(GrimmscraftModBlocks.SAND_GENERATOR);
+	public static final RegistryObject<Item> SOULSAND_GENERATOR = block(GrimmscraftModBlocks.SOULSAND_GENERATOR);
+	public static final RegistryObject<Item> LOGO = REGISTRY.register("logo", () -> new LogoItem());
+	public static final RegistryObject<Item> DIRT_GENERATOR = block(GrimmscraftModBlocks.DIRT_GENERATOR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

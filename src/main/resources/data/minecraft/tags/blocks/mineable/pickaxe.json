@@ -16,6 +16,12 @@
     "grimmscraft:uranium_block",
     "grimmscraft:thorium_ore",
     "grimmscraft:thorium_block",
-    "grimmscraft:magical_fire"
+    "grimmscraft:magical_fire",
+    "grimmscraft:block_nothing",
+    "grimmscraft:cobblestone_generator",
+    "grimmscraft:cobbled_deepslate_generator",
+    "grimmscraft:sand_generator",
+    "grimmscraft:soulsand_generator",
+    "grimmscraft:dirt_generator"
   ]
 }
