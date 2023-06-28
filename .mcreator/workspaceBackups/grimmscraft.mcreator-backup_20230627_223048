@@ -10741,6 +10741,230 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "CompressedCobblestoneT3Recipe",
+      "type": "recipe",
+      "sortid": 652,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_cobblestone_t_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/compressed_cobblestone_t_3_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CompressedCobblestoneT4Recipe",
+      "type": "recipe",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_cobblestone_t_4_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/compressed_cobblestone_t_4_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DiamondGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 654,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/diamond_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 655,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/copper_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DirtGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/dirt_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CoalGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/coal_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RedstoneGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/redstone_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LapisLazuliGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/lapis_lazuli_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "QuartzGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/quartz_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GoldGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/gold_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/iron_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SandGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/sand_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SoulSandGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sand_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/soul_sand_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EmeraldGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/emerald_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledDeepslateGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_deepslate_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/cobbled_deepslate_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobblestoneGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/cobblestone_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -10900,8 +11124,8 @@
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
       "item.grimmscraft.katana_t_1": "Katana",
       "item.grimmscraft.katana_t_2": "Katana",
-      "item.grimmscraft.bone_hoe": "Bone Hoe",
       "item.grimmscraft.katana_t_3": "Katana",
+      "item.grimmscraft.bone_hoe": "Bone Hoe",
       "item.grimmscraft.katana_t_4": "Katana",
       "item.grimmscraft.redstone_shovel": "Redstone Shovel",
       "item.grimmscraft.russian_roulette": "Russian Roulette",
@@ -10912,8 +11136,8 @@
       "item.grimmscraft.forged_steel_t_3": "Steel",
       "item.grimmscraft.vodka_2": "Vodka 2",
       "item.grimmscraft.forged_steel_t_6": "Steel",
-      "item.grimmscraft.vodka_3": "Vodka",
       "item.grimmscraft.forged_steel_t_5": "Steel",
+      "item.grimmscraft.vodka_3": "Vodka",
       "item.grimmscraft.forged_steel_t_8": "Steel",
       "item.grimmscraft.forged_steel_t_7": "Steel",
       "item.grimmscraft.fiery_pickaxe": "Fiery Pickaxe",
@@ -11336,7 +11560,7 @@
   "workspaceSettings": {
     "modid": "grimmscraft",
     "modName": "G.M.C.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Long live C.O.D.",
     "author": "tyuXX",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/grimms-craft",
