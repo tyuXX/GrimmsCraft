@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "custom:grimmscraft",
   "pattern": [
     "012",
     "345",
@@ -20,7 +20,7 @@
       "item": "grimmscraft:compressed_cobblestone_t_4"
     },
     "4": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:air"
     },
     "5": {
       "item": "grimmscraft:compressed_cobblestone_t_4"

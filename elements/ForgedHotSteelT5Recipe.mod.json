@@ -5,10 +5,10 @@
     "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
-    "cookingBookCategory": "MISC",
+    "cookingBookCategory": "CUSTOM:Grimmscraft",
     "xpReward": 1.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "CUSTOM:Grimmscraft",
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "CUSTOM:ForgedSteelT5"

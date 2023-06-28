@@ -8,7 +8,7 @@
     "name": "FE Meter",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Grimmscraft"
     },
     "stackSize": 1,
     "enchantability": 0,

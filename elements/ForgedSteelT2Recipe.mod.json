@@ -5,10 +5,10 @@
     "recipeType": "Smithing",
     "recipeRetstackSize": 1,
     "group": "",
-    "cookingBookCategory": "MISC",
+    "cookingBookCategory": "CUSTOM:Grimmscraft",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "CUSTOM:Grimmscraft",
     "recipeShapeless": false,
     "smithingInputStack": {
       "value": "CUSTOM:ForgedHotSteelT1"

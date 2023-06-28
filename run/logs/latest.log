@@ -1,91 +1,501 @@
-[27Jun2023 14:24:05.621] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 3, --assetsDir, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[27Jun2023 14:24:05.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[27Jun2023 14:24:05.746] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/GÖKALP/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[27Jun2023 14:24:06.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.4-45.1.0\b0e84ca3a357ff3c21236b9cff29dc11728c2fc1\javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[27Jun2023 14:24:06.158] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.4-45.1.0\ab850b1d43a0870a58cd14eef8007e7a9f2d5d24\lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[27Jun2023 14:24:06.161] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.4-45.1.0\97118201a6b56edf1c41a03f94b03c5d39980c2f\mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[27Jun2023 14:24:06.165] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.4-45.1.0\c21da731e12998ed3a9fddba965c75c42c63404e\fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
-[27Jun2023 14:24:06.234] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Jun2023 14:24:11.420] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 3]
-[27Jun2023 14:24:14.818] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 180 Datafixer optimizations took 97 milliseconds
-[27Jun2023 14:24:16.112] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/F:/GsDistance/Games/minecraft/mods/grimmscraft/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[27Jun2023 14:24:16.113] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/F:/GsDistance/Games/minecraft/mods/grimmscraft/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[27Jun2023 14:24:16.126] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Jun2023 14:24:16.129] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[27Jun2023 14:24:16.215] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[27Jun2023 14:24:16.583] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
-[27Jun2023 14:24:16.585] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
-[27Jun2023 14:24:18.299] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[27Jun2023 14:24:18.579] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[27Jun2023 14:24:19.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Jun2023 14:24:19.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
-[27Jun2023 14:24:19.988] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture grimmscraft:block/blackpixel with size 1x1 limits mip level from 2 to 0
-[27Jun2023 14:24:22.010] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brushing
-[27Jun2023 14:24:22.010] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brush_sand_completed
-[27Jun2023 14:24:22.010] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[27Jun2023 14:24:22.010] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[27Jun2023 14:24:22.011] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music.overworld.cherry_grove
-[27Jun2023 14:24:22.047] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Kulaklıklar (2- High Definition Audio Device)
-[27Jun2023 14:24:22.049] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[27Jun2023 14:24:22.077] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x2 minecraft:textures/atlas/blocks.png-atlas
-[27Jun2023 14:24:22.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[27Jun2023 14:24:22.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[27Jun2023 14:24:22.181] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[27Jun2023 14:24:22.182] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[27Jun2023 14:24:22.227] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[27Jun2023 14:24:22.227] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[27Jun2023 14:24:22.228] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[27Jun2023 14:24:22.229] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[27Jun2023 14:24:22.413] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[27Jun2023 14:24:22.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[27Jun2023 14:24:22.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[27Jun2023 14:24:22.532] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[27Jun2023 14:24:22.778] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[27Jun2023 14:24:46.032] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[27Jun2023 14:24:46.351] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1181 advancements
-[27Jun2023 14:24:46.965] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.4
-[27Jun2023 14:24:46.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Jun2023 14:24:48.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Jun2023 14:24:49.824] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2023 14:24:49.845] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2023 14:24:49.865] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2023 14:24:49.865] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2023 14:24:50.038] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2023 14:24:50.529] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[27Jun2023 14:24:50.692] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2674 ms
-[27Jun2023 14:24:50.693] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Jun2023 14:24:50.810] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[27Jun2023 14:24:50.812] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[27Jun2023 14:24:50.891] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[27Jun2023 14:24:51.294] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[27Jun2023 14:24:51.358] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:555adb03] logged in with entity id 272 at (42.79233600153828, 123.0, 32.82574143456071)
-[27Jun2023 14:24:51.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[27Jun2023 14:24:51.762] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 202 advancements
-[27Jun2023 14:26:13.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 32 entities]
-[27Jun2023 14:26:13.771] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 32 entities
-[27Jun2023 14:27:35.095] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[27Jun2023 14:27:35.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[27Jun2023 14:27:35.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[27Jun2023 14:27:35.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[27Jun2023 14:27:35.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
-[27Jun2023 14:27:46.745] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[27Jun2023 14:27:46.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[27Jun2023 14:27:46.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[27Jun2023 14:27:46.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[27Jun2023 14:27:46.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
-[27Jun2023 14:27:47.701] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[27Jun2023 14:27:47.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[27Jun2023 14:27:47.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[27Jun2023 14:27:47.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[27Jun2023 14:27:47.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[27Jun2023 14:27:47.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[27Jun2023 14:27:48.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[27Jun2023 14:27:51.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[27Jun2023 14:27:51.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[27Jun2023 14:27:51.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
-[27Jun2023 14:27:52.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[27Jun2023 14:27:52.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[27Jun2023 14:27:52.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[27Jun2023 14:27:52.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimension_nothing): All chunks are saved
-[27Jun2023 14:27:52.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[27Jun2023 14:27:54.321] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[29Jun2023 00:38:13.058] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 3, --assetsDir, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[29Jun2023 00:38:13.062] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[29Jun2023 00:38:13.201] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/GÖKALP/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[29Jun2023 00:38:13.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.4-45.1.0\b0e84ca3a357ff3c21236b9cff29dc11728c2fc1\javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[29Jun2023 00:38:13.532] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.4-45.1.0\ab850b1d43a0870a58cd14eef8007e7a9f2d5d24\lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[29Jun2023 00:38:13.535] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.4-45.1.0\97118201a6b56edf1c41a03f94b03c5d39980c2f\mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[29Jun2023 00:38:13.539] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\GÖKALP\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.4-45.1.0\c21da731e12998ed3a9fddba965c75c42c63404e\fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
+[29Jun2023 00:38:13.608] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29Jun2023 00:38:15.190] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\GÖKALP\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 3]
+[29Jun2023 00:38:18.559] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 180 Datafixer optimizations took 105 milliseconds
+[29Jun2023 00:38:20.123] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/GÖKALP/Desktop/grimmscraft/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[29Jun2023 00:38:20.124] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/GÖKALP/Desktop/grimmscraft/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[29Jun2023 00:38:20.140] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Jun2023 00:38:20.145] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[29Jun2023 00:38:20.253] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[29Jun2023 00:38:20.663] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
+[29Jun2023 00:38:20.665] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
+[29Jun2023 00:38:21.804] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[29Jun2023 00:38:22.066] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[29Jun2023 00:38:22.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Jun2023 00:38:22.720] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture grimmscraft:block/blackpixel with size 1x1 limits mip level from 2 to 0
+[29Jun2023 00:38:23.268] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
+[29Jun2023 00:38:24.877] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brushing
+[29Jun2023 00:38:24.878] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[29Jun2023 00:38:24.878] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[29Jun2023 00:38:24.878] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[29Jun2023 00:38:24.878] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[29Jun2023 00:38:24.909] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Kulaklıklar (2- High Definition Audio Device)
+[29Jun2023 00:38:24.910] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[29Jun2023 00:38:24.969] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x2 minecraft:textures/atlas/blocks.png-atlas
+[29Jun2023 00:38:25.040] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[29Jun2023 00:38:25.040] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[29Jun2023 00:38:25.041] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[29Jun2023 00:38:25.042] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[29Jun2023 00:38:25.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[29Jun2023 00:38:25.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[29Jun2023 00:38:25.083] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29Jun2023 00:38:25.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[29Jun2023 00:38:25.267] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[29Jun2023 00:38:25.382] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[29Jun2023 00:38:25.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29Jun2023 00:38:25.384] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29Jun2023 00:38:25.706] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[29Jun2023 00:38:33.114] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_shovel_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:278) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:306) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:301) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.146] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_pickaxe_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:278) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:306) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:301) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.152] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_generator_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:278) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:306) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:301) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.160] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_sword_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:278) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:306) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:301) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.163] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_hoe_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:278) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:306) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:301) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.165] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_wire_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:104) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:84) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.168] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe grimmscraft:redstone_axe_recipe
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:295) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:278) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:306) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:301) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:175) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:163) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:63) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:501) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:415) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:360) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:299) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29Jun2023 00:38:33.176] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29Jun2023 00:38:33.698] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1181 advancements
+[29Jun2023 00:38:34.369] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.4
+[29Jun2023 00:38:34.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Jun2023 00:38:35.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Jun2023 00:38:38.000] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jun2023 00:38:38.000] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jun2023 00:38:38.000] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jun2023 00:38:38.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jun2023 00:38:38.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jun2023 00:38:38.155] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jun2023 00:38:38.652] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[29Jun2023 00:38:38.967] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Jun2023 00:38:38.981] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3338 ms
+[29Jun2023 00:38:39.112] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[29Jun2023 00:38:39.115] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[29Jun2023 00:38:39.210] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[29Jun2023 00:38:39.601] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[29Jun2023 00:38:39.657] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:30bdaad4] logged in with entity id 370 at (160.69573177542154, 64.0, 12.14012122555321)
+[29Jun2023 00:38:39.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[29Jun2023 00:38:40.198] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 202 advancements
+[29Jun2023 00:38:40.390] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Jun2023 00:38:40.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jun2023 00:38:41.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jun2023 00:38:41.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jun2023 00:38:41.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
+[29Jun2023 00:40:12.315] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Jun2023 00:40:12.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jun2023 00:40:12.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jun2023 00:40:12.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jun2023 00:40:12.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
+[29Jun2023 00:40:19.765] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Jun2023 00:40:19.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jun2023 00:40:19.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jun2023 00:40:19.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jun2023 00:40:19.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
+[29Jun2023 00:40:20.973] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[29Jun2023 00:40:20.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[29Jun2023 00:40:20.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[29Jun2023 00:40:21.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Jun2023 00:40:21.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Jun2023 00:40:21.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Jun2023 00:40:21.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jun2023 00:40:21.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jun2023 00:40:21.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jun2023 00:40:21.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/grimmscraft:dimension_nothing
+[29Jun2023 00:40:21.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29Jun2023 00:40:21.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jun2023 00:40:21.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jun2023 00:40:21.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimension_nothing): All chunks are saved
+[29Jun2023 00:40:21.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Jun2023 00:40:24.418] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

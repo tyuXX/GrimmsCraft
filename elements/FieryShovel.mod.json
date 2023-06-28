@@ -8,7 +8,7 @@
     "name": "Fiery Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "toolType": "Spade",
     "harvestLevel": 15,

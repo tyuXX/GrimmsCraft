@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "custom:grimmscraft",
   "pattern": [
     "01",
     " 3",
@@ -8,10 +8,10 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:air"
     },
     "1": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:air"
     },
     "3": {
       "item": "minecraft:stick"

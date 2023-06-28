@@ -8,7 +8,7 @@
     "name": "Redstone Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Grimmscraft"
     },
     "toolType": "Sword",
     "harvestLevel": 9,
@@ -21,7 +21,7 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.REDSTONE"
+        "value": "Items.CUSTOM:Grimmscraft"
       }
     ],
     "immuneToFire": false,

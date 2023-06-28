@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
+  "category": "custom:grimmscraft",
   "experience": 2.8,
   "cookingtime": 200,
   "ingredient": {

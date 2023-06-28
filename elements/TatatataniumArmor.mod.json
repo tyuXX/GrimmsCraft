@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "tatatatanium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Grimmscraft"
     },
     "armorTextureFile": "tatatatanium",
     "helmetName": "Tatatatanium Helmet",

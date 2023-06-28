@@ -5,10 +5,10 @@
     "mobName": "Test Dummy",
     "mobLabel": "Dummy",
     "mobModelName": "Biped",
-    "mobModelTexture": "sovietflag.png",
-    "mobModelGlowTexture": "sovietflag.png",
+    "mobModelTexture": "dummy.png",
+    "mobModelGlowTexture": "",
     "solidBoundingBox": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -24,9 +24,9 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Grimmscraft"
     },
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "WHITE",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
@@ -82,7 +82,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "livingSound": {
       "value": ""

@@ -5,17 +5,17 @@
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
-    "cookingBookCategory": "MISC",
+    "cookingBookCategory": "CUSTOM:Grimmscraft",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "CUSTOM:Grimmscraft",
     "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "Items.CUSTOM:Grimmscraft"
       },
       {
         "value": ""
@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "Items.CUSTOM:Grimmscraft"
       },
       {
         "value": ""

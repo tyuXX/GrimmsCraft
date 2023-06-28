@@ -5,10 +5,10 @@
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
-    "cookingBookCategory": "MISC",
+    "cookingBookCategory": "CUSTOM:Grimmscraft",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "CUSTOM:Grimmscraft",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -24,7 +24,7 @@
         "value": "CUSTOM:CompressedCobblestoneT4"
       },
       {
-        "value": "Blocks.REDSTONE_BLOCK"
+        "value": "Blocks.CUSTOM:Grimmscraft_BLOCK"
       },
       {
         "value": "CUSTOM:CompressedCobblestoneT4"

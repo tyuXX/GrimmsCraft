@@ -8,7 +8,7 @@
     "name": "Lighter T2",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "stackSize": 1,
     "enchantability": 0,

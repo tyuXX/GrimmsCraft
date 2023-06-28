@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "custom:grimmscraft",
   "ingredients": [
     {
       "tag": "forge:diamondtree_log"

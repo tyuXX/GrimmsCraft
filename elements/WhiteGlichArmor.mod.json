@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "whiteglicharmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Grimmscraft"
     },
     "armorTextureFile": "whiteglicharmor",
     "helmetName": "Glich Helmet",

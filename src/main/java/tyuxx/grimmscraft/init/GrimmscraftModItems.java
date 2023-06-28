@@ -113,6 +113,7 @@ import tyuxx.grimmscraft.item.KatanaT3Item;
 import tyuxx.grimmscraft.item.KatanaT2Item;
 import tyuxx.grimmscraft.item.KatanaT1Item;
 import tyuxx.grimmscraft.item.KatanaR1Item;
+import tyuxx.grimmscraft.item.ItemCompressedItem;
 import tyuxx.grimmscraft.item.IronWireItem;
 import tyuxx.grimmscraft.item.IronHammerItem;
 import tyuxx.grimmscraft.item.HotSteelItem;
@@ -187,6 +188,7 @@ import tyuxx.grimmscraft.item.BoneAxeItem;
 import tyuxx.grimmscraft.item.BlackHoleT1Item;
 import tyuxx.grimmscraft.item.AzureSilverItem;
 import tyuxx.grimmscraft.item.AzureSaberItem;
+import tyuxx.grimmscraft.item.AutomaticCompressorItem;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -472,6 +474,8 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_2 = REGISTRY.register("compressed_cobblestone_t_2", () -> new CompressedCobblestoneT2Item());
 	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_3 = REGISTRY.register("compressed_cobblestone_t_3", () -> new CompressedCobblestoneT3Item());
 	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_4 = REGISTRY.register("compressed_cobblestone_t_4", () -> new CompressedCobblestoneT4Item());
+	public static final RegistryObject<Item> AUTOMATIC_COMPRESSOR = REGISTRY.register("automatic_compressor", () -> new AutomaticCompressorItem());
+	public static final RegistryObject<Item> ITEM_COMPRESSED = REGISTRY.register("item_compressed", () -> new ItemCompressedItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

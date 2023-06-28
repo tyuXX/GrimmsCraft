@@ -8,7 +8,7 @@
     "name": "Fiery Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 15,

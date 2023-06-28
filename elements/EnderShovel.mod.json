@@ -8,7 +8,7 @@
     "name": "Ender Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "toolType": "Spade",
     "harvestLevel": 17,

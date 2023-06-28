@@ -8,7 +8,7 @@
     "name": "Azure Silver",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "stackSize": 64,
     "enchantability": 0,

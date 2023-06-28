@@ -8,7 +8,7 @@
     "name": "Lapis Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Grimmscraft"
     },
     "toolType": "Spade",
     "harvestLevel": 12,

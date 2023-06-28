@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "tanium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Grimmscraft"
     },
     "armorTextureFile": "tanium",
     "helmetName": "Tanium Helmet",

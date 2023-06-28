@@ -9,10 +9,10 @@
       "registry_name": "white_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/white_wood.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_wood.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteWoodBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/white_wood.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_wood.json"
+          "src/main/resources/assets/grimmscraft/blockstates/white_wood.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -26,10 +26,10 @@
       "registry_name": "white_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/white_log.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteLogBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/white_log.json",
           "src/main/resources/assets/grimmscraft/blockstates/white_log.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_log.json"
+          "src/main/resources/assets/grimmscraft/models/item/white_log.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -43,10 +43,10 @@
       "registry_name": "white_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/white_planks.json",
+          "src/main/java/tyuxx/grimmscraft/block/WhitePlanksBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/white_planks.json",
-          "src/main/resources/assets/grimmscraft/blockstates/white_planks.json",
-          "src/main/java/tyuxx/grimmscraft/block/WhitePlanksBlock.java"
+          "src/main/resources/assets/grimmscraft/models/block/white_planks.json",
+          "src/main/resources/assets/grimmscraft/blockstates/white_planks.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -60,10 +60,10 @@
       "registry_name": "white_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/white_leaves.json",
           "src/main/resources/assets/grimmscraft/models/block/white_leaves.json",
-          "src/main/java/tyuxx/grimmscraft/block/WhiteLeavesBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/white_leaves.json"
+          "src/main/resources/assets/grimmscraft/blockstates/white_leaves.json",
+          "src/main/resources/assets/grimmscraft/models/item/white_leaves.json",
+          "src/main/java/tyuxx/grimmscraft/block/WhiteLeavesBlock.java"
         ]
       },
       "path": "~/TreeTypes"
@@ -77,12 +77,12 @@
       "registry_name": "white_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/grimmscraft/models/block/white_stairs_inner.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteStairsBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/white_stairs.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_stairs_outer.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_stairs.json",
           "src/main/resources/assets/grimmscraft/blockstates/white_stairs.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_stairs_inner.json"
+          "src/main/resources/assets/grimmscraft/models/item/white_stairs.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_stairs.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_stairs_outer.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -96,12 +96,12 @@
       "registry_name": "white_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/white_slab.json",
           "src/main/resources/assets/grimmscraft/models/block/white_slab_full.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_slab.json",
+          "src/main/resources/assets/grimmscraft/blockstates/white_slab.json",
           "src/main/resources/assets/grimmscraft/models/item/white_slab.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteSlabBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/white_slab_top.json",
-          "src/main/resources/assets/grimmscraft/blockstates/white_slab.json"
+          "src/main/resources/assets/grimmscraft/models/block/white_slab_top.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -115,12 +115,12 @@
       "registry_name": "white_fence",
       "metadata": {
         "files": [
+          "src/main/resources/assets/grimmscraft/models/item/white_fence.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_fence_inventory.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteFenceBlock.java",
           "src/main/resources/assets/grimmscraft/blockstates/white_fence.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_fence_post.json",
           "src/main/resources/assets/grimmscraft/models/block/white_fence.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_fence_inventory.json",
-          "src/main/resources/assets/grimmscraft/models/item/white_fence.json"
+          "src/main/resources/assets/grimmscraft/models/block/white_fence_post.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -134,13 +134,13 @@
       "registry_name": "white_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/white_fence_gate.json",
           "src/main/resources/assets/grimmscraft/models/block/white_fence_gate_open.json",
+          "src/main/resources/assets/grimmscraft/models/item/white_fence_gate.json",
           "src/main/resources/assets/grimmscraft/blockstates/white_fence_gate.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_fence_gate_wall.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteFenceGateBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/white_fence_gate_wall_open.json",
           "src/main/resources/assets/grimmscraft/models/block/white_fence_gate.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_fence_gate_wall.json"
+          "src/main/resources/assets/grimmscraft/models/block/white_fence_gate_wall_open.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -154,11 +154,11 @@
       "registry_name": "white_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/white_pressure_plate_down.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_pressure_plate.json",
           "src/main/resources/assets/grimmscraft/blockstates/white_pressure_plate.json",
           "src/main/resources/assets/grimmscraft/models/item/white_pressure_plate.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_pressure_plate.json",
-          "src/main/java/tyuxx/grimmscraft/block/WhitePressurePlateBlock.java"
+          "src/main/java/tyuxx/grimmscraft/block/WhitePressurePlateBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/white_pressure_plate_down.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -172,12 +172,12 @@
       "registry_name": "white_button",
       "metadata": {
         "files": [
+          "src/main/java/tyuxx/grimmscraft/block/WhiteButtonBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/white_button_inventory.json",
+          "src/main/resources/assets/grimmscraft/models/block/white_button_pressed.json",
           "src/main/resources/assets/grimmscraft/models/item/white_button.json",
           "src/main/resources/assets/grimmscraft/models/block/white_button.json",
-          "src/main/java/tyuxx/grimmscraft/block/WhiteButtonBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/white_button.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_button_pressed.json",
-          "src/main/resources/assets/grimmscraft/models/block/white_button_inventory.json"
+          "src/main/resources/assets/grimmscraft/blockstates/white_button.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -331,10 +331,10 @@
       "registry_name": "black_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/black_wood.json",
           "src/main/resources/assets/grimmscraft/blockstates/black_wood.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlackWoodBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/black_wood.json",
-          "src/main/java/tyuxx/grimmscraft/block/BlackWoodBlock.java"
+          "src/main/resources/assets/grimmscraft/models/item/black_wood.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -348,10 +348,10 @@
       "registry_name": "black_log",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/BlackLogBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/black_log.json",
           "src/main/resources/assets/grimmscraft/blockstates/black_log.json",
-          "src/main/resources/assets/grimmscraft/models/block/black_log.json"
+          "src/main/resources/assets/grimmscraft/models/block/black_log.json",
+          "src/main/resources/assets/grimmscraft/models/item/black_log.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlackLogBlock.java"
         ]
       },
       "path": "~/TreeTypes"
@@ -365,10 +365,10 @@
       "registry_name": "black_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/black_planks.json",
-          "src/main/resources/assets/grimmscraft/models/item/black_planks.json",
           "src/main/resources/assets/grimmscraft/blockstates/black_planks.json",
-          "src/main/java/tyuxx/grimmscraft/block/BlackPlanksBlock.java"
+          "src/main/resources/assets/grimmscraft/models/item/black_planks.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlackPlanksBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/black_planks.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -382,10 +382,10 @@
       "registry_name": "black_leaves",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/BlackLeavesBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/black_leaves.json",
-          "src/main/resources/assets/grimmscraft/blockstates/black_leaves.json",
-          "src/main/resources/assets/grimmscraft/models/item/black_leaves.json"
+          "src/main/java/tyuxx/grimmscraft/block/BlackLeavesBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/black_leaves.json",
+          "src/main/resources/assets/grimmscraft/blockstates/black_leaves.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -399,12 +399,12 @@
       "registry_name": "black_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/black_stairs_outer.json",
+          "src/main/resources/assets/grimmscraft/models/block/black_stairs.json",
           "src/main/resources/assets/grimmscraft/models/item/black_stairs.json",
           "src/main/resources/assets/grimmscraft/blockstates/black_stairs.json",
-          "src/main/resources/assets/grimmscraft/models/block/black_stairs.json",
-          "src/main/java/tyuxx/grimmscraft/block/BlackStairsBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/black_stairs_inner.json"
+          "src/main/resources/assets/grimmscraft/models/block/black_stairs_inner.json",
+          "src/main/resources/assets/grimmscraft/models/block/black_stairs_outer.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlackStairsBlock.java"
         ]
       },
       "path": "~/TreeTypes"
@@ -418,12 +418,12 @@
       "registry_name": "black_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/black_slab_top.json",
+          "src/main/resources/assets/grimmscraft/models/block/black_slab.json",
           "src/main/resources/assets/grimmscraft/models/block/black_slab_full.json",
+          "src/main/resources/assets/grimmscraft/models/item/black_slab.json",
           "src/main/resources/assets/grimmscraft/blockstates/black_slab.json",
           "src/main/java/tyuxx/grimmscraft/block/BlackSlabBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/black_slab.json",
-          "src/main/resources/assets/grimmscraft/models/block/black_slab.json"
+          "src/main/resources/assets/grimmscraft/models/block/black_slab_top.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -437,12 +437,12 @@
       "registry_name": "black_fence",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/BlackFenceBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/black_fence.json",
-          "src/main/resources/assets/grimmscraft/models/block/black_fence_inventory.json",
+          "src/main/resources/assets/grimmscraft/blockstates/black_fence.json",
           "src/main/resources/assets/grimmscraft/models/block/black_fence.json",
           "src/main/resources/assets/grimmscraft/models/block/black_fence_post.json",
-          "src/main/resources/assets/grimmscraft/blockstates/black_fence.json"
+          "src/main/resources/assets/grimmscraft/models/block/black_fence_inventory.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlackFenceBlock.java"
         ]
       },
       "path": "~/TreeTypes"
@@ -456,13 +456,13 @@
       "registry_name": "black_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/black_fence_gate.json",
-          "src/main/resources/assets/grimmscraft/blockstates/black_fence_gate.json",
           "src/main/resources/assets/grimmscraft/models/block/black_fence_gate_wall.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlackFenceGateBlock.java",
+          "src/main/resources/assets/grimmscraft/blockstates/black_fence_gate.json",
+          "src/main/resources/assets/grimmscraft/models/block/black_fence_gate_open.json",
           "src/main/resources/assets/grimmscraft/models/block/black_fence_gate_wall_open.json",
           "src/main/resources/assets/grimmscraft/models/block/black_fence_gate.json",
-          "src/main/java/tyuxx/grimmscraft/block/BlackFenceGateBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/black_fence_gate_open.json"
+          "src/main/resources/assets/grimmscraft/models/item/black_fence_gate.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -476,11 +476,11 @@
       "registry_name": "black_pressure_plate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/grimmscraft/blockstates/black_pressure_plate.json",
           "src/main/resources/assets/grimmscraft/models/block/black_pressure_plate.json",
-          "src/main/resources/assets/grimmscraft/models/block/black_pressure_plate_down.json",
-          "src/main/resources/assets/grimmscraft/models/item/black_pressure_plate.json",
           "src/main/java/tyuxx/grimmscraft/block/BlackPressurePlateBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/black_pressure_plate.json"
+          "src/main/resources/assets/grimmscraft/models/item/black_pressure_plate.json",
+          "src/main/resources/assets/grimmscraft/models/block/black_pressure_plate_down.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -496,8 +496,8 @@
         "files": [
           "src/main/resources/assets/grimmscraft/models/item/black_button.json",
           "src/main/resources/assets/grimmscraft/blockstates/black_button.json",
-          "src/main/resources/assets/grimmscraft/models/block/black_button_pressed.json",
           "src/main/java/tyuxx/grimmscraft/block/BlackButtonBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/black_button_pressed.json",
           "src/main/resources/assets/grimmscraft/models/block/black_button_inventory.json",
           "src/main/resources/assets/grimmscraft/models/block/black_button.json"
         ]
@@ -668,14 +668,14 @@
       "registry_name": "tanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/grimmscraft/forge/biome_modifier/tanium_ore_biome_modifier.json",
           "src/main/resources/assets/grimmscraft/models/block/tanium_ore.json",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tanium_ore.json",
           "src/main/java/tyuxx/grimmscraft/world/features/ores/TaniumOreFeature.java",
-          "src/main/java/tyuxx/grimmscraft/block/TaniumOreBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/tanium_ore.json",
+          "src/main/resources/data/grimmscraft/forge/biome_modifier/tanium_ore_biome_modifier.json",
           "src/main/resources/assets/grimmscraft/blockstates/tanium_ore.json",
-          "src/main/resources/data/grimmscraft/worldgen/placed_feature/tanium_ore.json"
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tanium_ore.json",
+          "src/main/resources/data/grimmscraft/worldgen/placed_feature/tanium_ore.json",
+          "src/main/java/tyuxx/grimmscraft/block/TaniumOreBlock.java"
         ]
       },
       "path": "~/Materials"
@@ -689,10 +689,10 @@
       "registry_name": "tanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/tanium_block.json",
           "src/main/resources/assets/grimmscraft/models/item/tanium_block.json",
           "src/main/java/tyuxx/grimmscraft/block/TaniumBlockBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/tanium_block.json"
+          "src/main/resources/assets/grimmscraft/blockstates/tanium_block.json",
+          "src/main/resources/assets/grimmscraft/models/block/tanium_block.json"
         ]
       },
       "path": "~/Materials"
@@ -763,8 +763,8 @@
       "registry_name": "tanium_axe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TaniumAxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tanium_axe.json"
+          "src/main/resources/assets/grimmscraft/models/item/tanium_axe.json",
+          "src/main/java/tyuxx/grimmscraft/item/TaniumAxeItem.java"
         ]
       },
       "path": "~/Materials"
@@ -808,8 +808,8 @@
       "registry_name": "tanium_hoe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TaniumHoeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tanium_hoe.json"
+          "src/main/resources/assets/grimmscraft/models/item/tanium_hoe.json",
+          "src/main/java/tyuxx/grimmscraft/item/TaniumHoeItem.java"
         ]
       },
       "path": "~/Materials"
@@ -898,10 +898,10 @@
         "ec": true,
         "files": [
           "src/main/resources/assets/grimmscraft/models/item/tanium_armor_leggings.json",
-          "src/main/java/tyuxx/grimmscraft/item/TaniumArmorItem.java",
           "src/main/resources/assets/grimmscraft/models/item/tanium_armor_chestplate.json",
           "src/main/resources/assets/grimmscraft/models/item/tanium_armor_boots.json",
-          "src/main/resources/assets/grimmscraft/models/item/tanium_armor_helmet.json"
+          "src/main/resources/assets/grimmscraft/models/item/tanium_armor_helmet.json",
+          "src/main/java/tyuxx/grimmscraft/item/TaniumArmorItem.java"
         ]
       },
       "path": "~/Materials"
@@ -987,13 +987,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/grimmscraft/models/item/tatanium_ore.json",
-          "src/main/resources/assets/grimmscraft/models/block/tatanium_ore.json",
           "src/main/java/tyuxx/grimmscraft/world/features/ores/TataniumOreFeature.java",
+          "src/main/java/tyuxx/grimmscraft/block/TataniumOreBlock.java",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/tatanium_ore.json",
           "src/main/resources/assets/grimmscraft/blockstates/tatanium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/block/TataniumOreBlock.java",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatanium_ore.json",
-          "src/main/resources/data/grimmscraft/forge/biome_modifier/tatanium_ore_biome_modifier.json"
+          "src/main/resources/assets/grimmscraft/models/block/tatanium_ore.json",
+          "src/main/resources/data/grimmscraft/forge/biome_modifier/tatanium_ore_biome_modifier.json",
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatanium_ore.json"
         ]
       },
       "path": "~/Materials"
@@ -1007,10 +1007,10 @@
       "registry_name": "tatanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatanium_block.json",
+          "src/main/java/tyuxx/grimmscraft/block/TataniumBlockBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/tatanium_block.json",
-          "src/main/resources/assets/grimmscraft/blockstates/tatanium_block.json",
-          "src/main/java/tyuxx/grimmscraft/block/TataniumBlockBlock.java"
+          "src/main/resources/assets/grimmscraft/models/item/tatanium_block.json",
+          "src/main/resources/assets/grimmscraft/blockstates/tatanium_block.json"
         ]
       },
       "path": "~/Materials"
@@ -1066,8 +1066,8 @@
       "registry_name": "tatanium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TataniumPickaxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatanium_pickaxe.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatanium_pickaxe.json",
+          "src/main/java/tyuxx/grimmscraft/item/TataniumPickaxeItem.java"
         ]
       },
       "path": "~/Materials"
@@ -1096,8 +1096,8 @@
       "registry_name": "tatanium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatanium_sword.json",
-          "src/main/java/tyuxx/grimmscraft/item/TataniumSwordItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TataniumSwordItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatanium_sword.json"
         ]
       },
       "path": "~/Materials"
@@ -1111,8 +1111,8 @@
       "registry_name": "tatanium_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatanium_shovel.json",
-          "src/main/java/tyuxx/grimmscraft/item/TataniumShovelItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TataniumShovelItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatanium_shovel.json"
         ]
       },
       "path": "~/Materials"
@@ -1216,9 +1216,9 @@
         "ec": true,
         "files": [
           "src/main/java/tyuxx/grimmscraft/item/TataniumArmorItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatanium_armor_helmet.json",
           "src/main/resources/assets/grimmscraft/models/item/tatanium_armor_chestplate.json",
           "src/main/resources/assets/grimmscraft/models/item/tatanium_armor_boots.json",
+          "src/main/resources/assets/grimmscraft/models/item/tatanium_armor_helmet.json",
           "src/main/resources/assets/grimmscraft/models/item/tatanium_armor_leggings.json"
         ]
       },
@@ -1289,8 +1289,8 @@
       "registry_name": "tatatanium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_ingot.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatataniumIngotItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TatataniumIngotItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_ingot.json"
         ]
       },
       "path": "~/Materials"
@@ -1304,14 +1304,14 @@
       "registry_name": "tatatanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/tatatanium_ore.json",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatatanium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/ores/TatataniumOreFeature.java",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/tatatanium_ore.json",
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_ore.json",
-          "src/main/resources/data/grimmscraft/forge/biome_modifier/tatatanium_ore_biome_modifier.json",
           "src/main/resources/assets/grimmscraft/models/block/tatatanium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/block/TatataniumOreBlock.java"
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatatanium_ore.json",
+          "src/main/java/tyuxx/grimmscraft/block/TatataniumOreBlock.java",
+          "src/main/java/tyuxx/grimmscraft/world/features/ores/TatataniumOreFeature.java",
+          "src/main/resources/data/grimmscraft/forge/biome_modifier/tatatanium_ore_biome_modifier.json",
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_ore.json",
+          "src/main/resources/assets/grimmscraft/blockstates/tatatanium_ore.json"
         ]
       },
       "path": "~/Materials"
@@ -1325,10 +1325,10 @@
       "registry_name": "tatatanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/tatatanium_block.json",
-          "src/main/java/tyuxx/grimmscraft/block/TatataniumBlockBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/tatatanium_block.json",
-          "src/main/resources/assets/grimmscraft/blockstates/tatatanium_block.json"
+          "src/main/resources/assets/grimmscraft/blockstates/tatatanium_block.json",
+          "src/main/java/tyuxx/grimmscraft/block/TatataniumBlockBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/tatatanium_block.json"
         ]
       },
       "path": "~/Materials"
@@ -1384,8 +1384,8 @@
       "registry_name": "tatatanium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TatataniumPickaxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_pickaxe.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_pickaxe.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatataniumPickaxeItem.java"
         ]
       },
       "path": "~/Materials"
@@ -1414,8 +1414,8 @@
       "registry_name": "tatatanium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_sword.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatataniumSwordItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TatataniumSwordItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_sword.json"
         ]
       },
       "path": "~/Materials"
@@ -1429,8 +1429,8 @@
       "registry_name": "tatatanium_shovel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TatataniumShovelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_shovel.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_shovel.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatataniumShovelItem.java"
         ]
       },
       "path": "~/Materials"
@@ -1533,11 +1533,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_armor_leggings.json",
           "src/main/resources/assets/grimmscraft/models/item/tatatanium_armor_helmet.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatataniumArmorItem.java",
           "src/main/resources/assets/grimmscraft/models/item/tatatanium_armor_boots.json",
-          "src/main/resources/assets/grimmscraft/models/item/tatatanium_armor_chestplate.json"
+          "src/main/java/tyuxx/grimmscraft/item/TatataniumArmorItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_armor_chestplate.json",
+          "src/main/resources/assets/grimmscraft/models/item/tatatanium_armor_leggings.json"
         ]
       },
       "path": "~/Materials"
@@ -1622,14 +1622,14 @@
       "registry_name": "tatatatanium_ore",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/TatatataniumOreBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_ore.json",
-          "src/main/resources/assets/grimmscraft/models/block/tatatatanium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/ores/TatatataniumOreFeature.java",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatatatanium_ore.json",
-          "src/main/resources/data/grimmscraft/forge/biome_modifier/tatatatanium_ore_biome_modifier.json",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/tatatatanium_ore.json",
-          "src/main/resources/assets/grimmscraft/blockstates/tatatatanium_ore.json"
+          "src/main/resources/assets/grimmscraft/models/block/tatatatanium_ore.json",
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatatatanium_ore.json",
+          "src/main/resources/assets/grimmscraft/blockstates/tatatatanium_ore.json",
+          "src/main/resources/data/grimmscraft/forge/biome_modifier/tatatatanium_ore_biome_modifier.json",
+          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_ore.json",
+          "src/main/java/tyuxx/grimmscraft/world/features/ores/TatatataniumOreFeature.java",
+          "src/main/java/tyuxx/grimmscraft/block/TatatataniumOreBlock.java"
         ]
       },
       "path": "~/Materials"
@@ -1644,9 +1644,9 @@
       "metadata": {
         "files": [
           "src/main/java/tyuxx/grimmscraft/block/TatatataniumBlockBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/tatatatanium_block.json",
+          "src/main/resources/assets/grimmscraft/models/block/tatatatanium_block.json",
           "src/main/resources/assets/grimmscraft/models/item/tatatatanium_block.json",
-          "src/main/resources/assets/grimmscraft/models/block/tatatatanium_block.json"
+          "src/main/resources/assets/grimmscraft/blockstates/tatatatanium_block.json"
         ]
       },
       "path": "~/Materials"
@@ -1702,8 +1702,8 @@
       "registry_name": "tatatatanium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_pickaxe.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatatataniumPickaxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TatatataniumPickaxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_pickaxe.json"
         ]
       },
       "path": "~/Materials"
@@ -1732,8 +1732,8 @@
       "registry_name": "tatatatanium_sword",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TatatataniumSwordItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_sword.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_sword.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatatataniumSwordItem.java"
         ]
       },
       "path": "~/Materials"
@@ -1747,8 +1747,8 @@
       "registry_name": "tatatatanium_shovel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TatatataniumShovelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_shovel.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatatanium_shovel.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatatataniumShovelItem.java"
         ]
       },
       "path": "~/Materials"
@@ -1851,9 +1851,9 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TatatataniumArmorItem.java",
           "src/main/resources/assets/grimmscraft/models/item/tatatatanium_armor_leggings.json",
           "src/main/resources/assets/grimmscraft/models/item/tatatatanium_armor_helmet.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatatataniumArmorItem.java",
           "src/main/resources/assets/grimmscraft/models/item/tatatatanium_armor_chestplate.json",
           "src/main/resources/assets/grimmscraft/models/item/tatatatanium_armor_boots.json"
         ]
@@ -1925,8 +1925,8 @@
       "registry_name": "tatatatatanium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_ingot.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumIngotItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumIngotItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_ingot.json"
         ]
       },
       "path": "~/Materials"
@@ -1940,14 +1940,14 @@
       "registry_name": "tatatatatanium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/grimmscraft/blockstates/tatatatatanium_ore.json",
           "src/main/java/tyuxx/grimmscraft/block/TatatatataniumOreBlock.java",
           "src/main/resources/data/grimmscraft/forge/biome_modifier/tatatatatanium_ore_biome_modifier.json",
-          "src/main/resources/assets/grimmscraft/blockstates/tatatatatanium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/ores/TatatatataniumOreFeature.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_ore.json",
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatatatatanium_ore.json",
           "src/main/resources/assets/grimmscraft/models/block/tatatatatanium_ore.json",
+          "src/main/java/tyuxx/grimmscraft/world/features/ores/TatatatataniumOreFeature.java",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/tatatatatanium_ore.json",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/tatatatatanium_ore.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_ore.json"
         ]
       },
       "path": "~/Materials"
@@ -1961,10 +1961,10 @@
       "registry_name": "tatatatatanium_block",
       "metadata": {
         "files": [
+          "src/main/java/tyuxx/grimmscraft/block/TatatatataniumBlockBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_block.json",
-          "src/main/resources/assets/grimmscraft/models/block/tatatatatanium_block.json",
           "src/main/resources/assets/grimmscraft/blockstates/tatatatatanium_block.json",
-          "src/main/java/tyuxx/grimmscraft/block/TatatatataniumBlockBlock.java"
+          "src/main/resources/assets/grimmscraft/models/block/tatatatatanium_block.json"
         ]
       },
       "path": "~/Materials"
@@ -2035,8 +2035,8 @@
       "registry_name": "tatatatatanium_axe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumAxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_axe.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_axe.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumAxeItem.java"
         ]
       },
       "path": "~/Materials"
@@ -2065,8 +2065,8 @@
       "registry_name": "tatatatatanium_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_shovel.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumShovelItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumShovelItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_shovel.json"
         ]
       },
       "path": "~/Materials"
@@ -2169,11 +2169,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_leggings.json",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_helmet.json",
-          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumArmorItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_boots.json",
           "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_chestplate.json",
-          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_boots.json"
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_helmet.json",
+          "src/main/resources/assets/grimmscraft/models/item/tatatatatanium_armor_leggings.json",
+          "src/main/java/tyuxx/grimmscraft/item/TatatatataniumArmorItem.java"
         ]
       },
       "path": "~/Materials"
@@ -2258,8 +2258,8 @@
       "registry_name": "bottle_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/bottle_1.json",
-          "src/main/java/tyuxx/grimmscraft/item/Bottle1Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/Bottle1Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/bottle_1.json"
         ]
       },
       "path": "~/Food"
@@ -2273,8 +2273,8 @@
       "registry_name": "vodka_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/vodka_1.json",
-          "src/main/java/tyuxx/grimmscraft/item/Vodka1Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/Vodka1Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/vodka_1.json"
         ]
       },
       "path": "~/Food"
@@ -2309,9 +2309,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/grimmscraft/models/item/diamond_tree_wood.json",
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeWoodBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_wood.json",
           "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_wood.json",
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_wood.json"
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeWoodBlock.java"
         ]
       },
       "path": "~/TreeTypes"
@@ -2325,10 +2325,10 @@
       "registry_name": "diamond_tree_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_log.json",
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeLogBlock.java",
+          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_log.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_log.json",
-          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_log.json"
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeLogBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_log.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -2342,10 +2342,10 @@
       "registry_name": "diamond_tree_planks",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreePlanksBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_planks.json",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_planks.json",
-          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_planks.json"
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreePlanksBlock.java",
+          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_planks.json",
+          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_planks.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -2359,10 +2359,10 @@
       "registry_name": "diamond_tree_leaves",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeLeavesBlock.java",
           "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_leaves.json",
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_leaves.json",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_leaves.json"
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeLeavesBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_leaves.json",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_leaves.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -2376,11 +2376,11 @@
       "registry_name": "diamond_tree_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_stairs_inner.json",
           "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_stairs.json",
+          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_stairs.json",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_stairs_inner.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_stairs.json",
           "src/main/java/tyuxx/grimmscraft/block/DiamondTreeStairsBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_stairs.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_stairs_outer.json"
         ]
       },
@@ -2395,12 +2395,12 @@
       "registry_name": "diamond_tree_slab",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeSlabBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_slab.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_slab_full.json",
           "src/main/resources/assets/grimmscraft/models/item/diamond_tree_slab.json",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_slab_top.json",
           "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_slab.json",
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_slab_top.json"
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_slab.json",
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeSlabBlock.java"
         ]
       },
       "path": "~/TreeTypes"
@@ -2414,12 +2414,12 @@
       "registry_name": "diamond_tree_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_post.json",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_fence.json",
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeFenceBlock.java",
           "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_fence.json",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_post.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_inventory.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence.json",
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeFenceBlock.java"
+          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_fence.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -2433,12 +2433,12 @@
       "registry_name": "diamond_tree_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_gate.json",
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeFenceGateBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_fence_gate.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_gate_open.json",
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeFenceGateBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_gate.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_gate_wall_open.json",
           "src/main/resources/assets/grimmscraft/models/item/diamond_tree_fence_gate.json",
+          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_fence_gate.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_fence_gate_wall.json"
         ]
       },
@@ -2453,11 +2453,11 @@
       "registry_name": "diamond_tree_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_pressure_plate_down.json",
-          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_pressure_plate.json",
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreePressurePlateBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/diamond_tree_pressure_plate.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_pressure_plate.json",
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreePressurePlateBlock.java"
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_pressure_plate_down.json",
+          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_pressure_plate.json"
         ]
       },
       "path": "~/TreeTypes"
@@ -2471,11 +2471,11 @@
       "registry_name": "diamond_tree_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_button.json",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_button.json",
-          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeButtonBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_button.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_button_pressed.json",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_tree_button.json",
+          "src/main/resources/assets/grimmscraft/blockstates/diamond_tree_button.json",
+          "src/main/java/tyuxx/grimmscraft/block/DiamondTreeButtonBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/diamond_tree_button.json",
           "src/main/resources/assets/grimmscraft/models/block/diamond_tree_button_inventory.json"
         ]
       },
@@ -2630,8 +2630,8 @@
       "registry_name": "tier_1_coal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/tier_1_coal.json",
-          "src/main/java/tyuxx/grimmscraft/item/Tier1CoalItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/Tier1CoalItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/tier_1_coal.json"
         ]
       },
       "path": "~/Fuel"
@@ -2657,8 +2657,8 @@
       "registry_name": "tier_2_coal",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/Tier2CoalItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tier_2_coal.json"
+          "src/main/resources/assets/grimmscraft/models/item/tier_2_coal.json",
+          "src/main/java/tyuxx/grimmscraft/item/Tier2CoalItem.java"
         ]
       },
       "path": "~/Fuel"
@@ -2711,8 +2711,8 @@
       "registry_name": "dye_stack",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/DyeStackItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/dye_stack.json"
+          "src/main/resources/assets/grimmscraft/models/item/dye_stack.json",
+          "src/main/java/tyuxx/grimmscraft/item/DyeStackItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -2741,11 +2741,11 @@
       "registry_name": "printer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/printer.json",
-          "src/main/resources/assets/grimmscraft/models/item/printer.json",
           "src/main/resources/assets/grimmscraft/models/block/printer.json",
+          "src/main/java/tyuxx/grimmscraft/block/entity/PrinterBlockEntity.java",
+          "src/main/resources/assets/grimmscraft/blockstates/printer.json",
           "src/main/java/tyuxx/grimmscraft/block/PrinterBlock.java",
-          "src/main/java/tyuxx/grimmscraft/block/entity/PrinterBlockEntity.java"
+          "src/main/resources/assets/grimmscraft/models/item/printer.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -2759,8 +2759,8 @@
       "registry_name": "printer_gui",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/world/inventory/PrinterGuiMenu.java",
           "src/main/java/tyuxx/grimmscraft/client/gui/PrinterGuiScreen.java",
+          "src/main/java/tyuxx/grimmscraft/world/inventory/PrinterGuiMenu.java",
           "src/main/java/tyuxx/grimmscraft/network/PrinterGuiButtonMessage.java"
         ]
       },
@@ -2775,8 +2775,8 @@
       "registry_name": "printed_paper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/printed_paper.json",
-          "src/main/java/tyuxx/grimmscraft/item/PrintedPaperItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/PrintedPaperItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/printed_paper.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -2814,8 +2814,8 @@
       "registry_name": "carton",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/CartonItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/carton.json"
+          "src/main/resources/assets/grimmscraft/models/item/carton.json",
+          "src/main/java/tyuxx/grimmscraft/item/CartonItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -2872,9 +2872,9 @@
       "registry_name": "l_bag_t_1",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/LBagT1Item.java",
           "src/main/resources/assets/grimmscraft/models/item/l_bag_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/item/inventory/LBagT1InventoryCapability.java"
+          "src/main/java/tyuxx/grimmscraft/item/inventory/LBagT1InventoryCapability.java",
+          "src/main/java/tyuxx/grimmscraft/item/LBagT1Item.java"
         ]
       },
       "path": "~/Bags"
@@ -2916,8 +2916,8 @@
       "registry_name": "dusty_iron",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/DustyIronItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/dusty_iron.json"
+          "src/main/resources/assets/grimmscraft/models/item/dusty_iron.json",
+          "src/main/java/tyuxx/grimmscraft/item/DustyIronItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -2931,8 +2931,8 @@
       "registry_name": "steel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/SteelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/steel.json"
+          "src/main/resources/assets/grimmscraft/models/item/steel.json",
+          "src/main/java/tyuxx/grimmscraft/item/SteelItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -2988,8 +2988,8 @@
       "registry_name": "katana_t_1",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/KatanaT1Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/katana_t_1.json"
+          "src/main/resources/assets/grimmscraft/models/item/katana_t_1.json",
+          "src/main/java/tyuxx/grimmscraft/item/KatanaT1Item.java"
         ]
       },
       "path": "~/Special"
@@ -3055,8 +3055,8 @@
       "registry_name": "katana_t_2",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/KatanaT2Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/katana_t_2.json"
+          "src/main/resources/assets/grimmscraft/models/item/katana_t_2.json",
+          "src/main/java/tyuxx/grimmscraft/item/KatanaT2Item.java"
         ]
       },
       "path": "~/Special"
@@ -3122,8 +3122,8 @@
       "registry_name": "hot_steel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/HotSteelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/hot_steel.json"
+          "src/main/resources/assets/grimmscraft/models/item/hot_steel.json",
+          "src/main/java/tyuxx/grimmscraft/item/HotSteelItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -3167,8 +3167,8 @@
       "registry_name": "forged_steel_t_2",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ForgedSteelT2Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/forged_steel_t_2.json"
+          "src/main/resources/assets/grimmscraft/models/item/forged_steel_t_2.json",
+          "src/main/java/tyuxx/grimmscraft/item/ForgedSteelT2Item.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -3182,8 +3182,8 @@
       "registry_name": "forged_hot_steel_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/forged_hot_steel_t_2.json",
-          "src/main/java/tyuxx/grimmscraft/item/ForgedHotSteelT2Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/ForgedHotSteelT2Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/forged_hot_steel_t_2.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -3227,8 +3227,8 @@
       "registry_name": "forged_steel_t_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/forged_steel_t_4.json",
-          "src/main/java/tyuxx/grimmscraft/item/ForgedSteelT4Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/ForgedSteelT4Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/forged_steel_t_4.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -3242,8 +3242,8 @@
       "registry_name": "forged_hot_steel_t_4",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ForgedHotSteelT4Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/forged_hot_steel_t_4.json"
+          "src/main/resources/assets/grimmscraft/models/item/forged_hot_steel_t_4.json",
+          "src/main/java/tyuxx/grimmscraft/item/ForgedHotSteelT4Item.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -3257,8 +3257,8 @@
       "registry_name": "forged_steel_t_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/forged_steel_t_5.json",
-          "src/main/java/tyuxx/grimmscraft/item/ForgedSteelT5Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/ForgedSteelT5Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/forged_steel_t_5.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -3272,8 +3272,8 @@
       "registry_name": "forged_hot_steel_t_5",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ForgedHotSteelT5Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/forged_hot_steel_t_5.json"
+          "src/main/resources/assets/grimmscraft/models/item/forged_hot_steel_t_5.json",
+          "src/main/java/tyuxx/grimmscraft/item/ForgedHotSteelT5Item.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -3658,8 +3658,8 @@
       "registry_name": "diamond_hammer",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/DiamondHammerItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_hammer.json"
+          "src/main/resources/assets/grimmscraft/models/item/diamond_hammer.json",
+          "src/main/java/tyuxx/grimmscraft/item/DiamondHammerItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -3687,8 +3687,8 @@
       "registry_name": "katana_t_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/katana_t_3.json",
-          "src/main/java/tyuxx/grimmscraft/item/KatanaT3Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/KatanaT3Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/katana_t_3.json"
         ]
       },
       "path": "~/Special"
@@ -3883,8 +3883,8 @@
       "registry_name": "gold_wire",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/GoldWireItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/gold_wire.json"
+          "src/main/resources/assets/grimmscraft/models/item/gold_wire.json",
+          "src/main/java/tyuxx/grimmscraft/item/GoldWireItem.java"
         ]
       },
       "path": "~/Technical/Items"
@@ -3969,8 +3969,8 @@
       "registry_name": "uranium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/uranium_ingot.json",
-          "src/main/java/tyuxx/grimmscraft/item/UraniumIngotItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/UraniumIngotItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/uranium_ingot.json"
         ]
       },
       "path": "~/Materials"
@@ -3984,14 +3984,14 @@
       "registry_name": "uranium_ore",
       "metadata": {
         "files": [
+          "src/main/java/tyuxx/grimmscraft/world/features/ores/UraniumOreFeature.java",
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/uranium_ore.json",
           "src/main/java/tyuxx/grimmscraft/block/UraniumOreBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/uranium_ore.json",
-          "src/main/resources/data/grimmscraft/forge/biome_modifier/uranium_ore_biome_modifier.json",
-          "src/main/resources/assets/grimmscraft/models/block/uranium_ore.json",
-          "src/main/resources/data/grimmscraft/worldgen/placed_feature/uranium_ore.json",
           "src/main/resources/assets/grimmscraft/blockstates/uranium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/ores/UraniumOreFeature.java",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/uranium_ore.json"
+          "src/main/resources/data/grimmscraft/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/data/grimmscraft/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/assets/grimmscraft/models/block/uranium_ore.json"
         ]
       },
       "path": "~/Materials"
@@ -4005,10 +4005,10 @@
       "registry_name": "uranium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/uranium_block.json",
+          "src/main/resources/assets/grimmscraft/models/block/uranium_block.json",
           "src/main/java/tyuxx/grimmscraft/block/UraniumBlockBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/uranium_block.json",
-          "src/main/resources/assets/grimmscraft/models/block/uranium_block.json"
+          "src/main/resources/assets/grimmscraft/blockstates/uranium_block.json",
+          "src/main/resources/assets/grimmscraft/models/item/uranium_block.json"
         ]
       },
       "path": "~/Materials"
@@ -4127,14 +4127,14 @@
       "registry_name": "thorium_ore",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/ThoriumOreBlock.java",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/thorium_ore.json",
-          "src/main/resources/assets/grimmscraft/models/item/thorium_ore.json",
           "src/main/resources/data/grimmscraft/forge/biome_modifier/thorium_ore_biome_modifier.json",
-          "src/main/resources/assets/grimmscraft/blockstates/thorium_ore.json",
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/thorium_ore.json",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/thorium_ore.json",
           "src/main/resources/assets/grimmscraft/models/block/thorium_ore.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/ores/ThoriumOreFeature.java"
+          "src/main/resources/assets/grimmscraft/blockstates/thorium_ore.json",
+          "src/main/java/tyuxx/grimmscraft/world/features/ores/ThoriumOreFeature.java",
+          "src/main/resources/assets/grimmscraft/models/item/thorium_ore.json",
+          "src/main/java/tyuxx/grimmscraft/block/ThoriumOreBlock.java"
         ]
       },
       "path": "~/Materials"
@@ -4148,8 +4148,8 @@
       "registry_name": "thorium_block",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/ThoriumBlockBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/thorium_block.json",
+          "src/main/java/tyuxx/grimmscraft/block/ThoriumBlockBlock.java",
           "src/main/resources/assets/grimmscraft/blockstates/thorium_block.json",
           "src/main/resources/assets/grimmscraft/models/item/thorium_block.json"
         ]
@@ -4564,13 +4564,13 @@
       "registry_name": "solar_panel_t_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/solar_panel_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/block/SolarPanelT1Block.java",
-          "src/main/resources/assets/grimmscraft/models/block/solar_panel_t_1_full.json",
+          "src/main/resources/assets/grimmscraft/models/block/solar_panel_t_1_top.json",
           "src/main/java/tyuxx/grimmscraft/block/entity/SolarPanelT1BlockEntity.java",
-          "src/main/resources/assets/grimmscraft/blockstates/solar_panel_t_1.json",
           "src/main/resources/assets/grimmscraft/models/block/solar_panel_t_1.json",
-          "src/main/resources/assets/grimmscraft/models/block/solar_panel_t_1_top.json"
+          "src/main/resources/assets/grimmscraft/models/item/solar_panel_t_1.json",
+          "src/main/resources/assets/grimmscraft/blockstates/solar_panel_t_1.json",
+          "src/main/resources/assets/grimmscraft/models/block/solar_panel_t_1_full.json",
+          "src/main/java/tyuxx/grimmscraft/block/SolarPanelT1Block.java"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -4599,11 +4599,11 @@
       "registry_name": "electric_furnace_t_1",
       "metadata": {
         "files": [
+          "src/main/java/tyuxx/grimmscraft/block/entity/ElectricFurnaceT1BlockEntity.java",
           "src/main/resources/assets/grimmscraft/models/item/electric_furnace_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/block/ElectricFurnaceT1Block.java",
           "src/main/resources/assets/grimmscraft/blockstates/electric_furnace_t_1.json",
           "src/main/resources/assets/grimmscraft/models/block/electric_furnace_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/block/entity/ElectricFurnaceT1BlockEntity.java"
+          "src/main/java/tyuxx/grimmscraft/block/ElectricFurnaceT1Block.java"
         ]
       },
       "path": "~/Gui"
@@ -4617,8 +4617,8 @@
       "registry_name": "e_furnace_t_1_gui",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/client/gui/EFurnaceT1GuiScreen.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/EFurnaceT1GuiMenu.java"
+          "src/main/java/tyuxx/grimmscraft/world/inventory/EFurnaceT1GuiMenu.java",
+          "src/main/java/tyuxx/grimmscraft/client/gui/EFurnaceT1GuiScreen.java"
         ]
       },
       "path": "~/Gui"
@@ -4660,8 +4660,8 @@
       "registry_name": "white_glich",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/white_glich.json",
-          "src/main/java/tyuxx/grimmscraft/item/WhiteGlichItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/WhiteGlichItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/white_glich.json"
         ]
       },
       "path": "~/Materials"
@@ -4679,11 +4679,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_boots.json",
+          "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_helmet.json",
+          "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_chestplate.json",
           "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_leggings.json",
           "src/main/java/tyuxx/grimmscraft/item/WhiteGlichArmorItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_helmet.json",
-          "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_chestplate.json"
+          "src/main/resources/assets/grimmscraft/models/item/white_glich_armor_boots.json"
         ]
       },
       "path": "~/Materials"
@@ -4767,8 +4767,8 @@
       "registry_name": "katana_t_4",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/KatanaT4Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/katana_t_4.json"
+          "src/main/resources/assets/grimmscraft/models/item/katana_t_4.json",
+          "src/main/java/tyuxx/grimmscraft/item/KatanaT4Item.java"
         ]
       },
       "path": "~/Special"
@@ -4869,8 +4869,8 @@
       "registry_name": "vodka_2",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/Vodka2Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/vodka_2.json"
+          "src/main/resources/assets/grimmscraft/models/item/vodka_2.json",
+          "src/main/java/tyuxx/grimmscraft/item/Vodka2Item.java"
         ]
       },
       "path": "~/Food"
@@ -4899,8 +4899,8 @@
       "registry_name": "bottle_3",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/Bottle3Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/bottle_3.json"
+          "src/main/resources/assets/grimmscraft/models/item/bottle_3.json",
+          "src/main/java/tyuxx/grimmscraft/item/Bottle3Item.java"
         ]
       },
       "path": "~/Food"
@@ -4934,10 +4934,10 @@
       "registry_name": "white_glich_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/white_glich_block.json",
-          "src/main/resources/assets/grimmscraft/blockstates/white_glich_block.json",
           "src/main/java/tyuxx/grimmscraft/block/WhiteGlichBlockBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/white_glich_block.json"
+          "src/main/resources/assets/grimmscraft/models/block/white_glich_block.json",
+          "src/main/resources/assets/grimmscraft/models/item/white_glich_block.json",
+          "src/main/resources/assets/grimmscraft/blockstates/white_glich_block.json"
         ]
       },
       "path": "~/Materials"
@@ -5063,8 +5063,8 @@
       "registry_name": "permanent_saturation_apple",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/permanent_saturation_apple.json",
-          "src/main/java/tyuxx/grimmscraft/item/PermanentSaturationAppleItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/PermanentSaturationAppleItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/permanent_saturation_apple.json"
         ]
       },
       "path": "~/Food"
@@ -5099,9 +5099,9 @@
       "registry_name": "stats_gui",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/world/inventory/StatsGuiMenu.java",
           "src/main/java/tyuxx/grimmscraft/client/gui/StatsGuiScreen.java",
-          "src/main/java/tyuxx/grimmscraft/network/StatsGuiButtonMessage.java"
+          "src/main/java/tyuxx/grimmscraft/network/StatsGuiButtonMessage.java",
+          "src/main/java/tyuxx/grimmscraft/world/inventory/StatsGuiMenu.java"
         ]
       },
       "path": "~/Gui"
@@ -5379,8 +5379,8 @@
       "metadata": {
         "files": [
           "src/main/java/tyuxx/grimmscraft/world/inventory/StatsToggleGuiMenu.java",
-          "src/main/java/tyuxx/grimmscraft/network/StatsToggleGuiButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/client/gui/StatsToggleGuiScreen.java"
+          "src/main/java/tyuxx/grimmscraft/client/gui/StatsToggleGuiScreen.java",
+          "src/main/java/tyuxx/grimmscraft/network/StatsToggleGuiButtonMessage.java"
         ]
       },
       "path": "~/Gui"
@@ -5504,8 +5504,8 @@
       "registry_name": "glowstone_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/glowstone_pickaxe.json",
-          "src/main/java/tyuxx/grimmscraft/item/GlowstonePickaxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/GlowstonePickaxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/glowstone_pickaxe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -5519,8 +5519,8 @@
       "registry_name": "glowstone_axe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/GlowstoneAxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/glowstone_axe.json"
+          "src/main/resources/assets/grimmscraft/models/item/glowstone_axe.json",
+          "src/main/java/tyuxx/grimmscraft/item/GlowstoneAxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -5679,8 +5679,8 @@
       "registry_name": "slime_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/slime_sword.json",
-          "src/main/java/tyuxx/grimmscraft/item/SlimeSwordItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/SlimeSwordItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/slime_sword.json"
         ]
       },
       "path": "~/ToolKits"
@@ -5694,8 +5694,8 @@
       "registry_name": "slime_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/slime_shovel.json",
-          "src/main/java/tyuxx/grimmscraft/item/SlimeShovelItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/SlimeShovelItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/slime_shovel.json"
         ]
       },
       "path": "~/ToolKits"
@@ -5709,8 +5709,8 @@
       "registry_name": "slime_hoe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/SlimeHoeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/slime_hoe.json"
+          "src/main/resources/assets/grimmscraft/models/item/slime_hoe.json",
+          "src/main/java/tyuxx/grimmscraft/item/SlimeHoeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -5794,8 +5794,8 @@
       "registry_name": "prismarine_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/prismarine_pickaxe.json",
-          "src/main/java/tyuxx/grimmscraft/item/PrismarinePickaxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/PrismarinePickaxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/prismarine_pickaxe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -5824,8 +5824,8 @@
       "registry_name": "prismarine_sword",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/PrismarineSwordItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/prismarine_sword.json"
+          "src/main/resources/assets/grimmscraft/models/item/prismarine_sword.json",
+          "src/main/java/tyuxx/grimmscraft/item/PrismarineSwordItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -5954,8 +5954,8 @@
       "registry_name": "lapis_axe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/LapisAxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/lapis_axe.json"
+          "src/main/resources/assets/grimmscraft/models/item/lapis_axe.json",
+          "src/main/java/tyuxx/grimmscraft/item/LapisAxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -5984,8 +5984,8 @@
       "registry_name": "lapis_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/lapis_shovel.json",
-          "src/main/java/tyuxx/grimmscraft/item/LapisShovelItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/LapisShovelItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/lapis_shovel.json"
         ]
       },
       "path": "~/ToolKits"
@@ -5999,8 +5999,8 @@
       "registry_name": "lapis_hoe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/LapisHoeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/lapis_hoe.json"
+          "src/main/resources/assets/grimmscraft/models/item/lapis_hoe.json",
+          "src/main/java/tyuxx/grimmscraft/item/LapisHoeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6084,8 +6084,8 @@
       "registry_name": "fiery_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/FieryPickaxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/fiery_pickaxe.json"
+          "src/main/resources/assets/grimmscraft/models/item/fiery_pickaxe.json",
+          "src/main/java/tyuxx/grimmscraft/item/FieryPickaxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6099,8 +6099,8 @@
       "registry_name": "fiery_axe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/FieryAxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/fiery_axe.json"
+          "src/main/resources/assets/grimmscraft/models/item/fiery_axe.json",
+          "src/main/java/tyuxx/grimmscraft/item/FieryAxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6244,8 +6244,8 @@
       "registry_name": "ender_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/ender_axe.json",
-          "src/main/java/tyuxx/grimmscraft/item/EnderAxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/EnderAxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/ender_axe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6259,8 +6259,8 @@
       "registry_name": "ender_sword",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/EnderSwordItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/ender_sword.json"
+          "src/main/resources/assets/grimmscraft/models/item/ender_sword.json",
+          "src/main/java/tyuxx/grimmscraft/item/EnderSwordItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6274,8 +6274,8 @@
       "registry_name": "ender_shovel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/EnderShovelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/ender_shovel.json"
+          "src/main/resources/assets/grimmscraft/models/item/ender_shovel.json",
+          "src/main/java/tyuxx/grimmscraft/item/EnderShovelItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6289,8 +6289,8 @@
       "registry_name": "ender_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/ender_hoe.json",
-          "src/main/java/tyuxx/grimmscraft/item/EnderHoeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/EnderHoeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/ender_hoe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6419,8 +6419,8 @@
       "registry_name": "coal_shovel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/CoalShovelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/coal_shovel.json"
+          "src/main/resources/assets/grimmscraft/models/item/coal_shovel.json",
+          "src/main/java/tyuxx/grimmscraft/item/CoalShovelItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6434,8 +6434,8 @@
       "registry_name": "coal_hoe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/CoalHoeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/coal_hoe.json"
+          "src/main/resources/assets/grimmscraft/models/item/coal_hoe.json",
+          "src/main/java/tyuxx/grimmscraft/item/CoalHoeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6534,8 +6534,8 @@
       "registry_name": "bone_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/bone_axe.json",
-          "src/main/java/tyuxx/grimmscraft/item/BoneAxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/BoneAxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/bone_axe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6564,8 +6564,8 @@
       "registry_name": "bone_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/bone_shovel.json",
-          "src/main/java/tyuxx/grimmscraft/item/BoneShovelItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/BoneShovelItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/bone_shovel.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6664,8 +6664,8 @@
       "registry_name": "obsidian_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ObsidianPickaxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/obsidian_pickaxe.json"
+          "src/main/resources/assets/grimmscraft/models/item/obsidian_pickaxe.json",
+          "src/main/java/tyuxx/grimmscraft/item/ObsidianPickaxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6679,8 +6679,8 @@
       "registry_name": "obsidian_axe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ObsidianAxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/obsidian_axe.json"
+          "src/main/resources/assets/grimmscraft/models/item/obsidian_axe.json",
+          "src/main/java/tyuxx/grimmscraft/item/ObsidianAxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6709,8 +6709,8 @@
       "registry_name": "obsidian_shovel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ObsidianShovelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/obsidian_shovel.json"
+          "src/main/resources/assets/grimmscraft/models/item/obsidian_shovel.json",
+          "src/main/java/tyuxx/grimmscraft/item/ObsidianShovelItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6809,8 +6809,8 @@
       "registry_name": "netherrack_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/NetherrackPickaxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/netherrack_pickaxe.json"
+          "src/main/resources/assets/grimmscraft/models/item/netherrack_pickaxe.json",
+          "src/main/java/tyuxx/grimmscraft/item/NetherrackPickaxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -6854,8 +6854,8 @@
       "registry_name": "netherrack_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/netherrack_shovel.json",
-          "src/main/java/tyuxx/grimmscraft/item/NetherrackShovelItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/NetherrackShovelItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/netherrack_shovel.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6869,8 +6869,8 @@
       "registry_name": "netherrack_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/netherrack_hoe.json",
-          "src/main/java/tyuxx/grimmscraft/item/NetherrackHoeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/NetherrackHoeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/netherrack_hoe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6954,8 +6954,8 @@
       "registry_name": "paper_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/paper_pickaxe.json",
-          "src/main/java/tyuxx/grimmscraft/item/PaperPickaxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/PaperPickaxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/paper_pickaxe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6969,8 +6969,8 @@
       "registry_name": "paper_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/paper_axe.json",
-          "src/main/java/tyuxx/grimmscraft/item/PaperAxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/PaperAxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/paper_axe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -6999,8 +6999,8 @@
       "registry_name": "paper_shovel",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/PaperShovelItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/paper_shovel.json"
+          "src/main/resources/assets/grimmscraft/models/item/paper_shovel.json",
+          "src/main/java/tyuxx/grimmscraft/item/PaperShovelItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -7014,8 +7014,8 @@
       "registry_name": "paper_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/paper_hoe.json",
-          "src/main/java/tyuxx/grimmscraft/item/PaperHoeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/PaperHoeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/paper_hoe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -7129,8 +7129,8 @@
       "registry_name": "redstone_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/redstone_sword.json",
-          "src/main/java/tyuxx/grimmscraft/item/RedstoneSwordItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/RedstoneSwordItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/redstone_sword.json"
         ]
       },
       "path": "~/ToolKits"
@@ -7244,8 +7244,8 @@
       "registry_name": "quartz_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/QuartzPickaxeItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/quartz_pickaxe.json"
+          "src/main/resources/assets/grimmscraft/models/item/quartz_pickaxe.json",
+          "src/main/java/tyuxx/grimmscraft/item/QuartzPickaxeItem.java"
         ]
       },
       "path": "~/ToolKits"
@@ -7259,8 +7259,8 @@
       "registry_name": "quartz_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/quartz_axe.json",
-          "src/main/java/tyuxx/grimmscraft/item/QuartzAxeItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/QuartzAxeItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/quartz_axe.json"
         ]
       },
       "path": "~/ToolKits"
@@ -7606,8 +7606,8 @@
       "registry_name": "russian_roulette",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/RussianRouletteItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/russian_roulette.json"
+          "src/main/resources/assets/grimmscraft/models/item/russian_roulette.json",
+          "src/main/java/tyuxx/grimmscraft/item/RussianRouletteItem.java"
         ]
       },
       "path": "~/Special"
@@ -7621,8 +7621,8 @@
       "registry_name": "katana_r_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/katana_r_1.json",
-          "src/main/java/tyuxx/grimmscraft/item/KatanaR1Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/KatanaR1Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/katana_r_1.json"
         ]
       },
       "path": "~/Special"
@@ -7739,8 +7739,8 @@
       "registry_name": "button_of_doom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/button_of_doom.json",
-          "src/main/java/tyuxx/grimmscraft/item/ButtonOfDoomItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/ButtonOfDoomItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/button_of_doom.json"
         ]
       },
       "path": "~/Bombs"
@@ -7818,10 +7818,10 @@
       "registry_name": "tnt_x_9",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/tnt_x_9.json",
           "src/main/resources/assets/grimmscraft/models/item/tnt_x_9.json",
-          "src/main/resources/assets/grimmscraft/blockstates/tnt_x_9.json",
-          "src/main/java/tyuxx/grimmscraft/block/TntX9Block.java"
+          "src/main/java/tyuxx/grimmscraft/block/TntX9Block.java",
+          "src/main/resources/assets/grimmscraft/models/block/tnt_x_9.json",
+          "src/main/resources/assets/grimmscraft/blockstates/tnt_x_9.json"
         ]
       },
       "path": "~/Bombs"
@@ -7890,10 +7890,10 @@
       "registry_name": "tnt_x_81",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/tnt_x_81.json",
-          "src/main/java/tyuxx/grimmscraft/block/TntX81Block.java",
+          "src/main/resources/assets/grimmscraft/models/block/tnt_x_81.json",
           "src/main/resources/assets/grimmscraft/models/item/tnt_x_81.json",
-          "src/main/resources/assets/grimmscraft/models/block/tnt_x_81.json"
+          "src/main/resources/assets/grimmscraft/blockstates/tnt_x_81.json",
+          "src/main/java/tyuxx/grimmscraft/block/TntX81Block.java"
         ]
       },
       "path": "~/Bombs"
@@ -8013,8 +8013,8 @@
       "registry_name": "clockwork_scythe_t_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/clockwork_scythe_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/item/ClockworkScytheT1Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/ClockworkScytheT1Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/clockwork_scythe_t_1.json"
         ]
       },
       "path": "~/Special"
@@ -8048,8 +8048,8 @@
       "registry_name": "tha_wand",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/ThaWandItem.java",
-          "src/main/resources/assets/grimmscraft/models/item/tha_wand.json"
+          "src/main/resources/assets/grimmscraft/models/item/tha_wand.json",
+          "src/main/java/tyuxx/grimmscraft/item/ThaWandItem.java"
         ]
       },
       "path": "~/Special"
@@ -8359,8 +8359,8 @@
       "registry_name": "generated_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/generated_item.json",
-          "src/main/java/tyuxx/grimmscraft/item/GeneratedItemItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/GeneratedItemItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/generated_item.json"
         ]
       },
       "path": "~/Generated"
@@ -8454,8 +8454,8 @@
       "registry_name": "obsidian_shard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/obsidian_shard.json",
-          "src/main/java/tyuxx/grimmscraft/item/ObsidianShardItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/ObsidianShardItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/obsidian_shard.json"
         ]
       },
       "path": "~/Storage/Decompressed"
@@ -8499,8 +8499,8 @@
       "registry_name": "black_hole_t_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/black_hole_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/item/BlackHoleT1Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/BlackHoleT1Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/black_hole_t_1.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -8544,8 +8544,8 @@
       "registry_name": "lighter_t_1_closed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/lighter_t_1_closed.json",
-          "src/main/java/tyuxx/grimmscraft/item/LighterT1ClosedItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/LighterT1ClosedItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/lighter_t_1_closed.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -8799,8 +8799,8 @@
       "registry_name": "fire_t_1",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/FireT1Block.java",
           "src/main/resources/assets/grimmscraft/models/block/fire_t_1.json",
+          "src/main/java/tyuxx/grimmscraft/block/FireT1Block.java",
           "src/main/resources/assets/grimmscraft/models/item/fire_t_1.json",
           "src/main/resources/assets/grimmscraft/blockstates/fire_t_1.json"
         ]
@@ -8836,10 +8836,10 @@
       "registry_name": "fire_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/fire_t_2.json",
+          "src/main/resources/assets/grimmscraft/blockstates/fire_t_2.json",
           "src/main/resources/assets/grimmscraft/models/block/fire_t_2.json",
           "src/main/java/tyuxx/grimmscraft/block/FireT2Block.java",
-          "src/main/resources/assets/grimmscraft/blockstates/fire_t_2.json"
+          "src/main/resources/assets/grimmscraft/models/item/fire_t_2.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -8873,10 +8873,10 @@
       "registry_name": "fire_t_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/fire_t_3.json",
-          "src/main/resources/assets/grimmscraft/models/block/fire_t_3.json",
+          "src/main/java/tyuxx/grimmscraft/block/FireT3Block.java",
           "src/main/resources/assets/grimmscraft/models/item/fire_t_3.json",
-          "src/main/java/tyuxx/grimmscraft/block/FireT3Block.java"
+          "src/main/resources/assets/grimmscraft/blockstates/fire_t_3.json",
+          "src/main/resources/assets/grimmscraft/models/block/fire_t_3.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -8910,10 +8910,10 @@
       "registry_name": "magical_fire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/magical_fire.json",
           "src/main/resources/assets/grimmscraft/models/item/magical_fire.json",
-          "src/main/java/tyuxx/grimmscraft/block/MagicalFireBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/magical_fire.json"
+          "src/main/resources/assets/grimmscraft/blockstates/magical_fire.json",
+          "src/main/resources/assets/grimmscraft/models/block/magical_fire.json",
+          "src/main/java/tyuxx/grimmscraft/block/MagicalFireBlock.java"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -8962,8 +8962,8 @@
       "registry_name": "magical_lighter_closed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/magical_lighter_closed.json",
-          "src/main/java/tyuxx/grimmscraft/item/MagicalLighterClosedItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/MagicalLighterClosedItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/magical_lighter_closed.json"
         ]
       },
       "path": "~/Technical/Items"
@@ -9228,8 +9228,8 @@
       "registry_name": "clockwork_scyte_t_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/clockwork_scyte_t_3.json",
-          "src/main/java/tyuxx/grimmscraft/item/ClockworkScyteT3Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/ClockworkScyteT3Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/clockwork_scyte_t_3.json"
         ]
       },
       "path": "~/Special"
@@ -9831,9 +9831,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/grimmscraft/blockstates/block_nothing.json",
-          "src/main/java/tyuxx/grimmscraft/block/BlockNothingBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/block_nothing.json",
-          "src/main/resources/assets/grimmscraft/models/item/block_nothing.json"
+          "src/main/resources/assets/grimmscraft/models/item/block_nothing.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlockNothingBlock.java"
         ]
       },
       "path": "~/Worldgen/Blocks"
@@ -9848,9 +9848,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/grimmscraft/blockstates/block_black_hole_t_1.json",
-          "src/main/java/tyuxx/grimmscraft/block/BlockBlackHoleT1Block.java",
           "src/main/resources/assets/grimmscraft/models/item/block_black_hole_t_1.json",
-          "src/main/resources/assets/grimmscraft/models/block/block_black_hole_t_1.json"
+          "src/main/resources/assets/grimmscraft/models/block/block_black_hole_t_1.json",
+          "src/main/java/tyuxx/grimmscraft/block/BlockBlackHoleT1Block.java"
         ]
       },
       "path": "~/Worldgen/Blocks"
@@ -9864,12 +9864,12 @@
       "registry_name": "nothing_biome",
       "metadata": {
         "files": [
+          "src/main/resources/data/grimmscraft/worldgen/biome/nothing_biome.json",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/nothing_biome_tree.json",
           "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/NothingBiomeTrunkDecorator.java",
-          "src/main/resources/data/grimmscraft/worldgen/biome/nothing_biome.json",
-          "src/main/resources/data/grimmscraft/worldgen/configured_feature/nothing_biome_tree.json",
+          "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/NothingBiomeLeaveDecorator.java",
           "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/NothingBiomeFruitDecorator.java",
-          "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/NothingBiomeLeaveDecorator.java"
+          "src/main/resources/data/grimmscraft/worldgen/configured_feature/nothing_biome_tree.json"
         ]
       },
       "path": "~/Worldgen/Biome"
@@ -9883,17 +9883,17 @@
       "registry_name": "dimension_nothing",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/world/teleporter/DimensionNothingTeleporter.java",
-          "src/main/resources/assets/grimmscraft/models/block/dimension_nothing_portal_ns.json",
-          "src/main/resources/data/grimmscraft/dimension_type/dimension_nothing.json",
-          "src/main/resources/assets/grimmscraft/blockstates/dimension_nothing_portal.json",
-          "src/main/resources/data/grimmscraft/dimension/dimension_nothing.json",
-          "src/main/java/tyuxx/grimmscraft/world/dimension/DimensionNothingDimension.java",
-          "src/main/java/tyuxx/grimmscraft/block/DimensionNothingPortalBlock.java",
-          "src/main/resources/assets/grimmscraft/models/item/dimension_nothing.json",
-          "src/main/java/tyuxx/grimmscraft/item/DimensionNothingItem.java",
           "src/main/java/tyuxx/grimmscraft/world/teleporter/DimensionNothingPortalShape.java",
-          "src/main/resources/assets/grimmscraft/models/block/dimension_nothing_portal_ew.json"
+          "src/main/java/tyuxx/grimmscraft/world/dimension/DimensionNothingDimension.java",
+          "src/main/resources/assets/grimmscraft/models/block/dimension_nothing_portal_ew.json",
+          "src/main/resources/data/grimmscraft/dimension_type/dimension_nothing.json",
+          "src/main/resources/data/grimmscraft/dimension/dimension_nothing.json",
+          "src/main/resources/assets/grimmscraft/models/block/dimension_nothing_portal_ns.json",
+          "src/main/java/tyuxx/grimmscraft/world/teleporter/DimensionNothingTeleporter.java",
+          "src/main/java/tyuxx/grimmscraft/item/DimensionNothingItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/dimension_nothing.json",
+          "src/main/java/tyuxx/grimmscraft/block/DimensionNothingPortalBlock.java",
+          "src/main/resources/assets/grimmscraft/blockstates/dimension_nothing_portal.json"
         ]
       },
       "path": "~/Worldgen/Dimension"
@@ -9908,11 +9908,11 @@
       "metadata": {
         "files": [
           "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/BiomeDiamondLeaveDecorator.java",
-          "src/main/resources/data/grimmscraft/worldgen/biome/biome_diamond.json",
           "src/main/resources/data/grimmscraft/worldgen/placed_feature/biome_diamond_tree.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/BiomeDiamondFruitDecorator.java",
           "src/main/resources/data/grimmscraft/worldgen/configured_feature/biome_diamond_tree.json",
-          "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/BiomeDiamondTrunkDecorator.java"
+          "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/BiomeDiamondTrunkDecorator.java",
+          "src/main/java/tyuxx/grimmscraft/world/features/treedecorators/BiomeDiamondFruitDecorator.java",
+          "src/main/resources/data/grimmscraft/worldgen/biome/biome_diamond.json"
         ]
       },
       "path": "~/Worldgen/Biome"
@@ -9975,10 +9975,10 @@
       "registry_name": "cobbled_deepslate_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/cobbled_deepslate_generator.json",
+          "src/main/java/tyuxx/grimmscraft/block/CobbledDeepslateGeneratorBlock.java",
           "src/main/resources/assets/grimmscraft/blockstates/cobbled_deepslate_generator.json",
           "src/main/resources/assets/grimmscraft/models/block/cobbled_deepslate_generator.json",
-          "src/main/java/tyuxx/grimmscraft/block/CobbledDeepslateGeneratorBlock.java"
+          "src/main/resources/assets/grimmscraft/models/item/cobbled_deepslate_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10024,10 +10024,10 @@
       "registry_name": "sand_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/block/sand_generator.json",
           "src/main/java/tyuxx/grimmscraft/block/SandGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/sand_generator.json",
           "src/main/resources/assets/grimmscraft/blockstates/sand_generator.json",
-          "src/main/resources/assets/grimmscraft/models/item/sand_generator.json"
+          "src/main/resources/assets/grimmscraft/models/block/sand_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10073,10 +10073,10 @@
       "registry_name": "soulsand_generator",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/SoulsandGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/blockstates/soulsand_generator.json",
           "src/main/resources/assets/grimmscraft/models/item/soulsand_generator.json",
-          "src/main/resources/assets/grimmscraft/models/block/soulsand_generator.json",
-          "src/main/resources/assets/grimmscraft/blockstates/soulsand_generator.json"
+          "src/main/java/tyuxx/grimmscraft/block/SoulsandGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/soulsand_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10122,8 +10122,8 @@
       "registry_name": "logo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/logo.json",
-          "src/main/java/tyuxx/grimmscraft/item/LogoItem.java"
+          "src/main/java/tyuxx/grimmscraft/item/LogoItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/logo.json"
         ]
       },
       "path": "~/Special"
@@ -10149,8 +10149,8 @@
       "registry_name": "dirt_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/dirt_generator.json",
           "src/main/java/tyuxx/grimmscraft/block/DirtGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/dirt_generator.json",
           "src/main/resources/assets/grimmscraft/blockstates/dirt_generator.json",
           "src/main/resources/assets/grimmscraft/models/block/dirt_generator.json"
         ]
@@ -10222,10 +10222,10 @@
       "registry_name": "emerald_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/emerald_generator.json",
-          "src/main/resources/assets/grimmscraft/models/item/emerald_generator.json",
           "src/main/java/tyuxx/grimmscraft/block/EmeraldGeneratorBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/emerald_generator.json"
+          "src/main/resources/assets/grimmscraft/blockstates/emerald_generator.json",
+          "src/main/resources/assets/grimmscraft/models/block/emerald_generator.json",
+          "src/main/resources/assets/grimmscraft/models/item/emerald_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10271,10 +10271,10 @@
       "registry_name": "redstone_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/blockstates/redstone_generator.json",
-          "src/main/java/tyuxx/grimmscraft/block/RedstoneGeneratorBlock.java",
           "src/main/resources/assets/grimmscraft/models/item/redstone_generator.json",
-          "src/main/resources/assets/grimmscraft/models/block/redstone_generator.json"
+          "src/main/resources/assets/grimmscraft/models/block/redstone_generator.json",
+          "src/main/resources/assets/grimmscraft/blockstates/redstone_generator.json",
+          "src/main/java/tyuxx/grimmscraft/block/RedstoneGeneratorBlock.java"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10320,10 +10320,10 @@
       "registry_name": "iron_generator",
       "metadata": {
         "files": [
+          "src/main/resources/assets/grimmscraft/models/item/iron_generator.json",
           "src/main/resources/assets/grimmscraft/blockstates/iron_generator.json",
-          "src/main/java/tyuxx/grimmscraft/block/IronGeneratorBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/iron_generator.json",
-          "src/main/resources/assets/grimmscraft/models/item/iron_generator.json"
+          "src/main/java/tyuxx/grimmscraft/block/IronGeneratorBlock.java"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10369,10 +10369,10 @@
       "registry_name": "diamond_generator",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/DiamondGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/diamond_generator.json",
           "src/main/resources/assets/grimmscraft/blockstates/diamond_generator.json",
-          "src/main/resources/assets/grimmscraft/models/block/diamond_generator.json",
-          "src/main/resources/assets/grimmscraft/models/item/diamond_generator.json"
+          "src/main/java/tyuxx/grimmscraft/block/DiamondGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/models/block/diamond_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10418,10 +10418,10 @@
       "registry_name": "coal_generator",
       "metadata": {
         "files": [
+          "src/main/resources/assets/grimmscraft/models/item/coal_generator.json",
           "src/main/java/tyuxx/grimmscraft/block/CoalGeneratorBlock.java",
-          "src/main/resources/assets/grimmscraft/blockstates/coal_generator.json",
           "src/main/resources/assets/grimmscraft/models/block/coal_generator.json",
-          "src/main/resources/assets/grimmscraft/models/item/coal_generator.json"
+          "src/main/resources/assets/grimmscraft/blockstates/coal_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10467,10 +10467,10 @@
       "registry_name": "gold_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/gold_generator.json",
-          "src/main/resources/assets/grimmscraft/blockstates/gold_generator.json",
           "src/main/java/tyuxx/grimmscraft/block/GoldGeneratorBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/gold_generator.json"
+          "src/main/resources/assets/grimmscraft/models/item/gold_generator.json",
+          "src/main/resources/assets/grimmscraft/models/block/gold_generator.json",
+          "src/main/resources/assets/grimmscraft/blockstates/gold_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10516,10 +10516,10 @@
       "registry_name": "lapis_lazuli_generator",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/block/LapisLazuliGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/models/item/lapis_lazuli_generator.json",
           "src/main/resources/assets/grimmscraft/models/block/lapis_lazuli_generator.json",
-          "src/main/resources/assets/grimmscraft/blockstates/lapis_lazuli_generator.json",
-          "src/main/resources/assets/grimmscraft/models/item/lapis_lazuli_generator.json"
+          "src/main/java/tyuxx/grimmscraft/block/LapisLazuliGeneratorBlock.java",
+          "src/main/resources/assets/grimmscraft/blockstates/lapis_lazuli_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10566,9 +10566,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/grimmscraft/models/item/quartz_generator.json",
+          "src/main/java/tyuxx/grimmscraft/block/QuartzGeneratorBlock.java",
           "src/main/resources/assets/grimmscraft/models/block/quartz_generator.json",
-          "src/main/resources/assets/grimmscraft/blockstates/quartz_generator.json",
-          "src/main/java/tyuxx/grimmscraft/block/QuartzGeneratorBlock.java"
+          "src/main/resources/assets/grimmscraft/blockstates/quartz_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10614,10 +10614,10 @@
       "registry_name": "copper_generator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/copper_generator.json",
-          "src/main/resources/assets/grimmscraft/blockstates/copper_generator.json",
           "src/main/java/tyuxx/grimmscraft/block/CopperGeneratorBlock.java",
-          "src/main/resources/assets/grimmscraft/models/block/copper_generator.json"
+          "src/main/resources/assets/grimmscraft/models/block/copper_generator.json",
+          "src/main/resources/assets/grimmscraft/models/item/copper_generator.json",
+          "src/main/resources/assets/grimmscraft/blockstates/copper_generator.json"
         ]
       },
       "path": "~/Technical/Blocks"
@@ -10678,8 +10678,8 @@
       "registry_name": "compressed_cobblestone_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/grimmscraft/models/item/compressed_cobblestone_t_2.json",
-          "src/main/java/tyuxx/grimmscraft/item/CompressedCobblestoneT2Item.java"
+          "src/main/java/tyuxx/grimmscraft/item/CompressedCobblestoneT2Item.java",
+          "src/main/resources/assets/grimmscraft/models/item/compressed_cobblestone_t_2.json"
         ]
       },
       "path": "~/Storage/Compressed"
@@ -10693,8 +10693,8 @@
       "registry_name": "compressed_cobblestone_t_3",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/item/CompressedCobblestoneT3Item.java",
-          "src/main/resources/assets/grimmscraft/models/item/compressed_cobblestone_t_3.json"
+          "src/main/resources/assets/grimmscraft/models/item/compressed_cobblestone_t_3.json",
+          "src/main/java/tyuxx/grimmscraft/item/CompressedCobblestoneT3Item.java"
         ]
       },
       "path": "~/Storage/Compressed"
@@ -10794,6 +10794,174 @@
       "metadata": {
         "files": [
           "src/main/resources/data/grimmscraft/recipes/copper_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DirtGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/dirt_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CoalGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/coal_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RedstoneGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/redstone_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LapisLazuliGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/lapis_lazuli_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "QuartzGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/quartz_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GoldGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/gold_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/iron_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SandGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/sand_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SoulSandGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sand_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/soul_sand_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EmeraldGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/emerald_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledDeepslateGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_deepslate_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/cobbled_deepslate_generator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobblestoneGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/recipes/cobblestone_generator_recipe.json"
         ]
       },
       "path": "~/Recipes"
@@ -11392,7 +11560,7 @@
   "workspaceSettings": {
     "modid": "grimmscraft",
     "modName": "G.M.C.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Long live C.O.D.",
     "author": "tyuXX",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/grimms-craft",
