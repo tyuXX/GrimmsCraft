@@ -10965,6 +10965,162 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "AutomaticCompressorItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 669,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "automatic_compressor_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/AutomaticCompressorItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "AutomaticCompressor",
+      "type": "item",
+      "sortid": 670,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "automatic_compressor",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/item/AutomaticCompressorItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/automatic_compressor.json"
+        ]
+      },
+      "path": "~/Technical/Items"
+    },
+    {
+      "name": "ItemCompressed",
+      "type": "item",
+      "sortid": 671,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_compressed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/grimmscraft/models/item/item_compressed.json",
+          "src/main/java/tyuxx/grimmscraft/item/ItemCompressedItem.java"
+        ]
+      },
+      "path": "~/Storage/Compressed"
+    },
+    {
+      "name": "PakagerGUI",
+      "type": "gui",
+      "sortid": 672,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pakager_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/world/inventory/PakagerGUIMenu.java",
+          "src/main/java/tyuxx/grimmscraft/client/gui/PakagerGUIScreen.java"
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "PakagerGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 673,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pakager_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/PakagerGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "ItemCompressedRightclicked",
+      "type": "procedure",
+      "sortid": 674,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_compressed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/ItemCompressedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Storage/Compressed"
+    },
+    {
+      "name": "OpenPackagerGUI",
+      "type": "procedure",
+      "sortid": 675,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_packager_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/OpenPackagerGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procs"
     }
   ],
   "variable_elements": [
@@ -11118,8 +11274,8 @@
       "block.grimmscraft.cobbled_deepslate_generator": "Cobbled Deepslate Generator",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
       "gui.grimmscraft.stats_toggle_gui.button_toggle_strength": "Toggle Strength",
-      "item.grimmscraft.logo": "logo",
       "block.grimmscraft.copper_generator": "Copper Generator",
+      "item.grimmscraft.logo": "logo",
       "item.grimmscraft.digital_clock": "Digital Clock",
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
       "item.grimmscraft.katana_t_1": "Katana",
@@ -11131,11 +11287,13 @@
       "item.grimmscraft.russian_roulette": "Russian Roulette",
       "item.grimmscraft.quartz_shovel": "Quartz Shovel",
       "item.grimmscraft.tatanium_armor_boots": "Tatanium Boots",
+      "gui.grimmscraft.pakager_gui.label_empty1": "\u003c----",
       "item.grimmscraft.forged_steel_t_4": "Steel",
       "item.grimmscraft.vodka_1": "Vodka",
       "item.grimmscraft.forged_steel_t_3": "Steel",
       "item.grimmscraft.vodka_2": "Vodka 2",
       "item.grimmscraft.forged_steel_t_6": "Steel",
+      "item.grimmscraft.automatic_compressor": "Automatic Compressor",
       "item.grimmscraft.forged_steel_t_5": "Steel",
       "item.grimmscraft.vodka_3": "Vodka",
       "item.grimmscraft.forged_steel_t_8": "Steel",
@@ -11205,6 +11363,7 @@
       "block.grimmscraft.white_leaves": "White Leaves",
       "item.grimmscraft.tatatanium_armor_helmet": "Tatatanium Helmet",
       "item.grimmscraft.tanium_armor_helmet": "Tanium Helmet",
+      "gui.grimmscraft.pakager_gui.label_empty": "\u003c----",
       "item.grimmscraft.obsidian_sword": "Obsidian Sword",
       "item.grimmscraft.clockwork_scythe_t_0": "Clockwork Scythe",
       "item.grimmscraft.clockwork_scythe_t_1": "Clockwork Scythe",
@@ -11264,10 +11423,12 @@
       "block.grimmscraft.white_wood": "White Wood",
       "item.grimmscraft.coal_hoe": "Coal Hoe",
       "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
+      "gui.grimmscraft.pakager_gui.label_compress": "Compress",
       "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.bone_pickaxe": "Bone Pickaxe",
       "item.grimmscraft.white_glich_armor_chestplate": "Glich Chestplate",
+      "item.grimmscraft.item_compressed": "Package",
       "item.grimmscraft.fiery_axe": "Fiery Axe",
       "item.grimmscraft.permanent_saturation_apple": "Permanent Saturation Apple",
       "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",
@@ -11560,7 +11721,7 @@
   "workspaceSettings": {
     "modid": "grimmscraft",
     "modName": "G.M.C.",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Long live C.O.D.",
     "author": "tyuXX",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/grimms-craft",

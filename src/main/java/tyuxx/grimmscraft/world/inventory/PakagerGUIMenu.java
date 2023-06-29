@@ -1,11 +1,16 @@
 
 package tyuxx.grimmscraft.world.inventory;
 
+import tyuxx.grimmscraft.procedures.PakagerGUIWhileThisGUIIsOpenTickProcedure;
 import tyuxx.grimmscraft.init.GrimmscraftModMenus;
+import tyuxx.grimmscraft.init.GrimmscraftModItems;
 
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -24,6 +29,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class PakagerGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -37,7 +43,7 @@ public class PakagerGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		super(GrimmscraftModMenus.PAKAGER_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(1);
+		this.internal = new ItemStackHandler(2);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -76,6 +82,12 @@ public class PakagerGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 35) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return GrimmscraftModItems.ITEM_COMPRESSED.get() == stack.getItem();
+			}
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 106, 35) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -96,16 +108,16 @@ public class PakagerGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 1) {
-				if (!this.moveItemStackTo(itemstack1, 1, this.slots.size(), true))
+			if (index < 2) {
+				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 1, false)) {
-				if (index < 1 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 1 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
+				if (index < 2 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 1, 1 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -215,5 +227,17 @@ public class PakagerGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof PakagerGUIMenu) {
+			Level world = entity.level;
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			PakagerGUIWhileThisGUIIsOpenTickProcedure.execute(entity);
+		}
 	}
 }

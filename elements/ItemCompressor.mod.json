@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "automaticcompressor",
     "customModelName": "Normal",
-    "name": "Automatic Compressor",
-    "rarity": "EPIC",
+    "name": "Compressor",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Grimmscraft"
     },
@@ -29,8 +29,8 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "AutomaticCompressorItemInInventoryTick"
+    "onRightClickedInAir": {
+      "name": "ItemCompressorRightclicked"
     },
     "isFood": false,
     "nutritionalValue": 4,

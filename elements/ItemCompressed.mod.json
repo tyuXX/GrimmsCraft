@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "package",
     "customModelName": "Normal",
-    "name": "Item Compressed",
+    "name": "Package",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Grimmscraft"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -31,6 +31,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "ItemCompressedRightclicked"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

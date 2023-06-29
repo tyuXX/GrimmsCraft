@@ -10995,6 +10995,36 @@
         ]
       },
       "path": "~/Technical/Items"
+    },
+    {
+      "name": "ItemCompressed",
+      "type": "item",
+      "sortid": 671,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_compressed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/grimmscraft/models/item/item_compressed.json",
+          "src/main/java/tyuxx/grimmscraft/item/ItemCompressedItem.java"
+        ]
+      },
+      "path": "~/Storage/Compressed"
+    },
+    {
+      "name": "PakagerGUI",
+      "type": "gui",
+      "sortid": 672,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pakager_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/world/inventory/PakagerGUIMenu.java",
+          "src/main/java/tyuxx/grimmscraft/client/gui/PakagerGUIScreen.java"
+        ]
+      },
+      "path": "~/Gui"
     }
   ],
   "variable_elements": [
@@ -11148,14 +11178,14 @@
       "block.grimmscraft.cobbled_deepslate_generator": "Cobbled Deepslate Generator",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
       "gui.grimmscraft.stats_toggle_gui.button_toggle_strength": "Toggle Strength",
-      "item.grimmscraft.logo": "logo",
       "block.grimmscraft.copper_generator": "Copper Generator",
+      "item.grimmscraft.logo": "logo",
       "item.grimmscraft.digital_clock": "Digital Clock",
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
       "item.grimmscraft.katana_t_1": "Katana",
       "item.grimmscraft.katana_t_2": "Katana",
-      "item.grimmscraft.bone_hoe": "Bone Hoe",
       "item.grimmscraft.katana_t_3": "Katana",
+      "item.grimmscraft.bone_hoe": "Bone Hoe",
       "item.grimmscraft.katana_t_4": "Katana",
       "item.grimmscraft.redstone_shovel": "Redstone Shovel",
       "item.grimmscraft.russian_roulette": "Russian Roulette",
@@ -11166,9 +11196,9 @@
       "item.grimmscraft.forged_steel_t_3": "Steel",
       "item.grimmscraft.vodka_2": "Vodka 2",
       "item.grimmscraft.forged_steel_t_6": "Steel",
-      "item.grimmscraft.vodka_3": "Vodka",
-      "item.grimmscraft.forged_steel_t_5": "Steel",
       "item.grimmscraft.automatic_compressor": "Automatic Compressor",
+      "item.grimmscraft.forged_steel_t_5": "Steel",
+      "item.grimmscraft.vodka_3": "Vodka",
       "item.grimmscraft.forged_steel_t_8": "Steel",
       "item.grimmscraft.forged_steel_t_7": "Steel",
       "item.grimmscraft.fiery_pickaxe": "Fiery Pickaxe",
@@ -11299,6 +11329,7 @@
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.bone_pickaxe": "Bone Pickaxe",
       "item.grimmscraft.white_glich_armor_chestplate": "Glich Chestplate",
+      "item.grimmscraft.item_compressed": "Package",
       "item.grimmscraft.fiery_axe": "Fiery Axe",
       "item.grimmscraft.permanent_saturation_apple": "Permanent Saturation Apple",
       "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",

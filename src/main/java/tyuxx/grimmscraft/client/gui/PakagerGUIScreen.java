@@ -66,6 +66,9 @@ public class PakagerGUIScreen extends AbstractContainerScreen<PakagerGUIMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, Component.translatable("gui.grimmscraft.pakager_gui.label_empty"), 69, 34, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.grimmscraft.pakager_gui.label_empty1"), 69, 43, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.grimmscraft.pakager_gui.label_compress"), 6, 7, -12829636);
 	}
 
 	@Override

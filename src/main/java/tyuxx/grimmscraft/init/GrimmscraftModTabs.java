@@ -278,7 +278,8 @@ public class GrimmscraftModTabs {
 					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_2.get());
 					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_3.get());
 					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_4.get());
-					tabData.accept(GrimmscraftModItems.AUTOMATIC_COMPRESSOR.get());
+					tabData.accept(GrimmscraftModItems.ITEM_COMPRESSED.get());
+					tabData.accept(GrimmscraftModItems.ITEM_COMPRESSOR.get());
 				}).withSearchBar());
 	}
 }
