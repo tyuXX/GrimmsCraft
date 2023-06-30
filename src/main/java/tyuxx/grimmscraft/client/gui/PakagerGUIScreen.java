@@ -1,6 +1,8 @@
 package tyuxx.grimmscraft.client.gui;
 
 import tyuxx.grimmscraft.world.inventory.PakagerGUIMenu;
+import tyuxx.grimmscraft.network.PakagerGUIButtonMessage;
+import tyuxx.grimmscraft.GrimmscraftMod;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -8,6 +10,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 
 import java.util.HashMap;
 
@@ -19,6 +22,7 @@ public class PakagerGUIScreen extends AbstractContainerScreen<PakagerGUIMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_toggle_auto_compress;
 
 	public PakagerGUIScreen(PakagerGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -79,5 +83,13 @@ public class PakagerGUIScreen extends AbstractContainerScreen<PakagerGUIMenu> {
 	@Override
 	public void init() {
 		super.init();
+		button_toggle_auto_compress = Button.builder(Component.translatable("gui.grimmscraft.pakager_gui.button_toggle_auto_compress"), e -> {
+			if (true) {
+				GrimmscraftMod.PACKET_HANDLER.sendToServer(new PakagerGUIButtonMessage(0, x, y, z));
+				PakagerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 61, 129, 20).build();
+		guistate.put("button:button_toggle_auto_compress", button_toggle_auto_compress);
+		this.addRenderableWidget(button_toggle_auto_compress);
 	}
 }

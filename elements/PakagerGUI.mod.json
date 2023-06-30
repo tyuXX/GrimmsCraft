@@ -90,6 +90,20 @@
           "x": 132,
           "y": 44
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toggle_auto_compress",
+          "text": "Toggle Auto Compress",
+          "onClick": {
+            "name": "PackagerGUIToggleAuto"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 132,
+          "y": 98
+        }
       }
     ],
     "onTick": {

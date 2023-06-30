@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:carton"
+    },
+    "1": {
+      "item": "grimmscraft:carton"
+    },
+    "2": {
+      "item": "grimmscraft:carton"
+    },
+    "3": {
+      "item": "grimmscraft:carton"
+    },
+    "4": {
+      "item": "grimmscraft:dye_stack"
+    },
+    "5": {
+      "item": "grimmscraft:carton"
+    },
+    "6": {
+      "item": "grimmscraft:carton"
+    },
+    "7": {
+      "item": "grimmscraft:carton"
+    },
+    "8": {
+      "item": "grimmscraft:carton"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:item_compressed",
+    "count": 1
+  }
+}

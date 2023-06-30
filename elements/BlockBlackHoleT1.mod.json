@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "BARRIER"
     },
     "tickRate": 0,
     "tickRandomly": false,

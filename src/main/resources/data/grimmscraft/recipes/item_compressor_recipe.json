@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:white_glich"
+    },
+    "1": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "2": {
+      "item": "grimmscraft:white_glich"
+    },
+    "3": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "4": {
+      "item": "grimmscraft:black_hole_t_1"
+    },
+    "5": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "6": {
+      "item": "grimmscraft:white_glich"
+    },
+    "7": {
+      "item": "grimmscraft:compressed_cobblestone_t_4"
+    },
+    "8": {
+      "item": "grimmscraft:white_glich"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:item_compressor",
+    "count": 1
+  }
+}

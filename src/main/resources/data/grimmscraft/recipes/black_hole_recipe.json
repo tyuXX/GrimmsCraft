@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "1": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "2": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "3": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "4": {
+      "item": "grimmscraft:button_of_doom"
+    },
+    "5": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "6": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "7": {
+      "item": "grimmscraft:tnt_x_81"
+    },
+    "8": {
+      "item": "grimmscraft:tnt_x_81"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:block_black_hole_t_1",
+    "count": 1
+  }
+}
