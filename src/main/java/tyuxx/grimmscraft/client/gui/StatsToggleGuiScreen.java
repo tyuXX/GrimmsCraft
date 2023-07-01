@@ -1,6 +1,7 @@
 package tyuxx.grimmscraft.client.gui;
 
 import tyuxx.grimmscraft.world.inventory.StatsToggleGuiMenu;
+import tyuxx.grimmscraft.procedures.TogglePermHealtGUIValueProcedure;
 import tyuxx.grimmscraft.procedures.PermStrenghtToggleGuiValueProcedure;
 import tyuxx.grimmscraft.procedures.PermResistToggleGuiValueProcedure;
 import tyuxx.grimmscraft.procedures.PermRegenToggleGuiValueProcedure;
@@ -28,6 +29,7 @@ public class StatsToggleGuiScreen extends AbstractContainerScreen<StatsToggleGui
 	Button button_toggle_regen;
 	Button button_toggle_resistance;
 	Button button_toggle_strength;
+	Button button_toggle_healt;
 
 	public StatsToggleGuiScreen(StatsToggleGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -36,8 +38,8 @@ public class StatsToggleGuiScreen extends AbstractContainerScreen<StatsToggleGui
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 252;
+		this.imageHeight = 209;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("grimmscraft:textures/screens/stats_toggle_gui.png");
@@ -77,13 +79,16 @@ public class StatsToggleGuiScreen extends AbstractContainerScreen<StatsToggleGui
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack,
 
-				PermRegenToggleGuiValueProcedure.execute(entity), 6, 7, -12829636);
+				PermRegenToggleGuiValueProcedure.execute(entity), 44, 28, -12829636);
 		this.font.draw(poseStack,
 
-				PermResistToggleGuiValueProcedure.execute(entity), 6, 52, -12829636);
+				PermResistToggleGuiValueProcedure.execute(entity), 44, 73, -12829636);
 		this.font.draw(poseStack,
 
-				PermStrenghtToggleGuiValueProcedure.execute(entity), 6, 97, -12829636);
+				PermStrenghtToggleGuiValueProcedure.execute(entity), 44, 118, -12829636);
+		this.font.draw(poseStack,
+
+				TogglePermHealtGUIValueProcedure.execute(entity), 44, 163, -12829636);
 	}
 
 	@Override
@@ -99,7 +104,7 @@ public class StatsToggleGuiScreen extends AbstractContainerScreen<StatsToggleGui
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsToggleGuiButtonMessage(0, x, y, z));
 				StatsToggleGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 25, 87, 20).build();
+		}).bounds(this.leftPos + 44, this.topPos + 46, 87, 20).build();
 		guistate.put("button:button_toggle_regen", button_toggle_regen);
 		this.addRenderableWidget(button_toggle_regen);
 		button_toggle_resistance = Button.builder(Component.translatable("gui.grimmscraft.stats_toggle_gui.button_toggle_resistance"), e -> {
@@ -107,7 +112,7 @@ public class StatsToggleGuiScreen extends AbstractContainerScreen<StatsToggleGui
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsToggleGuiButtonMessage(1, x, y, z));
 				StatsToggleGuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 70, 114, 20).build();
+		}).bounds(this.leftPos + 44, this.topPos + 91, 114, 20).build();
 		guistate.put("button:button_toggle_resistance", button_toggle_resistance);
 		this.addRenderableWidget(button_toggle_resistance);
 		button_toggle_strength = Button.builder(Component.translatable("gui.grimmscraft.stats_toggle_gui.button_toggle_strength"), e -> {
@@ -115,8 +120,16 @@ public class StatsToggleGuiScreen extends AbstractContainerScreen<StatsToggleGui
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsToggleGuiButtonMessage(2, x, y, z));
 				StatsToggleGuiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 115, 103, 20).build();
+		}).bounds(this.leftPos + 44, this.topPos + 136, 103, 20).build();
 		guistate.put("button:button_toggle_strength", button_toggle_strength);
 		this.addRenderableWidget(button_toggle_strength);
+		button_toggle_healt = Button.builder(Component.translatable("gui.grimmscraft.stats_toggle_gui.button_toggle_healt"), e -> {
+			if (true) {
+				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsToggleGuiButtonMessage(3, x, y, z));
+				StatsToggleGuiButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 44, this.topPos + 181, 87, 20).build();
+		guistate.put("button:button_toggle_healt", button_toggle_healt);
+		this.addRenderableWidget(button_toggle_healt);
 	}
 }

@@ -84,6 +84,11 @@ public class GrimmscraftModVariables {
 			clone.permreistance = original.permreistance;
 			clone.permstrenght = original.permstrenght;
 			clone.statps = original.statps;
+			clone.maxhealt = original.maxhealt;
+			clone.healt = original.healt;
+			clone.cht = original.cht;
+			clone.lasthit = original.lasthit;
+			clone.chtt = original.chtt;
 			if (!event.isWasDeath()) {
 				clone.radiation = original.radiation;
 				clone.money = original.money;
@@ -282,6 +287,11 @@ public class GrimmscraftModVariables {
 		public double permstrenght = 0;
 		public double radres = 0;
 		public double statps = 0;
+		public double maxhealt = 10.0;
+		public double healt = 0;
+		public boolean cht = false;
+		public double lasthit = 0;
+		public boolean chtt = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -305,6 +315,11 @@ public class GrimmscraftModVariables {
 			nbt.putDouble("permstrenght", permstrenght);
 			nbt.putDouble("radres", radres);
 			nbt.putDouble("statps", statps);
+			nbt.putDouble("maxhealt", maxhealt);
+			nbt.putDouble("healt", healt);
+			nbt.putBoolean("cht", cht);
+			nbt.putDouble("lasthit", lasthit);
+			nbt.putBoolean("chtt", chtt);
 			return nbt;
 		}
 
@@ -325,6 +340,11 @@ public class GrimmscraftModVariables {
 			permstrenght = nbt.getDouble("permstrenght");
 			radres = nbt.getDouble("radres");
 			statps = nbt.getDouble("statps");
+			maxhealt = nbt.getDouble("maxhealt");
+			healt = nbt.getDouble("healt");
+			cht = nbt.getBoolean("cht");
+			lasthit = nbt.getDouble("lasthit");
+			chtt = nbt.getBoolean("chtt");
 		}
 	}
 
@@ -364,6 +384,11 @@ public class GrimmscraftModVariables {
 					variables.permstrenght = message.data.permstrenght;
 					variables.radres = message.data.radres;
 					variables.statps = message.data.statps;
+					variables.maxhealt = message.data.maxhealt;
+					variables.healt = message.data.healt;
+					variables.cht = message.data.cht;
+					variables.lasthit = message.data.lasthit;
+					variables.chtt = message.data.chtt;
 				}
 			});
 			context.setPacketHandled(true);

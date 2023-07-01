@@ -43,10 +43,10 @@ public class AzureSaberHUDOverlay {
 		if (AzureSaberHUDDisplayOverlayIngameProcedure.execute(entity)) {
 			Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					GetItemNameTextProcedure.execute(entity), posX + -213, posY + -120, -1);
+					GetItemNameTextProcedure.execute(entity), posX + -213, posY + -59, -1);
 			Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					GetItemKillsTextProcedure.execute(entity), posX + -213, posY + -109, -1);
+					GetItemKillsTextProcedure.execute(entity), posX + -213, posY + -110, -1);
 			Minecraft.getInstance().font.draw(event.getPoseStack(),
 
 					GetItemXpTextProcedure.execute(entity), posX + -213, posY + -99, -1);

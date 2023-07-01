@@ -5,6 +5,7 @@ import tyuxx.grimmscraft.world.inventory.StatsGuiMenu;
 import tyuxx.grimmscraft.procedures.PermStrengthUpgradeProcedure;
 import tyuxx.grimmscraft.procedures.PermResistUpgradeProcedure;
 import tyuxx.grimmscraft.procedures.PermRegenUpgradeProcedure;
+import tyuxx.grimmscraft.procedures.PermHealtUpgradeProcedure;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -75,6 +76,10 @@ public class StatsGuiButtonMessage {
 		if (buttonID == 2) {
 
 			PermStrengthUpgradeProcedure.execute(entity);
+		}
+		if (buttonID == 3) {
+
+			PermHealtUpgradeProcedure.execute(entity);
 		}
 	}
 

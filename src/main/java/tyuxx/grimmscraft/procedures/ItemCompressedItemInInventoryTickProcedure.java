@@ -6,6 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 public class ItemCompressedItemInInventoryTickProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
@@ -20,5 +21,6 @@ public class ItemCompressedItemInInventoryTickProcedure {
 			}
 			itemstack.getOrCreateTag().putDouble("citemc", (itemstack.getOrCreateTag().getDouble("citemc") + 1));
 		}
+		itemstack.setHoverName(Component.literal(("Item:" + itemstack.getOrCreateTag().getString("citem") + "Count:" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("citemc")))));
 	}
 }

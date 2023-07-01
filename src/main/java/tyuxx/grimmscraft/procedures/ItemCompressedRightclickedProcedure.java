@@ -8,6 +8,7 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 public class ItemCompressedRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -32,5 +33,6 @@ public class ItemCompressedRightclickedProcedure {
 				itemstack.getOrCreateTag().putDouble("citemc", (itemstack.getOrCreateTag().getDouble("citemc") - 1));
 			}
 		}
+		itemstack.setHoverName(Component.literal(("Item:" + itemstack.getOrCreateTag().getString("citem") + "Count:" + new java.text.DecimalFormat("##.##").format(itemstack.getOrCreateTag().getDouble("citemc")))));
 	}
 }

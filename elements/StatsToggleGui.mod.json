@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 252,
+    "height": 209,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -98,6 +98,36 @@
           "height": 20,
           "x": 132,
           "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_toggle_perm_healt_gui_value",
+          "text": {
+            "fixedValue": "",
+            "name": "TogglePermHealtGUIValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toggle_healt",
+          "text": "Toggle Healt",
+          "onClick": {
+            "name": "TogglePermHealt"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 132,
+          "y": 197
         }
       }
     ],

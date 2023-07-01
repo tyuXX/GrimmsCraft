@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 303,
+    "height": 180,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -159,6 +159,36 @@
           },
           "x": 222,
           "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_perm_healt_guiv_alue",
+          "text": {
+            "fixedValue": "",
+            "name": "PermHealtGUIVAlue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_upgradehealt",
+          "text": "Upgrade Healt",
+          "onClick": {
+            "name": "PermHealtUpgrade"
+          },
+          "width": 88,
+          "height": 20,
+          "x": 231,
+          "y": 53
         }
       }
     ],

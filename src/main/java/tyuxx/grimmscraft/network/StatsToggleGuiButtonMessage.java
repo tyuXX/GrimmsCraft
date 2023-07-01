@@ -5,6 +5,7 @@ import tyuxx.grimmscraft.world.inventory.StatsToggleGuiMenu;
 import tyuxx.grimmscraft.procedures.TogglePermStrengthProcedure;
 import tyuxx.grimmscraft.procedures.TogglePermResistProcedure;
 import tyuxx.grimmscraft.procedures.TogglePermRegenProcedure;
+import tyuxx.grimmscraft.procedures.TogglePermHealtProcedure;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -75,6 +76,10 @@ public class StatsToggleGuiButtonMessage {
 		if (buttonID == 2) {
 
 			TogglePermStrengthProcedure.execute(entity);
+		}
+		if (buttonID == 3) {
+
+			TogglePermHealtProcedure.execute(entity);
 		}
 	}
 

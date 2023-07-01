@@ -5100,8 +5100,8 @@
       "metadata": {
         "files": [
           "src/main/java/tyuxx/grimmscraft/client/gui/StatsGuiScreen.java",
-          "src/main/java/tyuxx/grimmscraft/network/StatsGuiButtonMessage.java",
-          "src/main/java/tyuxx/grimmscraft/world/inventory/StatsGuiMenu.java"
+          "src/main/java/tyuxx/grimmscraft/world/inventory/StatsGuiMenu.java",
+          "src/main/java/tyuxx/grimmscraft/network/StatsGuiButtonMessage.java"
         ]
       },
       "path": "~/Gui"
@@ -5378,9 +5378,9 @@
       "registry_name": "stats_toggle_gui",
       "metadata": {
         "files": [
-          "src/main/java/tyuxx/grimmscraft/world/inventory/StatsToggleGuiMenu.java",
+          "src/main/java/tyuxx/grimmscraft/network/StatsToggleGuiButtonMessage.java",
           "src/main/java/tyuxx/grimmscraft/client/gui/StatsToggleGuiScreen.java",
-          "src/main/java/tyuxx/grimmscraft/network/StatsToggleGuiButtonMessage.java"
+          "src/main/java/tyuxx/grimmscraft/world/inventory/StatsToggleGuiMenu.java"
         ]
       },
       "path": "~/Gui"
@@ -9607,7 +9607,12 @@
         "files": [
           "src/main/java/tyuxx/grimmscraft/procedures/OnRespawnProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/Events"
     },
@@ -11229,6 +11234,231 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "PlayerHUD",
+      "type": "overlay",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_hud",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/client/screens/PlayerHUDOverlay.java"
+        ]
+      },
+      "path": "~/Hud"
+    },
+    {
+      "name": "OnDeathHealtTrigger",
+      "type": "procedure",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_death_healt_trigger",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/OnDeathHealtTriggerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "ShowHealtHUD",
+      "type": "procedure",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_healt_hud",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/ShowHealtHUDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetHealtHUDText",
+      "type": "procedure",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_healt_hud_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetHealtHUDTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetCoordsHUDText",
+      "type": "procedure",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_coords_hud_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetCoordsHUDTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "TogglePermHealt",
+      "type": "procedure",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_perm_healt",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/TogglePermHealtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "TogglePermHealtGUIValue",
+      "type": "procedure",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_perm_healt_gui_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/TogglePermHealtGUIValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "PermHealtUpgrade",
+      "type": "procedure",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perm_healt_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/PermHealtUpgradeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "PermHealtGUIVAlue",
+      "type": "procedure",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perm_healt_guiv_alue",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/PermHealtGUIVAlueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GiveXP",
+      "type": "command",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_xp",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/command/GiveXPCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "GiveXPProc",
+      "type": "procedure",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_xp_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GiveXPProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
     }
   ],
   "variable_elements": [
@@ -11357,6 +11587,36 @@
       "type": "string",
       "scope": "map",
       "value": "\"\""
+    },
+    {
+      "name": "maxhealt",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    },
+    {
+      "name": "healt",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "cht",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "lasthit",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "chtt",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -11421,6 +11681,7 @@
       "biome.grimmscraft.nothing_biome": "???",
       "item.grimmscraft.forged_steel_t_2": "Steel",
       "item.grimmscraft.tatatatanium_shovel": "Tatatatanium Shovel",
+      "gui.grimmscraft.stats_gui.button_upgradehealt": "Upgrade Healt",
       "item.grimmscraft.forged_steel_t_1": "Steel",
       "gui.grimmscraft.stats_gui.button_upgrade_resistance": "Upgrade Resistance",
       "entity.grimmscraft.test_dummy": "Test Dummy",
@@ -11458,6 +11719,7 @@
       "block.grimmscraft.white_stairs": "White Stairs",
       "item.grimmscraft.compressed_cobblestone_t_2": "Compressed Cobblestone",
       "item.grimmscraft.compressed_cobblestone_t_3": "Compressed Cobblestone",
+      "gui.grimmscraft.stats_toggle_gui.button_toggle_healt": "Toggle Healt",
       "item.grimmscraft.slime_hoe": "Slime Hoe",
       "block.grimmscraft.black_stairs": "Black Stairs",
       "item.grimmscraft.tatatatatanium_armor_helmet": "Tatatatatanium Helmet",

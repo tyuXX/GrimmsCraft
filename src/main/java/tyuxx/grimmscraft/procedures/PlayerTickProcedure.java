@@ -58,5 +58,38 @@ public class PlayerTickProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200,
 						(int) Math.round((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permreistance / 10), true, false));
 		}
+		if ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).healt < 0) {
+			{
+				Entity _entToDamage = entity;
+				_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),
+						(float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 10));
+			}
+		}
+		if ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).lasthit > 0) {
+			{
+				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).lasthit - 1;
+				entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.lasthit = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		} else if ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).maxhealt > (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new GrimmscraftModVariables.PlayerVariables())).healt) {
+			{
+				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).healt
+						+ Math.ceil((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).maxhealt / 200);
+				entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.healt = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			{
+				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).lasthit + 5;
+				entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.lasthit = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		}
 	}
 }
