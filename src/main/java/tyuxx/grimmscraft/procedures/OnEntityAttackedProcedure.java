@@ -59,6 +59,13 @@ public class OnEntityAttackedProcedure {
 		}
 		chdamage = Math.round(Math.sqrt((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("atp"))
 				/ (Math.floor(Math.sqrt((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permreistance)) + 1));
+		{
+			double _setval = 60;
+			entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.lasthit = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
 		if (chdamagess < 1) {
 			chdamage = 1;
 		} else {

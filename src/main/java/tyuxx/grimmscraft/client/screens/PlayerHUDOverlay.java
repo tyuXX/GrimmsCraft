@@ -46,7 +46,7 @@ public class PlayerHUDOverlay {
 						GetHealtHUDTextProcedure.execute(entity), posX + -213, posY + -120, -1);
 			Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					GetCoordsHUDTextProcedure.execute(x, y, z), posX + 130, posY + -120, -1);
+					GetCoordsHUDTextProcedure.execute(x, y, z), posX + 130, posY + -68, -1);
 			if (PlayerModelTransformerProcedure.execute(entity) instanceof LivingEntity livingEntity) {
 				InventoryScreen.renderEntityInInventoryFollowsAngle(event.getPoseStack(), posX + 190, posY + -69, 30, 0f, 0, livingEntity);
 			}
