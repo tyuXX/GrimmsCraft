@@ -57,7 +57,7 @@ public class OnEntityAttackedProcedure {
 				capability.syncPlayerVariables(sourceentity);
 			});
 		}
-		chdamage = Math.round(Math.sqrt((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("atp"))
+		chdamagess = Math.round(Math.sqrt((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("atp"))
 				/ (Math.floor(Math.sqrt((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permreistance)) + 1));
 		{
 			double _setval = 60;
@@ -71,12 +71,15 @@ public class OnEntityAttackedProcedure {
 		} else {
 			chdamage = chdamagess;
 		}
-		{
-			double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).healt - chdamage;
-			entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.healt = _setval;
-				capability.syncPlayerVariables(entity);
-			});
+		if ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).cht
+				&& (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).chtt) {
+			{
+				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).healt - chdamage;
+				entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.healt = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		}
 	}
 }

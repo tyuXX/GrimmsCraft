@@ -6,6 +6,7 @@ package tyuxx.grimmscraft.init;
 
 import tyuxx.grimmscraft.network.OpenStatusWindowKeyMessage;
 import tyuxx.grimmscraft.network.OpenStatusToggleWindowKeyMessage;
+import tyuxx.grimmscraft.network.OpenSettingsMessage;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
 import org.lwjgl.glfw.GLFW;
@@ -47,11 +48,25 @@ public class GrimmscraftModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping OPEN_SETTINGS = new KeyMapping("key.grimmscraft.open_settings", GLFW.GLFW_KEY_K, "key.categories.gmc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				GrimmscraftMod.PACKET_HANDLER.sendToServer(new OpenSettingsMessage(0, 0));
+				OpenSettingsMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(OPEN_STATUS_WINDOW_KEY);
 		event.register(OPEN_STATUS_TOGGLE_WINDOW_KEY);
+		event.register(OPEN_SETTINGS);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -61,6 +76,7 @@ public class GrimmscraftModKeyMappings {
 			if (Minecraft.getInstance().screen == null) {
 				OPEN_STATUS_WINDOW_KEY.consumeClick();
 				OPEN_STATUS_TOGGLE_WINDOW_KEY.consumeClick();
+				OPEN_SETTINGS.consumeClick();
 			}
 		}
 	}

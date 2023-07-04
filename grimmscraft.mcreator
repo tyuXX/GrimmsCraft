@@ -11250,30 +11250,6 @@
       "path": "~/Hud"
     },
     {
-      "name": "OnDeathHealtTrigger",
-      "type": "procedure",
-      "sortid": 684,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "on_death_healt_trigger",
-      "metadata": {
-        "files": [
-          "src/main/java/tyuxx/grimmscraft/procedures/OnDeathHealtTriggerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Events"
-    },
-    {
       "name": "ShowHealtHUD",
       "type": "procedure",
       "sortid": 685,
@@ -11463,6 +11439,237 @@
         ]
       },
       "path": "~/Procs"
+    },
+    {
+      "name": "ToggleShowPlayer",
+      "type": "procedure",
+      "sortid": 694,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_show_player",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/ToggleShowPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "ToggleShowCoords",
+      "type": "procedure",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_show_coords",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/ToggleShowCoordsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "OpenSettings",
+      "type": "keybind",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_settings",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/network/OpenSettingsMessage.java"
+        ]
+      },
+      "path": "~/KeyBinds"
+    },
+    {
+      "name": "SettingsGUI",
+      "type": "gui",
+      "sortid": 697,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "settings_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/network/SettingsGUIButtonMessage.java",
+          "src/main/java/tyuxx/grimmscraft/client/gui/SettingsGUIScreen.java",
+          "src/main/java/tyuxx/grimmscraft/world/inventory/SettingsGUIMenu.java"
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "ShowSettingsGUI",
+      "type": "procedure",
+      "sortid": 698,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_settings_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/ShowSettingsGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetShowCoords",
+      "type": "procedure",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_show_coords",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetShowCoordsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetShowPlayer",
+      "type": "procedure",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_show_player",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetShowPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetShowPlayerText",
+      "type": "procedure",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_show_player_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetShowPlayerTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetShowCoordsText",
+      "type": "procedure",
+      "sortid": 702,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_show_coords_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetShowCoordsTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "LvLUpBoostUpgrade",
+      "type": "procedure",
+      "sortid": 703,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lv_l_up_boost_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/LvLUpBoostUpgradeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
+    },
+    {
+      "name": "GetLvLBoostGUIText",
+      "type": "procedure",
+      "sortid": 704,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_lv_l_boost_gui_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/GetLvLBoostGUITextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procs"
     }
   ],
   "variable_elements": [
@@ -11621,6 +11828,24 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "showplayer",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "showcoords",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "lvlupstp",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "2.0"
     }
   ],
   "sound_elements": [],
@@ -11677,6 +11902,7 @@
       "item.grimmscraft.tatanium_hoe": "Tatanium Hoe",
       "key.grimmscraft.open_status_toggle_window_key": "Open Status Toggle Window",
       "item.grimmscraft.lighter_t_1_open": "Lighter T1",
+      "gui.grimmscraft.stats_gui.button_upgrade_stps_per_lvl": "Upgrade STP\u0027s per LvL",
       "block.grimmscraft.diamond_tree_fence": "DiamondTree Fence",
       "item.grimmscraft.glowstone_pickaxe": "Glowstone Pickaxe",
       "item.grimmscraft.prismarine_sword": "Prismarine Sword",
@@ -11768,12 +11994,14 @@
       "item.grimmscraft.tatatatanium_armor_helmet": "Tatatatanium Helmet",
       "item.grimmscraft.l_bag_t_1": "LBag",
       "item.grimmscraft.prismarine_axe": "Prismarine Axe",
+      "gui.grimmscraft.settings_gui.label_hud": "Hud:",
       "gui.grimmscraft.e_furnace_t_1_gui.label_energyenergy75000": "Energy:\u003cenergy\u003e/75.000",
       "item.grimmscraft.redstone_hoe": "Redstone Hoe",
       "item.grimmscraft.diamond_hammer": "Diamond Hammer",
       "item.grimmscraft.paper_sword": "Paper Sword",
       "key.grimmscraft.open_status_window_key": "Open Status Window",
       "item.grimmscraft.slime_shovel": "Slime Shovel",
+      "gui.grimmscraft.settings_gui.button_toggle_coords": "Toggle Coords",
       "block.grimmscraft.black_fence": "Black Fence",
       "item.grimmscraft.generated_item": "Generated Item",
       "item.grimmscraft.redstone_pickaxe": "Redstone Pickaxe",
@@ -11823,6 +12051,7 @@
       "item.grimmscraft.tier_3_coal": "Tier 3 Coal",
       "block.grimmscraft.tatatatanium_ore": "Tatatatanium Ore",
       "item.grimmscraft.tatatatanium_sword": "Tatatatanium Sword",
+      "key.grimmscraft.open_settings": "Open Settings",
       "block.grimmscraft.white_button": "White Button",
       "item.grimmscraft.glowstone_shovel": "Glowstone Shovel",
       "block.grimmscraft.tnt_x_81": "Tnt X 81",
@@ -11879,6 +12108,7 @@
       "item.grimmscraft.katana_r_1": "Katana",
       "block.grimmscraft.tatatatatanium_block": "Block of Tatatatatanium",
       "gui.grimmscraft.printer_gui.print": "Write here",
+      "gui.grimmscraft.settings_gui.button_toggle_player": "Toggle Player",
       "item.grimmscraft.tier_2_coal": "Tier 2 Coal",
       "item.grimmscraft.quartz_pickaxe": "Quartz Pickaxe",
       "item.grimmscraft.white_glich_armor_leggings": "White Glich Leggings",
@@ -12096,7 +12326,7 @@
   "workspaceSettings": {
     "modid": "grimmscraft",
     "modName": "G.M.C.",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Long live C.O.D.",
     "author": "tyuXX",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/grimms-craft",

@@ -29,11 +29,14 @@
           "entityModel": {
             "name": "PlayerModelTransformer"
           },
+          "displayCondition": {
+            "name": "GetShowPlayer"
+          },
           "scale": 30,
           "rotationX": 0,
           "followMouseMovement": false,
-          "x": 392,
-          "y": 31
+          "x": 24,
+          "y": 206
         }
       },
       {
@@ -45,11 +48,14 @@
             "name": "GetCoordsHUDText"
           },
           "color": {
-            "value": -1,
+            "value": -16737844,
             "falpha": 0.0
           },
-          "x": 343,
-          "y": 52
+          "displayCondition": {
+            "name": "GetShowCoords"
+          },
+          "x": 150,
+          "y": -1
         }
       }
     ],
@@ -60,7 +66,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

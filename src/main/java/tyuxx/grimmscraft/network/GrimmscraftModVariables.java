@@ -89,6 +89,9 @@ public class GrimmscraftModVariables {
 			clone.cht = original.cht;
 			clone.lasthit = original.lasthit;
 			clone.chtt = original.chtt;
+			clone.showplayer = original.showplayer;
+			clone.showcoords = original.showcoords;
+			clone.lvlupstp = original.lvlupstp;
 			if (!event.isWasDeath()) {
 				clone.radiation = original.radiation;
 				clone.money = original.money;
@@ -292,6 +295,9 @@ public class GrimmscraftModVariables {
 		public boolean cht = false;
 		public double lasthit = 0;
 		public boolean chtt = false;
+		public boolean showplayer = true;
+		public boolean showcoords = true;
+		public double lvlupstp = 2.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -320,6 +326,9 @@ public class GrimmscraftModVariables {
 			nbt.putBoolean("cht", cht);
 			nbt.putDouble("lasthit", lasthit);
 			nbt.putBoolean("chtt", chtt);
+			nbt.putBoolean("showplayer", showplayer);
+			nbt.putBoolean("showcoords", showcoords);
+			nbt.putDouble("lvlupstp", lvlupstp);
 			return nbt;
 		}
 
@@ -345,6 +354,9 @@ public class GrimmscraftModVariables {
 			cht = nbt.getBoolean("cht");
 			lasthit = nbt.getDouble("lasthit");
 			chtt = nbt.getBoolean("chtt");
+			showplayer = nbt.getBoolean("showplayer");
+			showcoords = nbt.getBoolean("showcoords");
+			lvlupstp = nbt.getDouble("lvlupstp");
 		}
 	}
 
@@ -389,6 +401,9 @@ public class GrimmscraftModVariables {
 					variables.cht = message.data.cht;
 					variables.lasthit = message.data.lasthit;
 					variables.chtt = message.data.chtt;
+					variables.showplayer = message.data.showplayer;
+					variables.showcoords = message.data.showcoords;
+					variables.lvlupstp = message.data.lvlupstp;
 				}
 			});
 			context.setPacketHandled(true);

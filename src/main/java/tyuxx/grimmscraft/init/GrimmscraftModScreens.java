@@ -6,6 +6,7 @@ package tyuxx.grimmscraft.init;
 
 import tyuxx.grimmscraft.client.gui.StatsToggleGuiScreen;
 import tyuxx.grimmscraft.client.gui.StatsGuiScreen;
+import tyuxx.grimmscraft.client.gui.SettingsGUIScreen;
 import tyuxx.grimmscraft.client.gui.PrinterGuiScreen;
 import tyuxx.grimmscraft.client.gui.PakagerGUIScreen;
 import tyuxx.grimmscraft.client.gui.LBagGuiScreen;
@@ -29,6 +30,7 @@ public class GrimmscraftModScreens {
 			MenuScreens.register(GrimmscraftModMenus.STATS_GUI.get(), StatsGuiScreen::new);
 			MenuScreens.register(GrimmscraftModMenus.STATS_TOGGLE_GUI.get(), StatsToggleGuiScreen::new);
 			MenuScreens.register(GrimmscraftModMenus.PAKAGER_GUI.get(), PakagerGUIScreen::new);
+			MenuScreens.register(GrimmscraftModMenus.SETTINGS_GUI.get(), SettingsGUIScreen::new);
 		});
 	}
 }

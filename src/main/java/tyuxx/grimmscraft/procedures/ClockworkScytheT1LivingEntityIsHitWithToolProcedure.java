@@ -37,5 +37,6 @@ public class ClockworkScytheT1LivingEntityIsHitWithToolProcedure {
 			}, (float) (itemstack.getOrCreateTag().getDouble("lvl") * itemstack.getOrCreateTag().getDouble("rank") * itemstack.getOrCreateTag().getDouble("lvld")));
 		itemstack.setHoverName(Component.literal((("\u00A76\"" + "" + itemstack.getOrCreateTag().getString("name") + "\"") + "/\u00A74LvL" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("lvl")) + "\u00A76/\u00A74Rank"
 				+ new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("rank")))));
+		itemstack.getOrCreateTag().putDouble("atp", (itemstack.getOrCreateTag().getDouble("lvl") * itemstack.getOrCreateTag().getDouble("rank") * itemstack.getOrCreateTag().getDouble("lvld")));
 	}
 }

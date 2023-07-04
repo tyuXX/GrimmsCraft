@@ -3,6 +3,8 @@ package tyuxx.grimmscraft.client.screens;
 
 import tyuxx.grimmscraft.procedures.ShowHealtHUDProcedure;
 import tyuxx.grimmscraft.procedures.PlayerModelTransformerProcedure;
+import tyuxx.grimmscraft.procedures.GetShowPlayerProcedure;
+import tyuxx.grimmscraft.procedures.GetShowCoordsProcedure;
 import tyuxx.grimmscraft.procedures.GetHealtHUDTextProcedure;
 import tyuxx.grimmscraft.procedures.GetCoordsHUDTextProcedure;
 
@@ -44,11 +46,13 @@ public class PlayerHUDOverlay {
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
 						GetHealtHUDTextProcedure.execute(entity), posX + -213, posY + -120, -1);
-			Minecraft.getInstance().font.draw(event.getPoseStack(),
+			if (GetShowCoordsProcedure.execute(entity))
+				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					GetCoordsHUDTextProcedure.execute(x, y, z), posX + 130, posY + -68, -1);
+						GetCoordsHUDTextProcedure.execute(x, y, z), posX + -63, posY + -121, -16737844);
 			if (PlayerModelTransformerProcedure.execute(entity) instanceof LivingEntity livingEntity) {
-				InventoryScreen.renderEntityInInventoryFollowsAngle(event.getPoseStack(), posX + 190, posY + -69, 30, 0f, 0, livingEntity);
+				if (GetShowPlayerProcedure.execute(entity))
+					InventoryScreen.renderEntityInInventoryFollowsAngle(event.getPoseStack(), posX + -178, posY + 106, 30, 0f, 0, livingEntity);
 			}
 		}
 	}

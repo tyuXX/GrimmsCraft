@@ -30,5 +30,6 @@ public class KatanaR1HitProcedure {
 			itemstack.setHoverName(Component.literal(("Katana LvL - " + new java.text.DecimalFormat("####").format(itemstack.getOrCreateTag().getDouble("level")))));
 			itemstack.setDamageValue(0);
 		}
+		itemstack.getOrCreateTag().putDouble("atp", (itemstack.getOrCreateTag().getDouble("level") * GrimmscraftModVariables.MapVariables.get(world).katanapow * 4));
 	}
 }

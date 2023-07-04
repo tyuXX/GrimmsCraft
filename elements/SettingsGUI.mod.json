@@ -1,0 +1,97 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hud",
+          "text": {
+            "fixedValue": "Hud:"
+          },
+          "color": {
+            "value": -16751053,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": -1
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toggle_player",
+          "text": "Toggle Player",
+          "onClick": {
+            "name": "ToggleShowPlayer"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 6,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toggle_coords",
+          "text": "Toggle Coords",
+          "onClick": {
+            "name": "ToggleShowCoords"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_show_player_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetShowPlayerText"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_show_coords_text",
+          "text": {
+            "fixedValue": "",
+            "name": "GetShowCoordsText"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "K",
+    "keyBindingName": "Open Settings",
+    "keyBindingCategoryKey": "gmc",
+    "onKeyPressed": {
+      "name": "ShowSettingsGUI"
+    }
+  }
+}

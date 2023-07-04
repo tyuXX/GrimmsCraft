@@ -8,7 +8,7 @@ public class CheckForLevelUpProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		while ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new GrimmscraftModVariables.PlayerVariables())).lxp >= (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).level * 10) {
 			{
 				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).lxp
@@ -19,7 +19,8 @@ public class CheckForLevelUpProcedure {
 				});
 			}
 			{
-				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).statps + 2;
+				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).statps
+						+ (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).lvlupstp;
 				entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.statps = _setval;
 					capability.syncPlayerVariables(entity);
@@ -32,7 +33,6 @@ public class CheckForLevelUpProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			CheckForLevelUpProcedure.execute(entity);
 		}
 	}
 }

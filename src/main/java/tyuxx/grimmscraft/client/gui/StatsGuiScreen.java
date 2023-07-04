@@ -9,6 +9,7 @@ import tyuxx.grimmscraft.procedures.PermRegenGuiValueProcedure;
 import tyuxx.grimmscraft.procedures.PermHealtGUIVAlueProcedure;
 import tyuxx.grimmscraft.procedures.LevelGuiValueProcedure;
 import tyuxx.grimmscraft.procedures.LXpGuiValueProcedure;
+import tyuxx.grimmscraft.procedures.GetLvLBoostGUITextProcedure;
 import tyuxx.grimmscraft.network.StatsGuiButtonMessage;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
@@ -36,6 +37,7 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 	Button button_upgrade_resistance;
 	Button button_upgrade_strength;
 	Button button_upgradehealt;
+	Button button_upgrade_stps_per_lvl;
 
 	public StatsGuiScreen(StatsGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -88,7 +90,7 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack,
 
-				PermRegenGuiValueProcedure.execute(entity), 70, 14, -12829636);
+				PermRegenGuiValueProcedure.execute(entity), 7, 5, -12829636);
 		this.font.draw(poseStack,
 
 				LevelGuiValueProcedure.execute(entity), 160, 149, -12829636);
@@ -97,16 +99,19 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 				StatpGuiValueProcedure.execute(entity), 160, 140, -12829636);
 		this.font.draw(poseStack,
 
-				PermResistGuiValueProcedure.execute(entity), 70, 50, -12829636);
+				PermResistGuiValueProcedure.execute(entity), 7, 41, -12829636);
 		this.font.draw(poseStack,
 
-				PermStrenghtGuiValueProcedure.execute(entity), 70, 86, -12829636);
+				PermStrenghtGuiValueProcedure.execute(entity), 7, 77, -12829636);
 		this.font.draw(poseStack,
 
 				LXpGuiValueProcedure.execute(entity), 160, 158, -12829636);
 		this.font.draw(poseStack,
 
-				PermHealtGUIVAlueProcedure.execute(entity), 169, 14, -12829636);
+				PermHealtGUIVAlueProcedure.execute(entity), 106, 5, -12829636);
+		this.font.draw(poseStack,
+
+				GetLvLBoostGUITextProcedure.execute(entity), 133, 41, -12829636);
 	}
 
 	@Override
@@ -122,7 +127,7 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsGuiButtonMessage(0, x, y, z));
 				StatsGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 70, this.topPos + 23, 93, 20).build();
+		}).bounds(this.leftPos + 7, this.topPos + 14, 93, 20).build();
 		guistate.put("button:button_upgrade_regen", button_upgrade_regen);
 		this.addRenderableWidget(button_upgrade_regen);
 		button_upgrade_resistance = Button.builder(Component.translatable("gui.grimmscraft.stats_gui.button_upgrade_resistance"), e -> {
@@ -130,7 +135,7 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsGuiButtonMessage(1, x, y, z));
 				StatsGuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 70, this.topPos + 59, 119, 20).build();
+		}).bounds(this.leftPos + 7, this.topPos + 50, 119, 20).build();
 		guistate.put("button:button_upgrade_resistance", button_upgrade_resistance);
 		this.addRenderableWidget(button_upgrade_resistance);
 		button_upgrade_strength = Button.builder(Component.translatable("gui.grimmscraft.stats_gui.button_upgrade_strength"), e -> {
@@ -138,7 +143,7 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsGuiButtonMessage(2, x, y, z));
 				StatsGuiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 70, this.topPos + 95, 108, 20).build();
+		}).bounds(this.leftPos + 7, this.topPos + 86, 108, 20).build();
 		guistate.put("button:button_upgrade_strength", button_upgrade_strength);
 		this.addRenderableWidget(button_upgrade_strength);
 		button_upgradehealt = Button.builder(Component.translatable("gui.grimmscraft.stats_gui.button_upgradehealt"), e -> {
@@ -146,8 +151,12 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsGuiButtonMessage(3, x, y, z));
 				StatsGuiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 169, this.topPos + 23, 88, 20).build();
+		}).bounds(this.leftPos + 106, this.topPos + 14, 88, 20).build();
 		guistate.put("button:button_upgradehealt", button_upgradehealt);
 		this.addRenderableWidget(button_upgradehealt);
+		button_upgrade_stps_per_lvl = Button.builder(Component.translatable("gui.grimmscraft.stats_gui.button_upgrade_stps_per_lvl"), e -> {
+		}).bounds(this.leftPos + 133, this.topPos + 50, 134, 20).build();
+		guistate.put("button:button_upgrade_stps_per_lvl", button_upgrade_stps_per_lvl);
+		this.addRenderableWidget(button_upgrade_stps_per_lvl);
 	}
 }

@@ -6,6 +6,7 @@ package tyuxx.grimmscraft.init;
 
 import tyuxx.grimmscraft.world.inventory.StatsToggleGuiMenu;
 import tyuxx.grimmscraft.world.inventory.StatsGuiMenu;
+import tyuxx.grimmscraft.world.inventory.SettingsGUIMenu;
 import tyuxx.grimmscraft.world.inventory.PrinterGuiMenu;
 import tyuxx.grimmscraft.world.inventory.PakagerGUIMenu;
 import tyuxx.grimmscraft.world.inventory.LBagGuiMenu;
@@ -27,4 +28,5 @@ public class GrimmscraftModMenus {
 	public static final RegistryObject<MenuType<StatsGuiMenu>> STATS_GUI = REGISTRY.register("stats_gui", () -> IForgeMenuType.create(StatsGuiMenu::new));
 	public static final RegistryObject<MenuType<StatsToggleGuiMenu>> STATS_TOGGLE_GUI = REGISTRY.register("stats_toggle_gui", () -> IForgeMenuType.create(StatsToggleGuiMenu::new));
 	public static final RegistryObject<MenuType<PakagerGUIMenu>> PAKAGER_GUI = REGISTRY.register("pakager_gui", () -> IForgeMenuType.create(PakagerGUIMenu::new));
+	public static final RegistryObject<MenuType<SettingsGUIMenu>> SETTINGS_GUI = REGISTRY.register("settings_gui", () -> IForgeMenuType.create(SettingsGUIMenu::new));
 }

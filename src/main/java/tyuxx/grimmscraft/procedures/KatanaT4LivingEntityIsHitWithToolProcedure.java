@@ -32,5 +32,6 @@ public class KatanaT4LivingEntityIsHitWithToolProcedure {
 			itemstack.setHoverName(Component.literal(("Katana LvL - " + new java.text.DecimalFormat("####").format(itemstack.getOrCreateTag().getDouble("level")))));
 			itemstack.setDamageValue(0);
 		}
+		itemstack.getOrCreateTag().putDouble("atp", (itemstack.getOrCreateTag().getDouble("level") * GrimmscraftModVariables.MapVariables.get(world).katanapow * 4));
 	}
 }
