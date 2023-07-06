@@ -9,7 +9,7 @@ public class CheckForLevelUpProcedure {
 		if (entity == null)
 			return;
 		while ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new GrimmscraftModVariables.PlayerVariables())).lxp >= (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).level * 10) {
+				.orElse(new GrimmscraftModVariables.PlayerVariables())).lxp >= (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).level * 25) {
 			{
 				double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).lxp
 						- (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).level * 10;

@@ -5,6 +5,7 @@
 package tyuxx.grimmscraft.init;
 
 import tyuxx.grimmscraft.entity.TestDummyEntity;
+import tyuxx.grimmscraft.entity.ShootBulletEntity;
 import tyuxx.grimmscraft.GrimmscraftMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -26,6 +27,8 @@ public class GrimmscraftModEntities {
 			EntityType.Builder.<TestDummyEntity>of(TestDummyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(TestDummyEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ShootBulletEntity>> SHOOT_BULLET = register("projectile_shoot_bullet",
+			EntityType.Builder.<ShootBulletEntity>of(ShootBulletEntity::new, MobCategory.MISC).setCustomClientFactory(ShootBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "rsapchamber2",
+        "12": "rsaptag",
+        "0": "bandage1",
+        "1": "rsapmetal",
+        "2": "rsapblack",
+        "3": "rsapmetal2",
+        "4": "rsapmetal3",
+        "5": "rsapchamber",
+        "6": "bandage2",
+        "7": "rsapgold",
+        "8": "rsaprust",
+        "9": "rsapsprings",
+        "10": "rustspringsdarker"
+      },
+      "name": "default"
+    }
+  }
+}

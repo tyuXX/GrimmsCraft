@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "blacknoise",
+    "customModelName": "Normal",
+    "name": "placeholder",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Bullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

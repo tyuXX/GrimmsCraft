@@ -58,6 +58,8 @@ import tyuxx.grimmscraft.item.SlimeShovelItem;
 import tyuxx.grimmscraft.item.SlimePickaxeItem;
 import tyuxx.grimmscraft.item.SlimeHoeItem;
 import tyuxx.grimmscraft.item.SlimeAxeItem;
+import tyuxx.grimmscraft.item.ShootBulletItem;
+import tyuxx.grimmscraft.item.SemiAutoPistolItem;
 import tyuxx.grimmscraft.item.RussianRouletteItem;
 import tyuxx.grimmscraft.item.RedstoneWireItem;
 import tyuxx.grimmscraft.item.RedstoneSwordItem;
@@ -182,6 +184,7 @@ import tyuxx.grimmscraft.item.ClockworkScyteR1Item;
 import tyuxx.grimmscraft.item.CatalystBaseItem;
 import tyuxx.grimmscraft.item.CartonItem;
 import tyuxx.grimmscraft.item.ButtonOfDoomItem;
+import tyuxx.grimmscraft.item.BulletItem;
 import tyuxx.grimmscraft.item.Bottle3Item;
 import tyuxx.grimmscraft.item.Bottle2Item;
 import tyuxx.grimmscraft.item.Bottle1Item;
@@ -484,6 +487,9 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> DIAMOND_GLOVE = REGISTRY.register("diamond_glove", () -> new DiamondGloveItem());
 	public static final RegistryObject<Item> EXTENDED_GLOVE = REGISTRY.register("extended_glove", () -> new ExtendedGloveItem());
 	public static final RegistryObject<Item> ZZZ_GLOVE = REGISTRY.register("zzz_glove", () -> new ZZZGloveItem());
+	public static final RegistryObject<Item> BULLET = REGISTRY.register("bullet", () -> new BulletItem());
+	public static final RegistryObject<Item> SHOOT_BULLET = REGISTRY.register("shoot_bullet", () -> new ShootBulletItem());
+	public static final RegistryObject<Item> SEMI_AUTO_PISTOL = REGISTRY.register("semi_auto_pistol", () -> new SemiAutoPistolItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

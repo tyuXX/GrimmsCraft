@@ -1,0 +1,47 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 150,
+    "height": 57,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "ID",
+          "name": "item",
+          "width": 120,
+          "height": 20,
+          "x": 141,
+          "y": 100
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_spawn",
+          "text": "Spawn",
+          "onClick": {
+            "name": "ItemSpawnGUISpawn"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 173,
+          "y": 124
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

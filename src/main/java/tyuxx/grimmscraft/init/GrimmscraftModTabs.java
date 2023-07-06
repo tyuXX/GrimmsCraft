@@ -284,6 +284,8 @@ public class GrimmscraftModTabs {
 					tabData.accept(GrimmscraftModItems.DIAMOND_GLOVE.get());
 					tabData.accept(GrimmscraftModItems.EXTENDED_GLOVE.get());
 					tabData.accept(GrimmscraftModItems.ZZZ_GLOVE.get());
+					tabData.accept(GrimmscraftModItems.BULLET.get());
+					tabData.accept(GrimmscraftModItems.SEMI_AUTO_PISTOL.get());
 				}).withSearchBar());
 	}
 }

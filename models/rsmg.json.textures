@@ -1,0 +1,23 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "66": "",
+        "77": "aa12_drum",
+        "55": "",
+        "78": "aa12_outside_darker",
+        "45": "",
+        "67": "",
+        "46": "",
+        "73": "",
+        "74": "",
+        "63": "",
+        "64": "",
+        "42": "deagle_metal",
+        "76": "aa12_grip",
+        "54": "barrett_sandy_metal"
+      },
+      "name": "default"
+    }
+  }
+}

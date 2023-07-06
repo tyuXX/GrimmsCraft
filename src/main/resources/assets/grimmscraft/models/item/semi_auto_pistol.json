@@ -1,0 +1,19 @@
+{
+  "parent": "grimmscraft:custom/rsap",
+  "textures": {
+    "11": "grimmscraft:block/rsapchamber2",
+    "12": "grimmscraft:block/rsaptag",
+    "0": "grimmscraft:block/bandage1",
+    "1": "grimmscraft:block/rsapmetal",
+    "2": "grimmscraft:block/rsapblack",
+    "3": "grimmscraft:block/rsapmetal2",
+    "4": "grimmscraft:block/rsapmetal3",
+    "5": "grimmscraft:block/rsapchamber",
+    "6": "grimmscraft:block/bandage2",
+    "7": "grimmscraft:block/rsapgold",
+    "8": "grimmscraft:block/rsaprust",
+    "9": "grimmscraft:block/rsapsprings",
+    "10": "grimmscraft:block/rustspringsdarker",
+    "particle": "grimmscraft:item/blacknoise"
+  }
+}

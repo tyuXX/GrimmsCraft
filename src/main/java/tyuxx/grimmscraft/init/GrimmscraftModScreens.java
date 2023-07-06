@@ -10,6 +10,7 @@ import tyuxx.grimmscraft.client.gui.SettingsGUIScreen;
 import tyuxx.grimmscraft.client.gui.PrinterGuiScreen;
 import tyuxx.grimmscraft.client.gui.PakagerGUIScreen;
 import tyuxx.grimmscraft.client.gui.LBagGuiScreen;
+import tyuxx.grimmscraft.client.gui.ItemSpawnGUIScreen;
 import tyuxx.grimmscraft.client.gui.EFurnaceT1GuiScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -31,6 +32,7 @@ public class GrimmscraftModScreens {
 			MenuScreens.register(GrimmscraftModMenus.STATS_TOGGLE_GUI.get(), StatsToggleGuiScreen::new);
 			MenuScreens.register(GrimmscraftModMenus.PAKAGER_GUI.get(), PakagerGUIScreen::new);
 			MenuScreens.register(GrimmscraftModMenus.SETTINGS_GUI.get(), SettingsGUIScreen::new);
+			MenuScreens.register(GrimmscraftModMenus.ITEM_SPAWN_GUI.get(), ItemSpawnGUIScreen::new);
 		});
 	}
 }
