@@ -23,14 +23,14 @@ public class PermHealtUpgradeProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-		}
-		if (!(entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).cht) {
-			{
-				boolean _setval = true;
-				entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.cht = _setval;
-					capability.syncPlayerVariables(entity);
-				});
+			if (!(entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).cht) {
+				{
+					boolean _setval = true;
+					entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.cht = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 			}
 		}
 	}

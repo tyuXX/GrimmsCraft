@@ -4,6 +4,7 @@
  */
 package tyuxx.grimmscraft.init;
 
+import tyuxx.grimmscraft.item.ZZZGloveItem;
 import tyuxx.grimmscraft.item.WhiteGlichItem;
 import tyuxx.grimmscraft.item.WhiteGlichArmorItem;
 import tyuxx.grimmscraft.item.Vodka3Item;
@@ -150,6 +151,7 @@ import tyuxx.grimmscraft.item.FieryPickaxeItem;
 import tyuxx.grimmscraft.item.FieryHoeItem;
 import tyuxx.grimmscraft.item.FieryAxeItem;
 import tyuxx.grimmscraft.item.FEMeterItem;
+import tyuxx.grimmscraft.item.ExtendedGloveItem;
 import tyuxx.grimmscraft.item.EnderSwordItem;
 import tyuxx.grimmscraft.item.EnderShovelItem;
 import tyuxx.grimmscraft.item.EnderPickaxeItem;
@@ -160,6 +162,8 @@ import tyuxx.grimmscraft.item.DustyIronItem;
 import tyuxx.grimmscraft.item.DimensionNothingItem;
 import tyuxx.grimmscraft.item.DigitalClockItem;
 import tyuxx.grimmscraft.item.DiamondHammerItem;
+import tyuxx.grimmscraft.item.DiamondGloveItem;
+import tyuxx.grimmscraft.item.DefaultGloveItem;
 import tyuxx.grimmscraft.item.CompressedCobblestoneT4Item;
 import tyuxx.grimmscraft.item.CompressedCobblestoneT3Item;
 import tyuxx.grimmscraft.item.CompressedCobblestoneT2Item;
@@ -476,6 +480,10 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> COMPRESSED_COBBLESTONE_T_4 = REGISTRY.register("compressed_cobblestone_t_4", () -> new CompressedCobblestoneT4Item());
 	public static final RegistryObject<Item> ITEM_COMPRESSED = REGISTRY.register("item_compressed", () -> new ItemCompressedItem());
 	public static final RegistryObject<Item> ITEM_COMPRESSOR = REGISTRY.register("item_compressor", () -> new ItemCompressorItem());
+	public static final RegistryObject<Item> DEFAULT_GLOVE = REGISTRY.register("default_glove", () -> new DefaultGloveItem());
+	public static final RegistryObject<Item> DIAMOND_GLOVE = REGISTRY.register("diamond_glove", () -> new DiamondGloveItem());
+	public static final RegistryObject<Item> EXTENDED_GLOVE = REGISTRY.register("extended_glove", () -> new ExtendedGloveItem());
+	public static final RegistryObject<Item> ZZZ_GLOVE = REGISTRY.register("zzz_glove", () -> new ZZZGloveItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

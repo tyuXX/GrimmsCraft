@@ -36,6 +36,8 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class GrimmscraftModVariables {
+	public static String addonsloaded = "\"\"";
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		GrimmscraftMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);
@@ -92,6 +94,7 @@ public class GrimmscraftModVariables {
 			clone.showplayer = original.showplayer;
 			clone.showcoords = original.showcoords;
 			clone.lvlupstp = original.lvlupstp;
+			clone.HitEntity = original.HitEntity;
 			if (!event.isWasDeath()) {
 				clone.radiation = original.radiation;
 				clone.money = original.money;
@@ -162,7 +165,6 @@ public class GrimmscraftModVariables {
 		public double katanalevelupdif = 1.1;
 		public double katanapow = 1.5;
 		public double tdeaths = 0.0;
-		public String addonsloaded = "\"\"";
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -176,7 +178,6 @@ public class GrimmscraftModVariables {
 			katanalevelupdif = nbt.getDouble("katanalevelupdif");
 			katanapow = nbt.getDouble("katanapow");
 			tdeaths = nbt.getDouble("tdeaths");
-			addonsloaded = nbt.getString("addonsloaded");
 		}
 
 		@Override
@@ -186,7 +187,6 @@ public class GrimmscraftModVariables {
 			nbt.putDouble("katanalevelupdif", katanalevelupdif);
 			nbt.putDouble("katanapow", katanapow);
 			nbt.putDouble("tdeaths", tdeaths);
-			nbt.putString("addonsloaded", addonsloaded);
 			return nbt;
 		}
 
@@ -298,6 +298,7 @@ public class GrimmscraftModVariables {
 		public boolean showplayer = true;
 		public boolean showcoords = true;
 		public double lvlupstp = 2.0;
+		public double HitEntity = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -329,6 +330,7 @@ public class GrimmscraftModVariables {
 			nbt.putBoolean("showplayer", showplayer);
 			nbt.putBoolean("showcoords", showcoords);
 			nbt.putDouble("lvlupstp", lvlupstp);
+			nbt.putDouble("HitEntity", HitEntity);
 			return nbt;
 		}
 
@@ -357,6 +359,7 @@ public class GrimmscraftModVariables {
 			showplayer = nbt.getBoolean("showplayer");
 			showcoords = nbt.getBoolean("showcoords");
 			lvlupstp = nbt.getDouble("lvlupstp");
+			HitEntity = nbt.getDouble("HitEntity");
 		}
 	}
 
@@ -404,6 +407,7 @@ public class GrimmscraftModVariables {
 					variables.showplayer = message.data.showplayer;
 					variables.showcoords = message.data.showcoords;
 					variables.lvlupstp = message.data.lvlupstp;
+					variables.HitEntity = message.data.HitEntity;
 				}
 			});
 			context.setPacketHandled(true);

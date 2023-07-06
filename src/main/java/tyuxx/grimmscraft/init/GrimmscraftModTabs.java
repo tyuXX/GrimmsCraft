@@ -280,6 +280,10 @@ public class GrimmscraftModTabs {
 					tabData.accept(GrimmscraftModItems.COMPRESSED_COBBLESTONE_T_4.get());
 					tabData.accept(GrimmscraftModItems.ITEM_COMPRESSED.get());
 					tabData.accept(GrimmscraftModItems.ITEM_COMPRESSOR.get());
+					tabData.accept(GrimmscraftModItems.DEFAULT_GLOVE.get());
+					tabData.accept(GrimmscraftModItems.DIAMOND_GLOVE.get());
+					tabData.accept(GrimmscraftModItems.EXTENDED_GLOVE.get());
+					tabData.accept(GrimmscraftModItems.ZZZ_GLOVE.get());
 				}).withSearchBar());
 	}
 }

@@ -34,13 +34,11 @@ public class OnEntityAttackedProcedure {
 			return;
 		double chdamage = 0;
 		double chdamagess = 0;
-		if ((entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permstrenghttoggle) {
-			if ((sourceentity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permstrenght > 0) {
-				{
-					Entity _entToDamage = entity;
-					_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),
-							(float) ((sourceentity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permstrenght * 0.1));
-				}
+		if ((sourceentity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permstrenghttoggle) {
+			{
+				Entity _entToDamage = entity;
+				_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),
+						(float) ((sourceentity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).permstrenght * 0.1));
 			}
 		}
 		{
@@ -55,6 +53,13 @@ public class OnEntityAttackedProcedure {
 			sourceentity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.lxp = _setval;
 				capability.syncPlayerVariables(sourceentity);
+			});
+		}
+		{
+			double _setval = (entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new GrimmscraftModVariables.PlayerVariables())).HitEntity + 1;
+			entity.getCapability(GrimmscraftModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.HitEntity = _setval;
+				capability.syncPlayerVariables(entity);
 			});
 		}
 		chdamagess = Math.round(Math.sqrt((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("atp"))
@@ -81,5 +86,6 @@ public class OnEntityAttackedProcedure {
 				});
 			}
 		}
+		CheckForLevelUpProcedure.execute(entity);
 	}
 }

@@ -155,6 +155,10 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 		guistate.put("button:button_upgradehealt", button_upgradehealt);
 		this.addRenderableWidget(button_upgradehealt);
 		button_upgrade_stps_per_lvl = Button.builder(Component.translatable("gui.grimmscraft.stats_gui.button_upgrade_stps_per_lvl"), e -> {
+			if (true) {
+				GrimmscraftMod.PACKET_HANDLER.sendToServer(new StatsGuiButtonMessage(4, x, y, z));
+				StatsGuiButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
 		}).bounds(this.leftPos + 133, this.topPos + 50, 134, 20).build();
 		guistate.put("button:button_upgrade_stps_per_lvl", button_upgrade_stps_per_lvl);
 		this.addRenderableWidget(button_upgrade_stps_per_lvl);

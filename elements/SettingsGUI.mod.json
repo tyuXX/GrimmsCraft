@@ -7,7 +7,7 @@
     "height": 500,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": false,
+    "renderBgLayer": true,
     "doesPauseGame": true,
     "components": [
       {

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "custom:grimmscraft",
+  "category": "misc",
   "ingredients": [
     {
       "item": "grimmscraft:iron_hammer"
     },
     {
-      "item": "minecraft:air"
+      "item": "minecraft:redstone"
     }
   ],
   "result": {

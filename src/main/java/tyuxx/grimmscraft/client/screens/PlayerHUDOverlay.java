@@ -45,14 +45,14 @@ public class PlayerHUDOverlay {
 			if (ShowHealtHUDProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-						GetHealtHUDTextProcedure.execute(entity), posX + -213, posY + -120, -1);
+						GetHealtHUDTextProcedure.execute(entity), posX + 99, posY + 104, -1);
 			if (GetShowCoordsProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
 						GetCoordsHUDTextProcedure.execute(x, y, z), posX + -63, posY + -121, -16737844);
 			if (PlayerModelTransformerProcedure.execute(entity) instanceof LivingEntity livingEntity) {
 				if (GetShowPlayerProcedure.execute(entity))
-					InventoryScreen.renderEntityInInventoryFollowsAngle(event.getPoseStack(), posX + -178, posY + 106, 30, 0f, 0, livingEntity);
+					InventoryScreen.renderEntityInInventoryFollowsAngle(event.getPoseStack(), posX + -115, posY + 106, 30, 0f, 0, livingEntity);
 			}
 		}
 	}

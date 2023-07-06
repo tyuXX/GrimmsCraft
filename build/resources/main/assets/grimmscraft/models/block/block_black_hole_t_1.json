@@ -5,5 +5,5 @@
     "particle": "grimmscraft:block/texturefull",
     "0": "grimmscraft:block/blackholet1"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

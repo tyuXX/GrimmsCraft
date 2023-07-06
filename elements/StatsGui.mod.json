@@ -212,6 +212,9 @@
         "data": {
           "name": "button_upgrade_stps_per_lvl",
           "text": "Upgrade STP's per LvL",
+          "onClick": {
+            "name": "LvLUpBoostUpgrade"
+          },
           "width": 134,
           "height": 20,
           "x": 195,

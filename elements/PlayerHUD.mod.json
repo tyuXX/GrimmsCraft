@@ -19,8 +19,8 @@
           "displayCondition": {
             "name": "ShowHealtHUD"
           },
-          "x": 0,
-          "y": 0
+          "x": 312,
+          "y": 224
         }
       },
       {
@@ -35,7 +35,7 @@
           "scale": 30,
           "rotationX": 0,
           "followMouseMovement": false,
-          "x": 24,
+          "x": 87,
           "y": 206
         }
       },

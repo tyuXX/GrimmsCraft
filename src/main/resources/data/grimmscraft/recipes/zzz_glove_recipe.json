@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_bed"
+    },
+    "1": {
+      "item": "minecraft:white_bed"
+    },
+    "2": {
+      "item": "minecraft:black_bed"
+    },
+    "3": {
+      "item": "minecraft:white_bed"
+    },
+    "4": {
+      "item": "grimmscraft:extended_glove"
+    },
+    "5": {
+      "item": "minecraft:white_bed"
+    },
+    "6": {
+      "item": "minecraft:black_bed"
+    },
+    "7": {
+      "item": "minecraft:white_bed"
+    },
+    "8": {
+      "item": "minecraft:black_bed"
+    }
+  },
+  "result": {
+    "item": "grimmscraft:zzz_glove",
+    "count": 1
+  }
+}

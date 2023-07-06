@@ -13,6 +13,7 @@
  */
 package tyuxx.grimmscraft;
 
+import tyuxx.grimmscraft.init.GrimmscraftModMobEffects;
 import tyuxx.grimmscraft.init.GrimmscraftModMenus;
 import tyuxx.grimmscraft.init.GrimmscraftModItems;
 import tyuxx.grimmscraft.init.GrimmscraftModFeatures;
@@ -60,6 +61,8 @@ public class GrimmscraftMod {
 		GrimmscraftModEntities.REGISTRY.register(bus);
 		GrimmscraftModBlockEntities.REGISTRY.register(bus);
 		GrimmscraftModEnchantments.REGISTRY.register(bus);
+
+		GrimmscraftModMobEffects.REGISTRY.register(bus);
 
 		GrimmscraftModMenus.REGISTRY.register(bus);
 		GrimmscraftModFeatures.REGISTRY.register(bus);
