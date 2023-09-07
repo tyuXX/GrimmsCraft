@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "obsidian_shard",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Obsidian Shard",
     "rarity": "COMMON",
     "creativeTab": {

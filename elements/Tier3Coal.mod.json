@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "tier3coal",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Tier 3 Coal",
     "rarity": "UNCOMMON",
     "creativeTab": {

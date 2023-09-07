@@ -13,14 +13,16 @@ public class LighterT1OpenRightClickedProcedure {
 		if (entity == null)
 			return;
 		double damage = 0;
-		damage = itemstack.getDamageValue();
-		if (entity instanceof LivingEntity _entity) {
-			ItemStack _setstack = new ItemStack(GrimmscraftModItems.LIGHTER_T_1_CLOSED.get());
-			_setstack.setCount(1);
-			_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
-			if (_entity instanceof Player _player)
-				_player.getInventory().setChanged();
+		if (entity.isShiftKeyDown()) {
+			damage = itemstack.getDamageValue();
+			if (entity instanceof LivingEntity _entity) {
+				ItemStack _setstack = new ItemStack(GrimmscraftModItems.LIGHTER_T_1_CLOSED.get());
+				_setstack.setCount(1);
+				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+				if (_entity instanceof Player _player)
+					_player.getInventory().setChanged();
+			}
+			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setDamageValue((int) damage);
 		}
-		(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setDamageValue((int) damage);
 	}
 }

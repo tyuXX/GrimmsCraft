@@ -34,7 +34,20 @@ public class AzureSaberHitProcedure {
 			_entity.hurt(new DamageSource(_entity.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
 				@Override
 				public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
-					return Component.translatable("death.attack." + "clockwork");
+					String _translatekey = "death.attack." + "clockwork";
+					if (this.getEntity() == null && this.getDirectEntity() == null) {
+						return _msgEntity.getKillCredit() != null
+								? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+								: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+					} else {
+						Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+						ItemStack _itemstack = ItemStack.EMPTY;
+						if (this.getEntity() instanceof LivingEntity _livingentity)
+							_itemstack = _livingentity.getMainHandItem();
+						return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+								? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+								: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+					}
 				}
 			}, (float) (itemstack.getOrCreateTag().getDouble("lvl") * itemstack.getOrCreateTag().getDouble("rank") * itemstack.getOrCreateTag().getDouble("lvld") * itemstack.getOrCreateTag().getDouble("combo")));
 		itemstack.setHoverName(Component.literal((("\u00A76\"" + "" + itemstack.getOrCreateTag().getString("name") + "\"") + "/\u00A74LvL" + new java.text.DecimalFormat("##").format(itemstack.getOrCreateTag().getDouble("lvl")) + "\u00A76/\u00A74Rank"

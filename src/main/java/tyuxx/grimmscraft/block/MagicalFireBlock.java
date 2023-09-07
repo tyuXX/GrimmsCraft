@@ -39,6 +39,6 @@ public class MagicalFireBlock extends Block {
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		MagicalFireEntityWalksOnTheBlockProcedure.execute(entity);
+		MagicalFireEntityWalksOnTheBlockProcedure.execute(world, entity);
 	}
 }

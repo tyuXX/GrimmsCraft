@@ -95,6 +95,7 @@ public class GrimmscraftModVariables {
 			clone.showcoords = original.showcoords;
 			clone.lvlupstp = original.lvlupstp;
 			clone.HitEntity = original.HitEntity;
+			clone.mrank = original.mrank;
 			if (!event.isWasDeath()) {
 				clone.radiation = original.radiation;
 				clone.money = original.money;
@@ -165,6 +166,8 @@ public class GrimmscraftModVariables {
 		public double katanalevelupdif = 1.1;
 		public double katanapow = 1.5;
 		public double tdeaths = 0.0;
+		public double difficulty = 0;
+		public double mdifficulty = 7.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -178,6 +181,8 @@ public class GrimmscraftModVariables {
 			katanalevelupdif = nbt.getDouble("katanalevelupdif");
 			katanapow = nbt.getDouble("katanapow");
 			tdeaths = nbt.getDouble("tdeaths");
+			difficulty = nbt.getDouble("difficulty");
+			mdifficulty = nbt.getDouble("mdifficulty");
 		}
 
 		@Override
@@ -187,6 +192,8 @@ public class GrimmscraftModVariables {
 			nbt.putDouble("katanalevelupdif", katanalevelupdif);
 			nbt.putDouble("katanapow", katanapow);
 			nbt.putDouble("tdeaths", tdeaths);
+			nbt.putDouble("difficulty", difficulty);
+			nbt.putDouble("mdifficulty", mdifficulty);
 			return nbt;
 		}
 
@@ -299,6 +306,7 @@ public class GrimmscraftModVariables {
 		public boolean showcoords = true;
 		public double lvlupstp = 2.0;
 		public double HitEntity = 0;
+		public double mrank = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -331,6 +339,7 @@ public class GrimmscraftModVariables {
 			nbt.putBoolean("showcoords", showcoords);
 			nbt.putDouble("lvlupstp", lvlupstp);
 			nbt.putDouble("HitEntity", HitEntity);
+			nbt.putDouble("mrank", mrank);
 			return nbt;
 		}
 
@@ -360,6 +369,7 @@ public class GrimmscraftModVariables {
 			showcoords = nbt.getBoolean("showcoords");
 			lvlupstp = nbt.getDouble("lvlupstp");
 			HitEntity = nbt.getDouble("HitEntity");
+			mrank = nbt.getDouble("mrank");
 		}
 	}
 
@@ -408,6 +418,7 @@ public class GrimmscraftModVariables {
 					variables.showcoords = message.data.showcoords;
 					variables.lvlupstp = message.data.lvlupstp;
 					variables.HitEntity = message.data.HitEntity;
+					variables.mrank = message.data.mrank;
 				}
 			});
 			context.setPacketHandled(true);

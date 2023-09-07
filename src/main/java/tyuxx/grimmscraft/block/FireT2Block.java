@@ -39,6 +39,6 @@ public class FireT2Block extends Block {
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		FireT2EntityWalksOnTheBlockProcedure.execute(entity);
+		FireT2EntityWalksOnTheBlockProcedure.execute(world, entity);
 	}
 }

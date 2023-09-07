@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "lighterdefaultt2",
     "customModelName": "lightert2closed:default",
+    "customProperties": {},
+    "states": [],
     "name": "Lighter T2",
     "rarity": "COMMON",
     "creativeTab": {

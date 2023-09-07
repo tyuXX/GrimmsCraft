@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "magiclighter",
     "customModelName": "magiclighteropen:default",
+    "customProperties": {},
+    "states": [],
     "name": "Magical Lighter",
     "rarity": "COMMON",
     "creativeTab": {

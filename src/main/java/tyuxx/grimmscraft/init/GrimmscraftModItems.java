@@ -51,6 +51,8 @@ import tyuxx.grimmscraft.item.TaniumIngotItem;
 import tyuxx.grimmscraft.item.TaniumHoeItem;
 import tyuxx.grimmscraft.item.TaniumAxeItem;
 import tyuxx.grimmscraft.item.TaniumArmorItem;
+import tyuxx.grimmscraft.item.SuperSoulItem;
+import tyuxx.grimmscraft.item.SuperCheatyItemItem;
 import tyuxx.grimmscraft.item.SteelItem;
 import tyuxx.grimmscraft.item.SoulItem;
 import tyuxx.grimmscraft.item.SlimeSwordItem;
@@ -127,6 +129,7 @@ import tyuxx.grimmscraft.item.GlowstoneShovelItem;
 import tyuxx.grimmscraft.item.GlowstonePickaxeItem;
 import tyuxx.grimmscraft.item.GlowstoneHoeItem;
 import tyuxx.grimmscraft.item.GlowstoneAxeItem;
+import tyuxx.grimmscraft.item.GlichySoulItem;
 import tyuxx.grimmscraft.item.GeneratedItemItem;
 import tyuxx.grimmscraft.item.GeigerCounterItem;
 import tyuxx.grimmscraft.item.ForgedSteelT9Item;
@@ -181,6 +184,7 @@ import tyuxx.grimmscraft.item.ClockworkScytheT0Item;
 import tyuxx.grimmscraft.item.ClockworkScyteT4Item;
 import tyuxx.grimmscraft.item.ClockworkScyteT3Item;
 import tyuxx.grimmscraft.item.ClockworkScyteR1Item;
+import tyuxx.grimmscraft.item.ChargedSoulItem;
 import tyuxx.grimmscraft.item.CatalystBaseItem;
 import tyuxx.grimmscraft.item.CartonItem;
 import tyuxx.grimmscraft.item.ButtonOfDoomItem;
@@ -490,6 +494,10 @@ public class GrimmscraftModItems {
 	public static final RegistryObject<Item> BULLET = REGISTRY.register("bullet", () -> new BulletItem());
 	public static final RegistryObject<Item> SHOOT_BULLET = REGISTRY.register("shoot_bullet", () -> new ShootBulletItem());
 	public static final RegistryObject<Item> SEMI_AUTO_PISTOL = REGISTRY.register("semi_auto_pistol", () -> new SemiAutoPistolItem());
+	public static final RegistryObject<Item> CHARGED_SOUL = REGISTRY.register("charged_soul", () -> new ChargedSoulItem());
+	public static final RegistryObject<Item> SUPER_SOUL = REGISTRY.register("super_soul", () -> new SuperSoulItem());
+	public static final RegistryObject<Item> GLICHY_SOUL = REGISTRY.register("glichy_soul", () -> new GlichySoulItem());
+	public static final RegistryObject<Item> SUPER_CHEATY_ITEM = REGISTRY.register("super_cheaty_item", () -> new SuperCheatyItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

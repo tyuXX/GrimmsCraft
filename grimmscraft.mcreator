@@ -7439,6 +7439,10 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8782,6 +8786,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8819,6 +8827,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8856,6 +8868,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8893,6 +8909,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12193,6 +12213,122 @@
         ]
       },
       "path": "~/Hud"
+    },
+    {
+      "name": "OnEntitySpawn",
+      "type": "procedure",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/procedures/OnEntitySpawnProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "EventConfig",
+      "type": "code",
+      "sortid": 738,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "event_config",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/EventConfig.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedSoul",
+      "type": "item",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/grimmscraft/models/item/charged_soul.json",
+          "src/main/java/tyuxx/grimmscraft/item/ChargedSoulItem.java"
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "SuperSoul",
+      "type": "item",
+      "sortid": 740,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/item/SuperSoulItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/super_soul.json"
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "GlichySoul",
+      "type": "item",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glichy_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/grimmscraft/models/item/glichy_soul.json",
+          "src/main/java/tyuxx/grimmscraft/item/GlichySoulItem.java"
+        ]
+      },
+      "path": "~/Special"
+    },
+    {
+      "name": "SoulDrop",
+      "type": "loottable",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/loot_tables/gameplay/soul_drop.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "Cheaty",
+      "type": "tag",
+      "sortid": 743,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheaty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/grimmscraft/tags/items/cheaty.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SuperCheatyItem",
+      "type": "item",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_cheaty_item",
+      "metadata": {
+        "files": [
+          "src/main/java/tyuxx/grimmscraft/item/SuperCheatyItemItem.java",
+          "src/main/resources/assets/grimmscraft/models/item/super_cheaty_item.json"
+        ]
+      },
+      "path": "~/Special"
     }
   ],
   "variable_elements": [
@@ -12375,6 +12511,24 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "mrank",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "difficulty",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "mdifficulty",
+      "type": "number",
+      "scope": "map",
+      "value": "7.0"
     }
   ],
   "sound_elements": [],
@@ -12396,19 +12550,19 @@
       "item.grimmscraft.extended_glove": "Extended Glove",
       "block.grimmscraft.black_planks": "Black Planks",
       "item.grimmscraft.tatatatanium_pickaxe": "Tatatatanium Pickaxe",
-      "item.grimmscraft.button_of_doom": "Button Of Doom",
       "item.grimmscraft.hot_steel": "Hot Steel",
+      "item.grimmscraft.button_of_doom": "Button Of Doom",
       "block.grimmscraft.cobbled_deepslate_generator": "Cobbled Deepslate Generator",
       "item.grimmscraft.tatatanium_ingot": "Tatatanium",
       "gui.grimmscraft.stats_toggle_gui.button_toggle_strength": "Toggle Strength",
-      "item.grimmscraft.logo": "logo",
       "block.grimmscraft.copper_generator": "Copper Generator",
+      "item.grimmscraft.logo": "logo",
       "item.grimmscraft.digital_clock": "Digital Clock",
       "block.grimmscraft.diamond_tree_pressure_plate": "DiamondTree Pressure Plate",
       "item.grimmscraft.katana_t_1": "Katana",
       "item.grimmscraft.katana_t_2": "Katana",
-      "item.grimmscraft.bone_hoe": "Bone Hoe",
       "item.grimmscraft.katana_t_3": "Katana",
+      "item.grimmscraft.bone_hoe": "Bone Hoe",
       "item.grimmscraft.katana_t_4": "Katana",
       "item.grimmscraft.redstone_shovel": "Redstone Shovel",
       "gui.grimmscraft.item_spawn_gui.item": "ID",
@@ -12428,6 +12582,7 @@
       "item.grimmscraft.fiery_pickaxe": "Fiery Pickaxe",
       "item.grimmscraft.tatatatanium_axe": "Tatatatanium Axe",
       "item.grimmscraft.forged_steel_t_9": "Steel",
+      "item.grimmscraft.super_cheaty_item": "Super Cheaty Item",
       "item.grimmscraft.azure_silver": "Azure Silver",
       "item.grimmscraft.glowstone_hoe": "Glowstone Hoe",
       "item.grimmscraft.tatanium_hoe": "Tatanium Hoe",
@@ -12563,12 +12718,14 @@
       "item.grimmscraft.tatatatanium_hoe": "Tatatatanium Hoe",
       "item.grimmscraft.semi_auto_pistol": "Semi Auto Pistol",
       "gui.grimmscraft.pakager_gui.label_compress": "Compress",
+      "item.grimmscraft.super_soul": "Buff Soul",
       "block.grimmscraft.tatatanium_block": "Block of Tatatanium",
       "item.grimmscraft.tatanium_armor_leggings": "Tatanium Leggings",
       "item.grimmscraft.bone_pickaxe": "Bone Pickaxe",
       "gui.grimmscraft.pakager_gui.button_toggle_auto_compress": "Toggle Auto Compress",
       "item.grimmscraft.white_glich_armor_chestplate": "Glich Chestplate",
       "item.grimmscraft.item_compressed": "Package",
+      "item.grimmscraft.charged_soul": "Charged Soul",
       "item.grimmscraft.fiery_axe": "Fiery Axe",
       "item.grimmscraft.permanent_saturation_apple": "Permanent Saturation Apple",
       "item.grimmscraft.tatatatatanium_armor_boots": "Tatatatatanium Boots",
@@ -12677,6 +12834,7 @@
       "item.grimmscraft.forged_hot_steel_t_3": "Steel",
       "item.grimmscraft.forged_hot_steel_t_2": "Steel",
       "item.grimmscraft.forged_hot_steel_t_1": "Steel",
+      "item.grimmscraft.glichy_soul": "Soul I Guess?",
       "gui.grimmscraft.stats_toggle_gui.button_toggle_regen": "Toggle Regen",
       "block.grimmscraft.sand_generator": "Sand Generator",
       "item.grimmscraft.coal_axe": "Coal Axe",
@@ -12860,6 +13018,10 @@
       {
         "name": "Effect",
         "children": []
+      },
+      {
+        "name": "LootTables",
+        "children": []
       }
     ]
   },
@@ -12883,5 +13045,5 @@
     "modElementsPackage": "tyuxx.grimmscraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300336712
 }

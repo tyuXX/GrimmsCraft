@@ -56,10 +56,10 @@ public class StatsGuiScreen extends AbstractContainerScreen<StatsGuiMenu> {
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
 		if (PlayerModelTransformerProcedure.execute(entity) instanceof LivingEntity livingEntity) {
 			InventoryScreen.renderEntityInInventoryFollowsAngle(ms, this.leftPos + 90, this.topPos + 161, 20, 0f + (float) Math.atan((this.leftPos + 90 - mouseX) / 40.0), (float) Math.atan((this.topPos + 111 - mouseY) / 40.0), livingEntity);
 		}
+		this.renderTooltip(ms, mouseX, mouseY);
 	}
 
 	@Override

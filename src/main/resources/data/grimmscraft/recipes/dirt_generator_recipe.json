@@ -20,7 +20,7 @@
       "item": "grimmscraft:compressed_cobblestone_t_4"
     },
     "4": {
-      "item": "minecraft:dirt"
+      "tag": "minecraft:dirt"
     },
     "5": {
       "item": "grimmscraft:compressed_cobblestone_t_4"

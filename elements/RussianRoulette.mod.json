@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "whitenoise",
     "customModelName": "rrevolver:default",
+    "customProperties": {},
+    "states": [],
     "name": "Russian Roulette",
     "rarity": "EPIC",
     "creativeTab": {
